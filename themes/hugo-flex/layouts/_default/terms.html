@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+{{ partial "heading.html" . }}
+
+<div class="color-wrapper">
+    <div class="color-block">
+        <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+            <rect width="2000" height="20" y="98" style="fill:var(--white);" />        </svg>
+        <div class="rectangle">
+            {{ .Content }}
+            <div class="row justify-center">
+                <span class="title">Liste des tags</span>
+            </div>
+            <div>
+                <div class="term-wrapper">
+                    <div>
+                        <h4>Activités</h4>
+                    </div>
+                    <div class="terms-row">
+                        {{ range where .Pages "Params.group" "Activité" }}
+                        <a href="{{.Permalink}}" class="button-secondary tag-link tag-margin gras ">{{.Title}}</a>
+                        {{end}}
+                    </div>
+                </div>
+                {{$projects := (where .Pages "Params.group" "Projet")}}
+                {{if len $projects}}
+                <div class="term-wrapper">
+                    <div>
+                        <h4>Projets</h4>
+                    </div>
+                    <div class="terms-row">
+                        {{ range where .Pages "Params.group" "Projet" }}
+                        <a href="{{.Permalink}}" class="button-secondary tag-link gras ">{{.Title}}</a>
+                        {{end}}
+                    </div>
+                </div>
+                {{end}}
+                <div class="term-wrapper">
+                    <div>
+                        <h4>Mots-clés</h4>
+                    </div>
+                    <div class="terms-row">
+                        {{ range where .Pages "Params.group" "Mot-clé" }}
+                        <a href="{{.Permalink}}" class="button-secondary tag-link gras ">{{.Title}}</a>
+                        {{end}}
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
+        </svg>
+    </div>
+</div>
+
+
+{{ end }}

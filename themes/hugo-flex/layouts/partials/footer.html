@@ -1,0 +1,176 @@
+<svg class="uptriangle" id="uptriangle-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+  preserveAspectRatio="none">
+  <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+  <rect width="2000" height="20" y="98" style="fill:var(--white);" />
+</svg>
+<footer id="footer">
+  <div class="footer-block">
+    <div class="row">
+      <div class="column" style="margin-top: auto;margin-bottom: auto;">
+        <p class="footer-text">CONTACTS :</p>
+        <div class="contact-row">{{ readFile "static/icones/map-marker.svg" | safeHTML }}
+          <p class="footer-text">La FUN, 49 boulevard Preuilly, 37000 Tours</p>
+        </div>
+        <div class="contact-row">{{ readFile "static/icones/envelope.svg" | safeHTML }}
+          <p class="footer-text"> association@lafun.fr</p>
+        </div>
+      </div>
+      <div class="column">
+        <p> <a href="{{ .Site.BaseURL }}/mentions_legales">> Mentions Legales</a></p>
+        <p> <a href="{{ .Site.BaseURL }}/rgpd">> Données personnelles & RGPD</a></p>
+        <p> <a href="{{ .Site.BaseURL }}/partenaires">> Partenaires</a></p>
+        <p> <a href="{{ .Site.BaseURL }}/siteloweb">> Site LoWeb</a></p>
+        <p> <a href="{{ .Site.BaseURL }}/reglementinterieur">> Reglement Interieur</a></p>
+      </div>
+    </div>
+    <div class="row" id="footer-bottom">
+      <div class="social-medias row">
+        <div style="width: 1em; height:1em">{{ readFile "static/icones/diaspora2.svg" | safeHTML }}</div>
+        <div style="width: 1em; height:1em"><a href="https://www.facebook.com/FablabTourangeau" target="_blank">{{ readFile "static/icones/facebook.svg" | safeHTML }}</a></div>
+        <div style="width: 1em; height:1em">{{ readFile "static/icones/instagram.svg" | safeHTML }}</div>
+        <div style="width: 1em; height:1em">{{ readFile "static/icones/linkedin.svg" | safeHTML }}</div>
+        <div style="width: 1em; height:1em">{{ readFile "static/icones/twitter.svg" | safeHTML }}</div>
+      </div>
+      <span class="copyright" style="display: none;">
+        {{ with .Site.Copyright | default "&copy;" }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+        <a href="https://github.com/aanupam23/hugo-sugoi" target="_blank" title="hugo-sugoi"
+          >Hugo-Sugoi</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  const white = "#f1f1f1";
+  const blue = "#2f2f41";
+
+function absence(){
+	let newblock = document.createElement("div");
+	let text = document.createElement("p");
+  text.style.height = "5em";
+  text.style.margin = "5px 0 5px 0";
+  text.style.fontSize = "18pt";
+  newblock.style.height = "5em";
+  newblock.style.backgroundColor = blue;
+  newblock.style.color = white;
+  newblock.style.position = "sticky";
+  newblock.style.bottom = 0;
+  newblock.style.textAlign = "center";
+
+
+	text.innerText = "Le Funlab ferme ses portes du 30 juillet au 31 août inclus. Le temps de recharger les batteries et de se préparer pour la rentrée avec quelques nouveautés et la reprise des jeudis du lab notamment. On vous en dit plus en septembre."
+	newblock.classList.add("absents");
+	newblock.append(text);
+  document.body.appendChild(newblock);
+}
+
+	absence();
+  var nbBlocks = document.getElementsByClassName("color-block").length;
+  var nbBlocks_bis = document.getElementsByClassName("color-block-bis").length;
+
+  var footerSvgs = document.getElementsByClassName('social-medias')[0];
+  var footerContainer = document.getElementById("footer");
+  var footerIcons = footerContainer.getElementsByTagName('path');
+  var footerBottom = document.getElementById("footer-bottom");
+
+  var triangle = document.getElementById("uptriangle-footer");
+
+
+  if (nbBlocks != 0) {
+
+    if (nbBlocks % 2 === 0) {
+      footerContainer.style.backgroundColor = white;
+      footerContainer.style.color = blue;
+      let lis = footerSvgs.getElementsByTagName('path'); // Selectionner les svg des réseaux sociaux
+      for (i = 0; i < lis.length; i++) {
+        lis[i].style.fill = blue;
+      }
+      footerBottom.style.color = blue;
+      let bottom_lis = footerBottom.getElementsByTagName('a');
+      for (i = 0; i < bottom_lis.length; i++) {
+        bottom_lis[i].style.color = blue;
+      }
+      for (i = 0; i < footerIcons.length; i++) {
+        footerIcons[i].style.fill = blue;
+      }
+      footerBottom.style.backgroundColor = white;
+      triangle.style.display = "block";
+    }
+    else {
+      footerContainer.style.backgroundColor = blue;
+      footerContainer.style.color = white;
+      let lis = footerSvgs.getElementsByTagName('path');
+      for (i = 0; i < lis.length; i++) {
+        lis[i].style.fill = white;
+      }
+      footerBottom.style.color = white;
+      let bottom_lis = footerBottom.getElementsByTagName('a');
+      for (i = 0; i < bottom_lis.length; i++) {
+        bottom_lis[i].style.color = white;
+      }
+      for (i = 0; i < footerIcons.length; i++) {
+        footerIcons[i].style.fill = white;
+      }
+      footerBottom.style.backgroundColor = blue;
+      triangle.style.display = "none"
+    }
+  }
+  else if (nbBlocks_bis != 0) {
+    if (nbBlocks_bis % 2 === 0) {
+      footerContainer.style.backgroundColor = white;
+      footerContainer.style.color = blue;
+      let lis = footerSvgs.getElementsByTagName('lipath');
+      for (i = 0; i < lis.length; i++) {
+        lis[i].style.fill = blue;
+      }
+      footerBottom.style.color = blue;
+      let bottom_lis = footerBottom.getElementsByTagName('a');
+      for (i = 0; i < bottom_lis.length; i++) {
+        bottom_lis[i].style.color = blue;
+      }
+      for (i = 0; i < footerIcons.length; i++) {
+        footerIcons[i].style.fill = blue;
+      }
+      footerBottom.style.backgroundColor = white;
+      triangle.style.display = "block"
+    }
+    else {
+      //document.getElementById("footer-svg-container").style.marginTop = "-10em";
+      footerContainer.style.backgroundColor = blue;
+      footerContainer.style.color = white;
+      let lis = footerSvgs.getElementsByTagName('svg');
+      for (i = 0; i < lis.length; i++) {
+        lis[i].style.fill = white;
+      }
+      footerBottom.style.color = white;
+      let bottom_lis = footerBottom.getElementsByTagName('a');
+      for (i = 0; i < bottom_lis.length; i++) {
+        bottom_lis[i].style.color = white;
+      }
+      for (i = 0; i < footerIcons.length; i++) {
+        footerIcons[i].style.fill = white;
+      }
+      footerBottom.style.backgroundColor = blue;
+      triangle.style.display = "none"
+    }
+  } else {
+    footerContainer.style.backgroundColor = white;
+    footerContainer.style.color = blue;
+    let lis = footerSvgs.getElementsByTagName('path');
+    for (i = 0; i < lis.length; i++) {
+      lis[i].style.fill = blue;
+    }
+    footerBottom.style.color = blue;
+    let bottom_lis = footerBottom.getElementsByTagName('a');
+    for (i = 0; i < bottom_lis.length; i++) {
+      bottom_lis[i].style.color = blue;
+    }
+    for (i = 0; i < footerIcons.length; i++) {
+      footerIcons[i].style.fill = blue;
+    }
+    footerBottom.style.backgroundColor = white;
+  }
+
+</script>

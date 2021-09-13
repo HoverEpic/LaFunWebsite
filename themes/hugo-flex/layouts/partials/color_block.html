@@ -1,0 +1,21 @@
+<div class="color-block">
+    <div class="rectangle">
+        {{if eq .Section "mentions_legales"}}
+        <div class="row">
+            {{.Content}}
+        </div>
+        {{else}}
+        {{if eq .Section "Actualites"}}
+        <div class="row">
+            <h2 class="title">{{.Title}}</h2>
+            <hr>
+        </div>
+        {{ partial "tag_list.html" .}}
+        {{ partial "stamp_list.html" .}}
+        {{else}}
+        {{ partial "synopsis.html" . }}
+        {{end}}
+        {{end}}
+
+    </div>
+</div>

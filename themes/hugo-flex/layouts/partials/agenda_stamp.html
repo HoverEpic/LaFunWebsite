@@ -1,0 +1,25 @@
+
+
+<div class="agenda-stamp-wrapper">
+
+{{$.Scratch.Get "jourActuel"}}
+    {{if not (eq ($.Scratch.Get "jourActuel") .Date.Day) }}
+        <div class="day"><h4>{{.Date.Day}}</h4></div>
+        {{$.Scratch.Set "jourActuel" .Date.Day}}
+
+    <div class="agenda-vertical-bar"><div class="boule"></div></div>
+{{else}}
+    <div class="agenda-vertical-bar"></div>
+{{end}}
+    <div class="agenda-stamp">
+        <div class="image"></div>
+        <div class="column">
+            <div class="row">{{.Title}}</div>
+            <div class="row">{{.Summary}}</div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </div>
+    </div>
+</div>

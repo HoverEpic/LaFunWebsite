@@ -1,0 +1,102 @@
+{{ with . }} {{ $.Scratch.Set "tag_name" (humanize .Params.title) }} {{ end }}
+
+
+<div class="column">
+    <div class="dropdown-list">
+        <div class="dropdown-input-wrapper">
+            <div class="dropdown-input-glass">{{ readFile "static/icones/magnifying_glass.svg" | safeHTML }}</div><input
+                type="text" class="dropdown-input" placeholder="Rechercher...">
+        </div>
+        <div class="dropdown-wrapper">
+            <div class="dropdown-wrap">
+                {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
+                {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                {{ $bettername := humanize (replace $name "-" " ") }}
+
+                <a href="{{.Permalink}}">
+                    <div
+                        class='dropdown-item {{if eq (.Scratch.Get "tag_name" ) $bettername }}{{.Scratch.Delete "tag_name" }}selected {{end}}'>
+                        {{ $bettername }}</div>
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+            <div class=' dropdown-wrap-advanced'>
+                <div class="dropdown-frontground"></div>
+                <a href="{{.Site.BaseURL}}/tags">
+                    <div class="dropdown-item-advanced">Recherche avancée ...</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var tagList = document.getElementsByClassName("dropdown-item");
+    var input = document.getElementsByClassName("dropdown-input")[0];
+    var wrapper = document.getElementsByClassName("dropdown-wrapper")[0];
+    var research = document.getElementsByClassName("dropdown-wrap-advanced")[0];
+
+    function displayResearch() {
+        wrapper.style.display = "block";
+        research.style.top = document.getElementsByClassName("dropdown-wrap")[0].clientHeight + "px";
+    }
+
+    //Fonction qui permet d'afficher la liste des tags lorsque j'effectue une recherche dans la barre
+    input.addEventListener("focus", function (e) {
+        displayResearch();
+        document.getElementsByClassName('dropdown-input-wrapper')[0].style.borderRadius = '5px 5px 0 0';
+    });
+
+    //La fonction qui, a l'inverse, cache la liste des tags
+    input.addEventListener("focusout", function (e) {
+        setTimeout(function () { wrapper.style.display = "none" }, 125);//Mise en place d'un délai avant afin de pouvoir cliquer sur les liens de la liste
+        document.getElementsByClassName('dropdown-input-wrapper')[0].style.borderRadius = '5px';
+    });
+
+
+    function rechercher(event) {
+        //Fonction pour cacher les tags qui ne correpondent pas a la recherche
+        var pattern = event.target.value;
+        var pattern = pattern.charAt(0).toUpperCase() + pattern.slice(1);
+        for (i = 0; i < tagList.length; i++) {
+            if (tagList[i].innerHTML.includes(pattern)) { // Ne fonctionne pas sur IE (il faut ajouter la fonction includes)
+                tagList[i].style.display = "block";
+            } else {
+                tagList[i].style.display = "none";
+            }
+        } 
+        displayResearch();
+    }
+
+    //A chaque lettre, la fonction se déclenche
+
+    input.addEventListener("keyup", function (e) {
+        if (e.keyCode === 13) {  //Verifie que "Entrée" ai été appuyé
+
+            var loc = window.location.origin + "/tags";
+            var newTagList = [];
+            //Je dois filter la liste afin que ne subsiste que les elements visibles
+            for (i = 0; i < tagList.length; i++) {
+                if (tagList[i].style.display == "block") {
+                    newTagList.push(tagList[i]);
+                }
+            }
+            if (newTagList.length == 0) {
+                window.location.href = loc;
+            } else {
+                loc = newTagList[0].parentNode.href;
+
+                // Simule le clique sur le lien
+                window.location.href = loc;
+            }
+        }
+        else {
+            rechercher(e)
+        }
+    });
+
+
+
+</script>

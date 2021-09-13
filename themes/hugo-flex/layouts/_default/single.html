@@ -1,0 +1,125 @@
+{{ define "main" }}
+{{if not (eq .Section "LaFun")}}
+<div class="single-image">
+  {{ with .Resources.ByType "image" }}
+  {{ range first 1 . }}
+  <img class="image-single" src="{{ .RelPermalink}}" alt="Image manquante">
+  {{ end }}
+  {{ end }}
+</div>
+{{else}}
+<div class="presentations-logo">
+  {{if eq .Name "l'Autre brique"}}
+  <img src='/lafun/autrebrique/images/autre-brique-logo-w.svg' alt="Illustration manquante">
+  {{else}}
+  {{ with .Resources.ByType "image" }}
+  {{ range first 1 . }}
+  <img class="" src="{{ .RelPermalink}}" alt="Illustration manquante">
+  {{ end }}
+  {{ end }}
+  {{end}}
+</div>
+{{end}}
+
+<div class="color-wrapper">
+  {{if eq .Section "LaFun"}}
+  {{partial "presentation.html" .}}
+  {{else}}
+  <div class="color-block single-div">
+    <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+      <rect width="2000" height="20" y="98" style="fill:var(--white);" />
+    </svg>
+    <div class="rectangle">
+      <div class="" style="width: 100%;">
+        <div class="row justify-center">
+          <h1 class="single-title">{{.Title}}</h1>
+        </div>
+        <div class="row">
+          {{ partial "breadcrumb.html" . }}
+        </div>
+        {{if .Params.publishDate}}
+        <div class="row wrote-by">Article écrit par {{.Params.author}} le {{ (time .Params.publishDate).Day }}
+          {{ index $.Site.Data.mois (printf "%d" (time .Params.eventDate).Month) }} {{ (time .Params.publishDate).Year }}
+        </div>
+        {{end}}
+
+        <div class="single-article">
+          {{.Content}}
+        </div>
+
+        {{if not (eq .Section "LaFun")}}
+        {{if .Params.bandeauInfo}}
+        <div class="single-info-wrapper">
+          <div class="row justify-center">
+            <h4 style="margin-bottom: 0;">INFORMATIONS</h4>
+            <hr>
+          </div>
+          <div class="column justify-center" style="width: 75%; margin:auto;">
+
+            <div class="row" style="justify-content: space-between;flex-wrap:nowrap;">
+
+              <div class="infos-block">
+                <div class="row" style="justify-content:flex-start; flex-wrap:nowrap;">
+                  {{partial "duration_days.html" .}}
+                </div>
+              </div>
+              {{if .Params.eventDate }}
+              <div class="infos-block">
+                <div class="row" style="justify-content:flex-start">
+                  {{partial "duration_hour.html" .}}
+                </div>
+              </div>
+              {{end}}
+            </div>
+
+            <div class="row " style="justify-content: space-between; flex-wrap:nowrap;">
+              {{if .Param "_lieu"}}
+
+              <div class="infos-block">
+                <div class="row" style="justify-content:flex-start">
+                  <div class="infos-icon" style="width: 10%;">{{ readFile "static/icones/map-marker.svg" | safeHTML }}</div>
+                  <span class=" ellipsed" style="width: 90%;" title='{{.Param "_lieu"}}'>{{ .Param "_lieu" }}</span>
+                </div>
+              </div>
+              {{else}}
+              <div class="info-block"></div>
+              {{end}}
+              {{if .Params._tarif}}
+              <div class="infos-block">
+                <div class="row" style="justify-content:flex-start">
+                  <div class="infos-icon">{{ readFile "static/icones/money-bill.svg" | safeHTML }}</div>
+                  <span>{{ .Params._tarif }}</span>
+                </div>
+              </div>
+              {{else}}
+              <div class="info-block"></div>
+              {{end}}
+            </div>
+          </div>
+          <hr>
+          {{end}}
+        </div>
+        {{end}}
+
+        <div class="row " style="justify-content: space-evenly; ">
+          <div class="single-tag-list">
+            {{range .Params.tags}}
+            <a href="{{ $.Site.BaseURL }}/tags/{{ . | urlize }}" style="color:var(--dark-blue)"
+              class="button-secondary tag-link" style="margin-right: 0.1em;">{{.}}</a>
+            {{end}}
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
+    </svg>
+  </div>
+  {{end}}
+  {{if eq .Section "Actualites"}}
+  {{ partial "linked_articles.html" . }}
+  {{end}}
+</div>
+{{ end }}

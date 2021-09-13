@@ -1,0 +1,61 @@
+{{ $mymonths := index $.Site.Data.months.mois }}
+
+<div class="stamp column">
+    <a href="{{.RelPermalink}}">
+        <div class="stamp-image">
+            {{ range first 1 (.Resources.ByType "image") }}
+
+            <img src="{{ .Permalink }}" alt="Image non disponible"/>
+            {{ end }}
+        </div>
+        <div class="stamp-title">
+            <div class="summary-title" title="{{.Title}}">{{.Title}}</div>
+        </div>
+    </a>
+    <hr style="margin-top: 0; margin-bottom:0;">
+    {{if .Params.presenceAgenda}}
+    <div class="summary">
+        <div class="stamp-info-row ellipsed">
+
+            {{partial "duration_days.html" .}}
+        </div>
+        {{if .Params.eventDate}}
+        <div class="stamp-info-row ellipsed">
+            {{partial "duration_hour.html" .}}
+        </div>
+        {{end}}
+        {{if .Params._lieu}}
+        <div class="stamp-info-row ellipsed">
+            <div class="infos-icon">{{ readFile "static/icones/map-marker.svg" | safeHTML }}</div>
+            <div class="stamp-info ellipsed">
+                <div title="{{.Params._lieu}}">{{.Params._lieu}}</div>
+            </div>
+        </div>
+        {{end}}
+    </div>
+    {{else}}
+    <div class="row summary ">
+        <div class="summary-text"> {{.Summary}}</div>
+    </div>
+    {{end}}
+
+    {{if not (eq .Section "tags")}}
+    <div class="row" style="justify-content: flex-start;">
+        {{$.Scratch.Set "groups" ""}}
+        {{range where .Site.Pages "Type" "tags" }}
+        {{ if eq .Params.group "Activité"}}
+        {{$.Scratch.Add "groups" .Title}}
+        {{end}}
+        {{end}}
+        {{$.Scratch.Set "counter" 1}}
+        {{range .Params.tags }}
+        {{ if in ( $.Scratch.Get "groups") . }}
+        {{if eq ($.Scratch.Get "counter") 1}}
+        <a class="button-secondary tag-link" href='{{ "tags/" | relLangURL }}{{ . | urlize}}'>{{.}}</a>
+        {{$.Scratch.Set "counter" 2}}
+        {{end}}
+        {{end}}
+        {{end}}
+    </div>
+    {{end}}
+</div>

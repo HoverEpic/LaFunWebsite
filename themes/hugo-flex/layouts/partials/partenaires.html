@@ -1,0 +1,29 @@
+<div class="color-block">
+    <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+            <rect width="2000" height="20" y="98" style="fill:var(--white);" />        </svg>
+
+    <div class="rectangle">
+        <div class="row" style="justify-content: center;">
+            {{range .Pages }}
+                {{ if eq .Params.display true}}
+                {{$linkToCheck := .Params.link}}
+            <a href="{{$linkToCheck}}" {{partial "partials/linkTarget.html" (dict "linkString" $linkToCheck "ctx" $)| print | safeHTMLAttr}}>
+            <div class="partenaires-carre">
+                <div class="partenaires-cover"></div>
+                    {{ with .Resources.ByType "image" }}
+                    {{ range . }}
+                    <img class="partenaires-logo" src="{{ .RelPermalink }}" alt="{{.Title}}">
+                    {{ end }}
+                    {{ end }}
+            </div>
+            </a>
+                {{end}}
+            {{end}}
+        </div>
+    </div>
+    <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
+    </svg>
+
+</div>

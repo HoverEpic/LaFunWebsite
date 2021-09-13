@@ -1,0 +1,28 @@
+{{ $related := .Site.RegularPages.RelatedIndices . "tags" }}
+{{ if $related}}
+<div class="color-block">
+    <div class="rectangle ">
+        <div class="row justify-center">
+            <div>
+                <span class="title">Articles en liens</span>
+                <hr style="background-color:var(--light-blue);">
+            </div>
+        </div>
+        <div class="row stamp-list" style="flex-wrap:wrap">
+
+            {{range first 3 $related }}
+            {{partial "stamp_alt.html" .}}
+            {{end}}
+        </div>
+    </div>
+</div>
+{{else}}
+<div class="color-block">
+    <div class="rectangle ">
+        <div class="row justify-center">
+            <h5>Aucun article en lien n'est disponible</h5>
+        </div>
+    </div>
+</div>
+
+{{end}}

@@ -1,0 +1,22 @@
+<div class="color-block">
+    <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+            <rect width="2000" height="20" y="98" style="fill:var(--white);" />        </svg>
+        <div class="rectangle">
+        {{if eq .Section "Actualites"}}
+        <div class="row justify-center">
+            <div>
+                <span class="title">{{.Title}}</span>
+                <hr style="margin-bottom: 2em;">
+            </div>
+        </div>
+        {{ partial "tag_list.html" .}}
+        {{ partial "stamp_list.html" .}}
+        {{else}}
+        {{ partial "synopsis.html" . }}
+        {{end}}
+        </div>
+    <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
+    </svg>
+</div>

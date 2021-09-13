@@ -1,0 +1,353 @@
+<!-- {{ printf "%#v" . }}  -->
+<div class="color-block agenda">
+    <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+        <rect width="2000" height="20" y="98" style="fill:var(--white);" />
+    </svg>
+    <div class="">
+        <div class="agenda-rectangle">
+            {{$scratch := .ctx.Scratch}}
+            {{$section := where .ctx.Site.RegularPages "Section" "Actualites"}}
+            {{range $section.GroupByDate "2006"}}
+            <span class="data-container" name="{{.Key}}">
+                {{range .Pages}}
+
+                {{if .Params.presenceAgenda}}
+                <span class="data-item" style="display: none;">
+                    <span class="day" jour='{{ (time .Params.eventDate).Day }}'></span>
+                    <span class="month" mois='{{ printf "%d" (time .Params.eventDate).Month }}'></span>
+                    <span class="year" annee='{{ (time .Params.eventDate).Year }}'></span>
+                    <span class="name" titre='{{.Title}}'></span>
+                    <span class="link" lien='{{.RelPermalink}}'></span>
+                    {{if .Params.durationDay}}<span class="duration" duree='{{.Params.durationDay}}'></span>{{end}}
+
+                    <span class="hour" heure='{{partial "duration_hour.html" .}}'></span>
+                    <span class="where" lieu='{{.Params._lieu}}'></span>
+                    <span class="summary" resume='{{.Summary}}'></span>
+                    {{ $scratch.Set "imageURL" "http://lafun.fr/images/default-image.jpg"}}
+                    {{ with .Resources.ByType "image" }}
+                    {{ range . }}
+                    {{ $scratch.Set "imageURL" .RelPermalink}}
+                    {{end}}
+                    {{end}}
+                    <span class="img" image='{{ $scratch.Get "imageURL"}}'></span>
+
+                </span>
+                {{end}}
+                {{end}}
+            </span>
+            {{end}}
+
+            <div class="row">
+                <div>
+                    <span class="title">AGENDA</span>
+                    <hr>
+                </div>
+            </div>
+            <div class="margin-auto">
+                <div class="agenda-row">
+                    <div class="column" id="year-month">
+                        <span class="agenda-month">Janvier</span>
+                        <span class="agenda-year"> 2021
+                        </span>
+                    </div>
+                    <div id="skippers">
+                        <div class="month-skipper prevMonth">
+                            {{ readFile "static/icones/chevron-left.svg" | safeHTML }}
+                        </div>
+                        <div class="month-skipper nextMonth">
+                            {{ readFile "static/icones/chevron-right.svg" | safeHTML }}
+                        </div>
+                    </div>
+                </div>
+                <div class="agenda-days">
+                    <div id="agenda-day">
+                        <div id="number-template">
+                            <div class="day">5</div>
+                            <div class="agenda-vertical-bar">
+                                <div class="boule"></div>
+                            </div>
+                        </div>
+                        <div class="agenda-stamp">
+                            <img class="image column" src="#" alt="Image manquante">
+                            <div class="column infos">
+                                <div class="row" style="justify-content:flex-start;">
+                                    <div class="ellipsed">
+                                        <h5 class="titre" title="">Titre</h5>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div class=" resume ellipsed">Resume</div>
+                                <div>
+                                    <div class="icon-row">{{ readFile "static/icones/calendar.svg" | safeHTML }}<div
+                                            class="date">
+                                        </div>
+                                    </div>
+                                    <div class="icon-row">{{ readFile "static/icones/clock.svg" | safeHTML }}<div
+                                            class="heure">
+                                        </div>
+                                    </div>
+                                    <div class="icon-row">{{ readFile "static/icones/map-marker.svg" | safeHTML }}<div
+                                            class="lieu ellipsed" style="white-space: normal;"></div>
+                                    </div>
+                                </div>
+                                <div class="tag-row"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="agenda-row">
+                <div id="skippers-alt">
+                    <div class="month-skipper prevMonth">
+                        {{ readFile "static/icones/chevron-left.svg" | safeHTML }}
+                    </div>
+                    <div class="month-skipper nextMonth">
+                        {{ readFile "static/icones/chevron-right.svg" | safeHTML }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
+    </svg>
+</div>
+<div style="display: none;">
+    <span id="currentY"> {{ now.Format "2006"}}</span>
+    <span id="currentM"> {{ now.Format "01"}}</span>
+    <span id="currentD"> {{ now.Format "2"}}</span>
+</div>
+
+<script>
+
+    var currentY = parseInt(document.getElementById("currentY").innerHTML);
+    var currentM = parseInt(document.getElementById("currentM").innerHTML);
+    var currentD = parseInt(document.getElementById("currentD").innerHTML);
+
+
+    var list = getItemListByDay();
+
+
+    buildDays(list[currentY][currentM]);
+
+    function groupBy(xs, f) {
+        return xs.reduce((r, v, i, a, k = f(v)) => ((r[k] || (r[k] = [])).push(v), r), {});
+    }
+    function isEmptyOrSpaces(str) {
+        if (str.trim()) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    function getItemListByYear() {
+        var data = [];
+        var data_doc = document.getElementsByClassName('data-container');
+        for (u = 0; u < data_doc.length; u++) {
+            children = data_doc[u].children;
+            for (i = 0; i < children.length; i++) {
+                let item_name = children[i].getElementsByClassName("name")[0].getAttribute("titre");
+                let item_day = children[i].getElementsByClassName("day")[0].getAttribute("jour");
+                let item_month = children[i].getElementsByClassName("month")[0].getAttribute("mois");
+                let item_year = children[i].getElementsByClassName("year")[0].getAttribute("annee");
+                let item_link = children[i].getElementsByClassName("link")[0].getAttribute("lien");
+                let item_summary = children[i].getElementsByClassName("summary")[0].getAttribute("resume");
+                let item_image = children[i].getElementsByClassName("img")[0].getAttribute("image");
+                let item_hour = children[i].getElementsByClassName("hour")[0].getAttribute("heure");
+                let item_lieu = children[i].getElementsByClassName("where")[0].getAttribute("lieu");
+                let tags = children[i].getElementsByClassName("tags");
+                let item_tags = [];
+                if (tags != undefined) {
+                    for (g = 0; g < tags.length; g++) {
+                        item_tags[g] = {
+                            "name": tags[g].getAttribute("tag"),
+                            "link": tags[g].getAttribute("url")
+                        }
+                    }
+                }
+
+
+                item = {
+                    "titre": item_name,
+                    "jour": item_day,
+                    "mois": item_month,
+                    "annee": item_year,
+                    "lien": item_link,
+                    "resume": item_summary,
+                    "image": item_image,
+                    "tags": item_tags,
+                    "heure": item_hour,
+                    "lieu": item_lieu
+                }
+                data.push(item);
+
+            }
+        }
+        return groupBy(data, (c) => c.annee);
+    }
+    function getItemListByMonths() {
+        var dataByMonth = {};
+        for (var key of Object.keys(getItemListByYear())) {
+            var temp = getItemListByYear()[key];
+            var monthgroup = groupBy(temp, (c) => c.mois)
+            dataByMonth[key] = monthgroup;
+        }
+        return dataByMonth
+    }
+    function getItemListByDay() {
+        var dataSet = {};
+        var dataByDay = {};
+        for (var year of Object.keys(getItemListByMonths())) {
+            dataSet[year] = getItemListByMonths()[year]
+            for (var month of Object.keys(getItemListByMonths()[year])) {
+                dataSet[year][month] = getItemListByMonths()[year][month];
+                for (var day of getItemListByMonths()[year][month]) {
+                    dataSet[year][month] = groupBy(getItemListByMonths()[year][month], (c) => c.jour);
+                }
+            }
+        }
+        return dataSet;
+    }
+
+
+
+    function buildDays(month) {
+        emptyDays();
+        document.getElementsByClassName("agenda-month")[0].innerHTML = numberToMonth(currentM);
+        let wrapper = document.getElementsByClassName("agenda-days")[0];
+        let tempday = 0;
+        for (let day in month) {
+            tempday = day
+            for (let event in month[day]) {
+                let container = document.createElement("div");
+                container.classList.add("agenda-stamps")
+                if (event > 0) {
+                    tempday = 99;
+                    container.style.marginBottom = "4em";
+                }
+                container.append(createNumber(tempday));
+                container.append(createEvent(month[day][event]));
+                wrapper.append(container);
+
+            }
+        }
+    }
+
+    function createNumber(obj) {
+        let template = document.getElementById("number-template").cloneNode(true);
+        template.classList.add("number-template");
+        template.removeAttribute('id');
+        if (obj != 99) {
+            template.getElementsByClassName('day')[0].innerHTML = obj;
+        } else {
+            template.getElementsByClassName('day')[0].innerHTML = "";
+            template.getElementsByClassName('agenda-vertical-bar')[0].removeChild(template.getElementsByClassName('agenda-vertical-bar')[0].getElementsByClassName('boule')[0]);
+            template.getElementsByClassName("agenda-vertical-bar")[0].classList.add("empty-bar");
+        }
+        return template;
+    }
+    function createEvent(obj) {
+        let link = document.createElement("a");
+        link.setAttribute("href", obj.lien);
+        let template = document.getElementById("agenda-day").cloneNode(true);
+        template.removeAttribute('id');
+        template.getElementsByClassName('titre')[0].innerHTML = obj.titre;
+        template.getElementsByClassName('titre')[0].setAttribute('title', obj.titre);
+        template.getElementsByClassName('date')[0].innerHTML = obj.jour + " " + numberToMonth(obj.mois) + " " + obj.annee;
+        template.getElementsByClassName('image')[0].setAttribute("src", obj.image);
+        template.getElementsByClassName('image')[0].setAttribute("href", obj.link);
+        template.getElementsByClassName('resume')[0].innerHTML = obj.resume;
+        template.getElementsByClassName('lieu')[0].innerHTML = obj.lieu;
+        if(!obj.lieu){
+            template.getElementsByClassName('lieu')[0].parentNode.style.display = "none";
+}
+        if (isEmptyOrSpaces(obj.heure)) {
+            template.getElementsByClassName('heure')[0].parentNode.style.display = "none";
+            console.log("lol")
+        } else {
+            template.getElementsByClassName('heure')[0].innerHTML = obj.heure;// A AJOUTER LORSQUE J'AURAIS TOUTES LES INFOS
+        }
+        for (i = 0; i < obj.tags.length; i++) {
+            let tag = document.createElement("a");
+            tag.classList.add("button-secondary");
+            tag.setAttribute("href", obj.tags[i].link);
+            tag.innerHTML = obj.tags[i].name;
+            template.getElementsByClassName('tag-row')[0].append(tag);
+        }
+        link.append(template);
+        return link;
+    }
+
+    function numberToMonth(num) {
+        let newnum = parseInt(num) - 1;
+        if (newnum <= 0) {
+            newnum = 0;
+        }
+        var montharray = ['Janvier', 'Fevrier', "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"]
+        return montharray[parseInt(newnum)];
+    }
+
+
+    function emptyDays() {
+        let days = document.getElementsByClassName("agenda-stamps");
+        let length = days.length
+        for (i = 0; i < length; i++) {
+            document.getElementsByClassName("agenda-days")[0].removeChild(days[0]);
+        }
+    }
+
+    for (i = 0; i < document.getElementsByClassName('prevMonth').length; i++) {
+        document.getElementsByClassName('prevMonth')[i].addEventListener('click', function (e) {
+            let startM = currentM;
+            let startY = currentY;
+            while (currentY > startY - 10) {
+                currentM--;
+                if (currentM <= 0) {
+                    currentM = 12;
+                    currentY--;
+                }
+                if (list[currentY]) {
+                    if (list[currentY][currentM]) {
+                        break;
+                    }
+                }
+            }
+            if (currentY == startY - 10) {
+                currentM = startM;
+                currentY = startY;
+                alert("Nous n'avons trouvé aucun évenement dans les années précedentes");
+            }
+            document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
+            buildDays(list[currentY][currentM]);
+        })
+    }
+    for (i = 0; i < document.getElementsByClassName('nextMonth').length; i++) {
+        document.getElementsByClassName('nextMonth')[i].addEventListener('click', function (e) {
+            let startM = currentM;
+            let startY = currentY;
+            while (currentY < startY + 10) {
+                currentM++;
+                if (currentM > 12) {
+                    currentM = 1;
+                    currentY++;
+                }
+                if (list[currentY]) {
+                    if (list[currentY][currentM]) {
+                        break;
+                    }
+                }
+            }
+            if (currentY == startY + 10) {
+                currentM = startM;
+                currentY = startY;
+                alert("Nous n'avons trouvé aucun évenement dans les années suivantes");
+            }
+            document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
+            buildDays(list[currentY][currentM]);
+        });
+    }
+
+
+</script>

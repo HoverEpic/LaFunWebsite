@@ -1,0 +1,93 @@
+{{ define "load_page_assets" }}
+
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+
+{{ $page_css := .Scratch.Get "css" }}
+{{ with $page_css }}
+{{ $css_list := $.Scratch.Get "css" }}
+{{ . | merge $css_list | $.Scratch.Set "css" }}
+{{ end }}
+{{ $page_js := .Scratch.Get "js" }}
+{{ with $page_js }}
+{{ $js_list := $.Scratch.Get "js" }}
+{{ . | merge $js_list | $.Scratch.Set "js" }}
+{{ end }}
+
+
+{{ end }}
+
+{{ define "main" }}
+<div class="color-wrapper">
+    <div class="color-block">
+        <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
+            <rect width="2000" height="20" y="98" style="fill:var(--white);" />
+        </svg>
+        <div class="home-rectangle">
+            <div class="row activity-link-list">
+                {{ range $i,$p := (where .Site.RegularPages "Section" "LaFun")}}
+                {{if .Params.weight}}
+                {{partial "stamp_home.html" .}}
+                {{end}}
+                {{end}}
+            </div>
+        </div>
+        <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
+        </svg>
+    </div>
+
+    <div class="color-block">
+        <div class="rectangle">
+            <div class="title-container">
+                <span class="title">Actualités</span>
+                <hr>
+            </div>
+            <div class="row stamp-list-home" style="flex-wrap:wrap;margin-top:0;justify-content:space-around;">
+
+                {{range ( ((where .Site.RegularPages "Section" "Actualites").ByPublishDate).Reverse | first 3 )}}
+                {{partial "stamp_alt.html" .}}{{end}}
+            </div>
+
+            <div class="row" style="margin-top: 1.3em;">
+                {{$linkToCheck := print .Site.BaseURL "actualites"}}
+                <a class="button-primary" href="{{$linkToCheck}}" {{partial "partials/linkTarget.html" (dict "linkString" $linkToCheck "ctx" $)| print | safeHTMLAttr}}>En lire plus...</a>
+            </div>
+
+        </div>
+    </div>
+
+    {{ partial "color_block_alt.html" . }}
+
+{{range where $.Data.Pages "Section" "nous_rejoindre"}}
+
+    <div class="color-block">
+        <div class="rectangle">
+            <div class="row" >
+
+                <div class="column preview">
+                    <div class="title">{{.Title}}</div>
+                    <div class="resume">
+                        <p>{{.Content}}</p>
+                    </div>
+                    <div class="row">
+                        {{$linkToCheck := .Params.link}}
+                        <a href="{{.Params.link}}" class="button-primary" {{partial "partials/linkTarget.html" (dict "linkString" $linkToCheck "ctx" $)| print | safeHTMLAttr}}>Adhérer
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="image">
+                    <img src="{{.Site.BaseURL}}/images/undraw_waiting__for_you_ldha.svg" alt="Illustration manquante">
+                </div>
+
+            </div>
+        </div>
+    </div>
+{{end}}
+
+</div>
+
+{{ end }}

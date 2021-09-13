@@ -1,0 +1,31 @@
+<div class="row stamp-list" style="flex-wrap:wrap">
+    {{ if eq .Section "tags" }}
+        {{$.Scratch.Set "tagName" (replace (humanize .Title) " " "-")}}
+
+        {{range $i, $p := .Site.Taxonomies.tags }}
+            {{if eq (replace (humanize $i) " " "-") (replace ($.Scratch.Get "tagName") "'" "")}}
+                {{range $p}}
+                    {{partial "stamp.html" .}}
+                {{end}}
+            {{end}}
+        {{end}}
+    {{else}}
+
+        {{ $slice := slice }}
+        {{$regular := .RegularPages}}
+
+        {{range $regular}}
+            {{if .Params.presenceActualites}}
+                {{$slice = $slice | append .}}
+            {{end}}
+        {{end}}
+
+        {{range (.Paginate $slice 6).Pages }}
+            {{partial "stamp.html" .}}
+        {{end}}
+
+    {{end}}
+</div>
+{{if eq .Section "Actualites"}}
+{{ template "partials/pagination.html" . }}
+{{end}}

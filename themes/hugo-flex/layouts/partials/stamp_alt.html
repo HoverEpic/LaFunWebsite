@@ -1,0 +1,51 @@
+<div class="stamp stamp-bis column">
+    <a href="{{.RelPermalink}}">
+        <div class="stamp-image">
+            {{ range first 1 (.Resources.ByType "image") }}
+            <img src="{{ .Permalink }}" alt="Image manquante"/>
+            {{ end }}
+        </div>
+        <div class="stamp-title">{{.Title}}</div>
+    </a>
+        <hr style="margin-top: 0; margin-bottom:0;color:var(--light-blue);">
+        {{if .Params.presenceAgenda}}
+        <div class="summary">
+            <div class="row ellipsed" style="display:flex;flex-flow: initial;">
+                <div class="icone-wrapper">{{ readFile "static/icones/calendar.svg" | safeHTML }}</div>
+                <div class="stamp-info">
+                    {{ (time .Params.eventDate).Day }}
+                    {{ index $.Site.Data.mois (printf "%d" (time .Params.eventDate).Month) }}
+                    {{(time .Params.eventDate).Year }}
+                </div>
+            </div>
+            {{if .Params._lieu}}
+            <div class="row" style="justify-content: flex-start;overflow: hidden;flex-wrap: nowrap;">
+                <div class="icone-wrapper">{{ readFile "static/icones/map-marker.svg" | safeHTML }}</div>
+
+                <div class="stamp-info ellipsed" style="white-space: normal;line-height:1.6em">{{ .Params._lieu }}</div>
+            </div>
+            {{end}}
+        </div>
+        {{else}}
+        <div class="row summary summary-text"> {{.Summary}}</div>
+        {{end}}
+    {{if not (eq .Section "tags")}}
+    <div class="row" style="justify-content: flex-start;">
+        {{$.Scratch.Set "groups" ""}}
+        {{range where .Site.Pages "Type" "tags" }}
+        {{ if eq .Params.group "Activité"}}
+        {{$.Scratch.Add "groups" .Title}}
+        {{end}}
+        {{end}}
+        {{$.Scratch.Set "counto" 1}}
+        {{range .Params.tags }}
+            {{ if in ( $.Scratch.Get "groups") . }}
+                {{if eq ($.Scratch.Get "counto") 1}}
+                    <a class="button-primary tag-link" href='{{ "tags/" | relLangURL }}{{ . | urlize}}'>{{.}}</a>
+                    {{$.Scratch.Set "counto" 2}}
+                {{end}}
+            {{end}}
+        {{end}}
+    </div>
+    {{end}}
+</div>

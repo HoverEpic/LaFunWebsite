@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/base.min.xml" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Page de présentation de l&#39;asso du Site de la Fun</title>
+    <link>/lafun/</link>
+    <description>Recent content in Page de présentation de l&#39;asso on Site de la Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <atom:link href="/lafun/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

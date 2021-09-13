@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/base.min.xml" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>résidence du Site de la Fun</title>
+    <link>/tags/r%C3%A9sidence/</link>
+    <description>Recent content in résidence on Site de la Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 02 Jun 2021 13:31:55 +0000</lastBuildDate>
+    <atom:link href="/tags/r%C3%A9sidence/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

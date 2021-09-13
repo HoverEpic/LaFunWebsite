@@ -1,0 +1,57 @@
+<div class="row">
+    {{$.Scratch.Set "img_link" "/images/default-image.jpg"}}
+    {{if (modBool (.Scratch.Get "bool") 2)}}
+    <div class="image"> 
+        {{ with .Resources.Match "images/*" }}
+        {{ range . }}
+        {{$.Scratch.Set "img_link" .RelPermalink}}
+
+        {{end}}
+        {{end}}
+        {{if .IsHome}}
+            {{$.Scratch.Set "img_link" "/logo_empty.svg"}}
+        {{end}}
+        <img src='{{$.Scratch.Get "img_link"}}' alt="Illustration manquante">
+    </div>
+    {{end}}
+    <div class="column preview">
+        <div class="title">{{ .Title }}</div>
+        <div class="resume">
+            <p>{{ .Summary }}</p>
+        </div>
+        <div class="row">
+
+    {{$.Scratch.Set "link_link" .RelPermalink }}
+{{if .Params._link}}
+        {{$.Scratch.Set "link_link" .Params._link}}
+{{end}}
+
+
+            {{ $title := humanize (.Title | title ) }}
+            {{ $siteTitle := humanize ("La Fabrique d'Usages Numériques") }} 
+            {{ if eq $siteTitle $title }}
+                {{$linkToCheck := print .Site.BaseURL "lafun"}}
+            <a href='{{ $linkToCheck }}'
+                class='button-{{if (modBool (.Scratch.Get "bool") 2)}}tertiary{{else}}primary{{end}}'>En savoir plus
+            </a>
+            {{else}}
+                {{$linkToCheck :=  $.Scratch.Get "link_link" }}
+            <a href='{{ $.Scratch.Get "link_link" }}' {{partial "partials/linkTarget.html" (dict "linkString" $linkToCheck "ctx" $)| print | safeHTMLAttr  }}
+                class='button-{{if (modBool (.Scratch.Get "bool") 2)}}tertiary{{else}}primary{{end}}'>En savoir plus
+            </a>
+            {{end}}
+        </div>
+    </div>
+
+    {{if not (modBool (.Scratch.Get "bool") 2)}}
+    <div class="image">
+        {{ with .Resources.ByType "image" }}
+        {{ range . }}
+        {{$.Scratch.Set "img_link" .RelPermalink}}
+        {{$img_link := .RelPermalink}}
+        {{end}}
+        {{end}}
+        <img src='{{$.Scratch.Get "img_link"}}' alt="Illustration manquante">
+    </div>
+    {{end}}
+</div>

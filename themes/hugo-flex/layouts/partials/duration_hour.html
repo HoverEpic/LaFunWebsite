@@ -1,0 +1,20 @@
+{{if .Params.eventDate}}
+{{if eq .Params.displayHour true}}
+
+<div class="infos-icon">{{ readFile "static/icones/clock.svg" | safeHTML }}</div>
+
+    {{if .Params.duration}}
+<span class="stamp-info" title='Démarre à {{ (time .Params.eventDate).Hour }}:{{ dateFormat "04" (time .Params.eventDate).Minute }}, Dure {{.Params.duration}} heures'>
+            Démarre à {{ (time .Params.eventDate).Hour }}:{{(time .Params.eventDate).Minute}}, Dure {{.Params.duration}}</span>
+    {{else}}
+<span class="stamp-info">{{ (time .Params.eventDate).Hour }}:{{(time .Params.eventDate).Minute}}</span>
+    {{end}}
+
+{{else}}
+    {{if .Params.duration}}
+<div class="infos-icon">{{ readFile "static/icones/clock.svg" | safeHTML }}</div>
+<span class="stamp-info">Dure {{.Params.duration}} heures</span>
+    {{end}}
+{{end}}
+
+{{end}}

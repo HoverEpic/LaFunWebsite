@@ -1,0 +1,85 @@
+languageCode = "fr-fr"
+title = "Site de la Fun"
+theme = "hugo-flex"
+
+[menu]
+  [[menu.main]]
+    identifier = "LaFun"
+    name = "La Fun"
+    url = "/LaFun/lafun"
+    weight = 1
+  [[menu.main]]
+    identifier = "LaFun-LaFun"
+    name = "La Fun"
+    url = "/LaFun/lafun"
+    parent = "LaFun"
+    weight = 1
+  [[menu.main]]
+    identifier = "LaFun-funlab"
+    name = "Le FunLab"
+    url = "/LaFun/funLab"
+    parent = "LaFun"
+    weight = 2
+  [[menu.main]]
+    identifier = "LaFun-autrebrique"
+    name = "L'Autre Brique"
+    url = "/LaFun/autreBrique"
+    parent = "LaFun"
+    weight = 3
+  [[menu.main]]
+    identifier = "LaFun-ateliersLaboratoires"
+    name = "Ateliers Laboratoires"
+    url = "/LaFun/ateliersLaboratoires"
+    parent = "LaFun"
+    weight = 4
+  [[menu.main]]
+    identifier = "LaFun-interZone"
+    name = "InterZone"
+    url = "/LaFun/interZone"
+    parent = "LaFun"
+    weight = 5
+  [[menu.main]]
+    identifier = "actualites"
+    name = "Actualités"
+    url = "/actualites"
+    weight = 2
+  [[menu.main]]
+    identifier = "agenda"
+    name = "Agenda"
+    url = "/Agenda"
+    weight = 3
+  [[menu.main]]
+    identifier = "Projets"
+    name = "Projets"
+    url = "/projets"
+    weight = 4
+  [[menu.main]]
+    identifier = "ressources"
+    name = "Ressources"
+    url = "https://ressources.lafun.fr/"
+    weight = 5
+  [[menu.main]]
+    identifier = "connexion"
+    name = "Connexion"
+    url = "/"
+    weight =6
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  Actualites = "/:year/:month/:title/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100

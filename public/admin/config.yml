@@ -1,0 +1,156 @@
+backend:
+ name: gitlab
+ repo: administrateur/website-la-fun # Path to your GitLab repository
+ auth_type: implicit # Required for implicit grant
+ app_id: 0d7901f2efdb9104400f7053e46b35190521d0877b4361bb4624846c230b7ec3 # Application ID from your GitLab settings
+ api_root: https://gitlab.lafun.fr/api/v4
+ base_url: https://gitlab.lafun.fr
+ auth_endpoint: oauth/authorize
+ branch: master
+
+locale: 'fr-FR'
+
+
+# This line should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: "Actualites" # Used in routes, e.g., /admin/collections/blog
+    label: "Actualites" # Used in the UI
+    slug: "{{slug}}"    
+    folder: "/content/Actualites" # The path to the folder where the documents are stored
+    path: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
+    create: true # Allow users to create new documents in this collection
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    filter: {field: "visible", value: true}
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", search_fields: ["title"], value_field: "title", multiple: true, options_length: 5}
+      - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]} #repère ACTU01
+      - {label: "Date de l'evenement", name: "eventDate", widget: "datetime", date_format: "DD/MM/YYYY", picker_utc: true}
+      - {label: "Date de publication", name: "publishDate", widget: "datetime", picker_utc: true}
+      - {label: "Afficher heure", name: "displayHour", widget: "boolean", required: false, default: true }
+      - {label: "Durée (Temps)", name: "duration", widget: "string", required: false}
+      - {label: "Durée (Jours)", name: "durationDay", widget: "number", required: false}
+      - {label: "Lieu", name: "_lieu", widget: "string", required: false}
+      - {label: "Tarif de l'évenement", name: "_tarif", widget: "string", required: false}
+      - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
+      - {label: "Lien de l'article mère", name: "motherLink", widget: "string", default: "", required: false}
+      - {label: "Present dans les actualites", name: "presenceActualites", widget: "boolean", default: true}
+      - {label: "Afficher les infos", name: "bandeauInfo", widget: "boolean", default: true, required: false}
+      - {label: "Jeune public", name: "youngFriendly", widget: "boolean", default: true, required: false}
+      - {label: "Vignette", name: "thumbnail", widget: "image", pattern: ["[/\\.(gif|tiff?|png|webp|bmp|gif|svg)$/i]", "L'image ne doit pas être en jpeg/jpg. Les formats acceptés sont gif,tiff,pnf,webp,bmp,svg et gif"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "partenaires", name: "partenaires", widget: "relation", collection: "Partenaires", search_fields: ["title"], value_field: "title", multiple: true, required: false}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+  - name : "Presentations"
+    label: "Presentations"
+    slug: "{{slug}}"
+    folder: "/content/LaFun"
+    nested:
+      depth: 3 # max depth to show in the collection tree
+    path: '{{slug}}'
+    view_groups: 
+      - label: Activité 
+        field: dir
+    filter: {field: "visible", value: true}
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "{{slug}}/index"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "visible", name: "visible", widget: "hidden", default: true}
+    meta: { path: {widget: "hidden", label: 'Dossier', index_file: '_index', default: "text"} }
+  - name : "Projets"
+    label: "Projets"
+    slug: "{{slug}}"
+    folder: "/content/Projets"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Projet {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image"}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Tags"
+    label: "Liste des tags"
+    filter: {field: "visible", value: true}
+    folder: "/content/tags"
+    path: '{{title}}/_index'
+    create: true
+    summary: "Tag '{{title | upper}}' - {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true, pattern: ["[a-z0-9]", "Le titre ne doit comporter que des minuscules ou des chiffres"]}
+      - {label: "Groupe", name: "group", widget: "select", options: ["Activité","Projet", "Mot-clé"], required: true}
+      - {label: "Description", name: "body", widget: "markdown", required: true}
+      - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
+  - name: "Partenaires"
+    label: "Partenaires"
+    label_singular: 'Partenaire'
+    folder: content/Partenaires
+    create: true
+    slug: "{{slug}}"
+    path: "{{title}}/index"
+    media_folder: "images/" # Media files will be stored in the same folder
+    fields:
+      - {label: "Nom", name: "title", widget: "string", required: true}
+      - {label: "Logo", name: "logo", widget: "image", required: true}
+      - {label: "Lien", name: "link", widget: "string", required: false}
+      - {label: "Présent dans la page des partenaires", name: "display", widget: "boolean", hidden: true, default: true}
+    # adding a nested object will show the collection folder structure
+  - label: "Pages"
+    name: "pages"
+    files: 
+      - label : "RGPD"
+        name : "RGPD"
+        file: "content/rgpd/_index.md"
+        fields:
+          - {label: "text", name: "body", widget: "markdown", required: true}
+      - label : "Mentions légales"
+        name : "mentions_legales"
+        file: "content/mentions_legales/_index.md"
+        fields:
+          - {label: "text", name: "body", widget: "markdown", required: true}
+      - label : "newsletter"
+        name : "newsletter"
+        file: "content/newsletter/_index.md"
+        fields:
+          - {label: "text", name: "body", widget: "markdown", required: true}
+      - label : "Nous rejoindre"
+        name : "nous_rejoindre"
+        media_folder: "images/" # Media files will be stored in the same folder
+        file: "content/nous_rejoindre/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Image", name: "img", widget: "image", required: true}
+          - {label: "Resumé", name: "body", widget: "markdown", required: true}
+          - {label: "lien", name: "link", widget: "string", required: true}
+      - label : "Accueil"
+        name : "accueil"
+        file: "content/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Resumé", name: "body", widget: "markdown", required: true}
+      - label : "Site LoWeb"
+        name : "site_loweb"
+        file: "content/siteloweb/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+      - label : "Reglement Interieur"
+        name : "reglement_interieur"
+        file: "content/reglementinterieur/_index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+
+
+

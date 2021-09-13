@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode }}">
+
+<head>
+  {{ partial "meta.html" . }}
+  {{ partial "title.html" . }}
+  {{ partial "link.html" . }}
+  {{ partial "load_site_assets.html" . }}
+  {{ block "load_page_assets" . }}
+  {{ with .Content }}{{ end }}
+  {{ end }}
+  {{ partial "assets.html" . }}
+</head>
+
+<body>
+  {{ partialCached "banner.html" . }}
+  <main>
+    {{if not .IsPage }}
+    <div class="head-padder">
+      <div class="logo-wrapper">
+          {{ readFile "static/logow.svg" | safeHTML }}
+      </div>
+
+      {{if not .Section}}
+      <div>
+        <h5 class="intro">Fabriquer, comprendre et partager<br /> les techniques qui nous entourent</h5>
+      </div>
+      {{end}}
+    </div>
+    {{end }}
+    <div class="full-wrapper">
+      {{ block "main" . }}{{ end }}
+    </div>
+  </main>
+  {{ partialCached "footer.html" . }}
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

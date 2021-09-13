@@ -1,0 +1,16 @@
+{{if .Params.eventDate }}
+
+<div class="infos-icon">{{ readFile "static/icones/calendar.svg" | safeHTML }}</div>
+
+{{if .Params.durationDay}}
+{{ $newdate :=((time .Params.eventDate).AddDate 0 0 .Params.durationDay) }}
+<span class="stamp-info">Du {{ (time .Params.eventDate).Day }} {{ index $.Site.Data.mois (printf "%d" (time .Params.eventDate).Month) }}
+    au
+    {{$newdate.Day}} {{ index $.Site.Data.mois (printf "%d" $newdate.Month) }}
+    {{$newdate.Year}}</span>
+{{else}}
+<span class="stamp-info">Le {{ (time .Params.eventDate).Day }} {{ index $.Site.Data.mois (printf "%d" (time .Params.eventDate).Month) }}
+    {{(time .Params.eventDate).Year }}</span>
+{{end}}
+
+{{end}}

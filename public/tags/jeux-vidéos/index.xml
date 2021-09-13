@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="/xml/base.min.xml" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jeux vidéos du Site de la Fun</title>
+    <link>/tags/jeux-vid%C3%A9os/</link>
+    <description>Recent content in jeux vidéos on Site de la Fun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 08 Dec 2020 15:16:35 +0000</lastBuildDate>
+    <atom:link href="/tags/jeux-vid%C3%A9os/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

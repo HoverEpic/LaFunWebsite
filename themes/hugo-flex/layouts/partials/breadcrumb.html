@@ -1,0 +1,11 @@
+<div class="breadcrumb">
+    <a href="{{.Site.BaseURL}}" class="icon">
+        {{ readFile "static/icones/home.svg" | safeHTML}}
+    </a>
+    <p>></p>
+    <a href="{{.Site.BaseURL}}/{{.Section | urlize}}">{{.Section}}</a>
+    <p>></p>
+    <div class="ellipsed">
+        <a href="{{.RelPermalink}}">{{.Title}}</a>
+    </div>
+</div>

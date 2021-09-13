@@ -1,0 +1,99 @@
+{{- if .Site.Menus.main }}
+<nav class="menu">
+
+	<ul class="menu-list">
+		<li class="Banner-item column" style="order:inherit;">
+			<a class="Banner-link" href="{{ relURL nil }}">
+				<span class="banner-logo u-clickable">
+					{{ readFile "static/logo_empty.svg" | safeHTML }}</span>
+			</a>
+		</li>
+		{{- $currentNode := . }}
+		{{- range .Site.Menus.main }}
+		{{- if .Name }}
+		{{- if .HasChildren }}
+		<li id='{{ replace .Name " " "_"}}'
+			class='menu-item  menu-dropdown'>
+			<a class="menu-link" href="{{ .URL }}">
+				{{ .Pre }}
+				<span class="menu-text">{{ .Name }}</span>
+				{{ .Post }}
+			</a>
+			<input type="checkbox" id='{{ replace .Name " " "-" }}'>
+			<span class="menu-dropdown-borderHelper"></span>
+			<ul class="submenu-list">
+
+				{{ range .Children }}
+				<li id='{{ replace .Name " " "++" }}'
+					class='menu-item'>
+					<a class="menu-link" href="{{ .URL }}">
+						{{ .Pre }}
+						<span class="menu-text">{{ .Name }}</span>
+						{{ .Post }}
+					</a>
+				</li>
+				{{ end }}
+			</ul>
+		</li>
+		{{- else }}
+		<li
+			class='menu-item'>
+                {{$linkToCheck := .URL}}
+			<a class="menu-link" href="{{ .URL }}" {{partial "partials/linkTarget.html" (dict "linkString" $linkToCheck "ctx" $)| print | safeHTMLAttr}}>
+				{{ .Pre }}
+				<span class="menu-text">{{ .Name }}</span>
+				{{ .Post }}
+			</a>
+		</li>
+		{{- end }}
+		{{- end }}
+		{{- end }}
+	</ul>
+</nav>
+{{- end }}
+
+
+<div id="menu-responsive">
+	<input type="checkbox" id="toggle" class="visually-hidden">
+	<div class="menu-responsive-row">
+		<div class="menu-responsive-logo"> <a href="{{ relURL nil }}">
+				<span class="banner-logo u-clickable">
+					{{ readFile "static/logo_empty.svg" | safeHTML }}</span>
+			</a>
+		</div>
+
+		<label for="toggle"  class="menu-responsive-button">
+				{{ readFile "static/icones/burger.svg" | safeHTML }}
+		</label>
+	</div>
+	<div class="menu-responsive-nested">
+		<div class="menu-responsive-content">
+			{{- range $i,$p := .Site.Menus.main }}
+
+			{{- if .Name }}
+			<div class="menu-responsive-item">
+				{{- if .HasChildren }}
+				<input name="responsive-menu-radio" type="radio" id="radio-{{$i}}" class="visually-hidden" />
+
+				<label for="radio-{{$i}}" class="menu-responsive-submenu-link">
+						{{.Name}}
+				</label>
+				<div class="menu-responsive-submenu-list">
+					{{range .Children}}
+					<a class="" href="{{.URL}}">
+						<div class="menu-responsive-sub-item">{{.Name}}</div>
+					</a>
+					{{end}}
+				</div>
+				{{else}}
+				<a class="" href="{{.URL}}">
+					<div class="menu-responsive-link">{{.Name}}</div>
+				</a>
+				{{end}}
+			</div>
+			{{end}}
+			{{end}}
+		</div>
+	</div>
+</div>
+

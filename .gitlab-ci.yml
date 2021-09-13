@@ -1,0 +1,50 @@
+# Runner
+
+# https://blog.eleven-labs.com/fr/introduction-gitlab-ci/
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: registry.gitlab.com/pages/hugo:latest
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+
+deploy:
+  stage: deploy
+  image: alpine
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+  before_script:
+    - apk add openssh-client rsync
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - rsync -e "ssh -o StrictHostKeyChecking=no" -avz public/* admin@lafun.fr:/var/www/my_webapp/tmp/
+    - ssh -o StrictHostKeyChecking=no admin@lafun.fr "sudo sh /var/www/my_webapp/script.sh"
+
+# Runner
+
+# https://blog.eleven-labs.com/fr/introduction-gitlab-ci/
+
+deploy_beta:
+  stage: deploy
+  image: alpine
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "Beta"'
+  before_script:
+    - apk add openssh-client rsync
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+  script:
+    - rsync -e "ssh -o StrictHostKeyChecking=no" -avz public/* admin@lafun.fr:/var/www/my_webapp__2/tmp/
+    - ssh -o StrictHostKeyChecking=no admin@lafun.fr "sudo sh /var/www/my_webapp__2/script.sh"

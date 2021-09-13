@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="color-wrapper">
+    {{if eq .Section "Actualites"}}
+      {{ partial "color_block_alt.html" .}}
+    {{else}}
+        {{ partial "heading.html" . }}
+    {{if eq .Section "Agenda"}}
+        {{partial "agenda.html" (dict "feature" . "ctx" $)}}
+{{end}}
+
+    {{.Scratch.Set "bool" false}}
+{{if eq .Section "LaFun"}}
+    {{$.Scratch.Set "count" 0}}
+    {{ range $i,$p := .Pages.Reverse  }}
+        {{if not .Params.dir}}
+            {{.Scratch.Set "bool" ($.Scratch.Get "count")}}
+            {{if (modBool ($.Scratch.Get "count") 2)}}
+                {{ partial "color_block_alt.html" . }}
+            {{else}} 
+                {{ partial "color_block.html" .}}
+            {{end}}
+            {{$.Scratch.Set "count" (add ($.Scratch.Get "count") 1)}}
+        {{end}}
+    {{end}}
+{{else}}
+    {{if eq .Section "partenaires"}}
+        {{ partial "partenaires.html" .}}
+    {{else}}
+        {{ range $i,$p := .Pages.Reverse  }}
+            {{.Scratch.Set "bool" $i}}
+                {{if (modBool $i 2)}}
+                    {{ partial "color_block_alt.html" . }}
+                {{else}} 
+                    {{ partial "color_block.html" .}}
+                {{end}}
+            {{ end }}
+        {{ end }}
+    {{end}}
+
+    {{end}}
+</div>
+
+{{ end }}
