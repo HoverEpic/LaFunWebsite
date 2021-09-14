@@ -12,6 +12,8 @@ build:
   script:
   #- cd /var/www/my_webapp/git
   - git clone https://gitlab.lafun.fr/lafun/site-web.git
+  - hugo -s /home/gitlab-runner/builds/fuTHxH6i/0/lafun/site-web/ -d /var/www/my_webapp/tmp2/
+#  - rsync -avz /home/gitlab-runner/builds/fuTHxH6i/0/lafun/site-web/public/* /var/www/my_webapp/tmp/
   #artifacts:
   #  paths:
   #  - public
