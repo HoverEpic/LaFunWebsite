@@ -10,10 +10,11 @@ build:
   stage: build
   #image: registry.gitlab.com/pages/hugo:latest
   script:
+  #- cd /var/www/my_webapp/git
   - git clone https://gitlab.lafun.fr/lafun/site-web.git
-  artifacts:
-    paths:
-    - public
+  #artifacts:
+  #  paths:
+  #  - public
 
 #deploy:
  # stage: deploy
