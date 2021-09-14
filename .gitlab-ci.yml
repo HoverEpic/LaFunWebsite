@@ -8,9 +8,9 @@ stages:
 
 build:
   stage: build
-  image: registry.gitlab.com/pages/hugo:latest
+  #image: registry.gitlab.com/pages/hugo:latest
   script:
-  - hugo
+  - ping google.fr
   artifacts:
     paths:
     - public
