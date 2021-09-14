@@ -10,7 +10,7 @@ build:
   stage: build
   #image: registry.gitlab.com/pages/hugo:latest
   script:
-  - touch /var/www/my_webapp/test.txt
+  - whoami
   artifacts:
     paths:
     - public
