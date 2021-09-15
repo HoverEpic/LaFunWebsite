@@ -1,12 +1,12 @@
 backend:
  name: gitlab
- repo: administrateur/website-la-fun # Path to your GitLab repository
+ repo: lafun/site-web # Path to your GitLab repository
  auth_type: implicit # Required for implicit grant
  app_id: f0704481fa1bcf20f90f01ba524afb7fdfdf9cbecade1bdeaabfdad41d18bb55 # Application ID from your GitLab settings
  api_root: https://gitlab.lafun.fr/api/v4
  base_url: https://gitlab.lafun.fr
  auth_endpoint: oauth/authorize
- branch: master
+ branch: main
 
 locale: 'fr-FR'
 
