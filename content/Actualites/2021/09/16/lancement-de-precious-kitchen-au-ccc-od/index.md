@@ -6,7 +6,6 @@ tags:
   - hors studio
   - ré-emploi
   - cultures numériques
-  - funlab
 author: Julie
 eventDate: 2021-09-18T16:30:47.917Z
 publishDate: 2021-09-16T14:25:47.980Z
