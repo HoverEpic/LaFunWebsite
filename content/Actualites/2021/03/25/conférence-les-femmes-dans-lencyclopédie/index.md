@@ -10,14 +10,14 @@ tags:
   - l'autre brique
 author: Julie
 eventDate: 2021-09-17T12:00:00.000Z
-publishDate: 2021-03-25T15:23:20.021Z
+publishDate: 2021-09-16T15:23:20.021Z
 displayHour: true
 duration: 1h30
 _lieu: en ligne
 _tarif: "0"
-presenceAgenda: false
+presenceAgenda: true
 motherLink: ""
-presenceActualites: false
+presenceActualites: true
 bandeauInfo: true
 youngFriendly: false
 thumbnail: images/visuel_matrimoine.png
