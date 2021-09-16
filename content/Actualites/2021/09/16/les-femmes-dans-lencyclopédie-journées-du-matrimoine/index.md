@@ -4,7 +4,7 @@ title: Les femmes dans l'encyclopédie (journées du Matrimoine)
 tags:
   - collectif h/f centre val de loire
 author: Julie
-eventDate: 2021-09-17T00:00:29.397Z
+eventDate: 2021-09-17T12:00:29.397Z
 publishDate: 2021-09-16T14:54:29.450Z
 displayHour: true
 duration: 1h30
