@@ -20,11 +20,12 @@ partenaires:
   - H/F Centre Val de Loire
 visible: true
 ---
-
 ## Conférence en ligne
+
 ### Vendredi 17.09 de 12h à 13h30
 
 ##### Dans le cadre des journées du matrimoine 2021, HF Centre Val de Loire invite Aurore Evain, autrice, metteuse en scène, à présenter la place des femmes dans l'Encyclopédie.
 
-
 En s'appuyant sur le cas des autrices de théâtre, Aurore Evain présentera les mécanismes d'effacement des créatrices au fil de l'écriture de l'Histoire, depuis la révolution de l'imprimé jusqu'à celle du numérique. De l'apparition des premiers dictionnaires de femmes célèbres à la Renaissance à Wikipedia aujourd'hui, elle reviendra sur les enjeux de cette présence mémorielle du matrimoine dans les projets encyclopédiques, les étapes franchies grâce à internet, mais aussi les oppositions et blocages qui persistent.
+
+![](images/163925735_4134447799908253_7945661416402742536_o.jpg)
