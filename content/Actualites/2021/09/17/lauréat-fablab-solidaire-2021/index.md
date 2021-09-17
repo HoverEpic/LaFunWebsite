@@ -14,7 +14,7 @@ durationDay: ""
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
+presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/agriculture-1853323_1920.png
