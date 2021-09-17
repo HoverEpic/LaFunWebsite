@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: true
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/france-design-week.png
+thumbnail: images/france-design-week-2.png
 visible: true
 ---
 ## Vendredi 24 septembre, 14h-18h
