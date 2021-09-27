@@ -23,7 +23,7 @@ partenaires:
   - France Tiers Lieux
 visible: true
 ---
-### Le Funlab fait partie des lieux pilotes pour la fabrication de mobilier d'inclusion numérique à design ouvert lancée par France Tiers Lieux. 
+### Le Funlab fait partie des lieux pilotes pour le mois de la fabrication lancé par France Tiers Lieux. 
 
 L'Agence Nationale de la Cohésion des Territoires souhaite équiper les médiateurs numériques en mobilier d'inclusion. L’objectif est de sortir des lieux habituels en proposant de l'équipement mobile pour aller hors les murs. 
 
