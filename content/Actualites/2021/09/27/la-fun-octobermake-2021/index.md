@@ -25,7 +25,7 @@ visible: true
 ---
 ### Le Funlab fait partie des lieux pilotes pour le mois de la fabrication lancé par France Tiers Lieux. 
 
-L'Agence Nationale de la Cohésion des Territoires souhaite équiper les médiateurs numériques en mobilier d'inclusion. L’objectif est de sortir des lieux habituels en proposant de l'équipement mobile pour aller hors les murs. 
+L'Agence Nationale de la Cohésion des Territoires souhaite équiper les médiateurs numériques en mobilier d'inclusion à design ouvert. L’objectif est de sortir des lieux habituels en proposant de l'équipement mobile pour aller hors les murs. 
 
 Ce mobilier est fabriqué par des makers de façon locale, commandité par des collectivités qui accueilleront des Conseillers numériques. 
 
