@@ -4,6 +4,8 @@ title: La Fun @Octobermake 2021
 tags:
   - fablabs
   - festival
+  - réseau français des fablabs
+  - mois de la fabrication
 author: Julie
 eventDate: 2021-10-20T14:33:59.184Z
 publishDate: 2021-09-27T14:33:59.260Z
