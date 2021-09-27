@@ -1,6 +1,6 @@
 ---
 title: mois de la fabrication
-group: Projet
+group: Mot-clé
 visible: true
 ---
 mois de la fabrication
