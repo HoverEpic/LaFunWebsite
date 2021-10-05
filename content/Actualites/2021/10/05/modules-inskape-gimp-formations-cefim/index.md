@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Modules Inskape/Gimp (formations Cefim)
+title: Formation Inskape/Gimp
 tags:
   - cefim
   - funlab
