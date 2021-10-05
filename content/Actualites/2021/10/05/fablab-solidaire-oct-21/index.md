@@ -23,4 +23,4 @@ visible: true
 
 La FUN invite [Dieudonné Cartier](http://www.dieudonnécartier.com/) pour un workshop fabrication de mobilier au Funlab avec les jeunes de l'École de la 2ème Chance Val de Loire.
 
-\[Dans le cadre du parcours fablab solidaire de la Fondation Orange]
+[Dans le cadre du parcours fablab solidaire de la Fondation Orange]
