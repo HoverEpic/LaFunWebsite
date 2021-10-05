@@ -5,7 +5,7 @@ tags:
   - cefim
   - funlab
 author: Julie
-eventDate: 2021-10-15T09:43:43.222Z
+eventDate: 2021-10-15T09:00:43.222Z
 publishDate: 2021-10-05T09:43:43.264Z
 displayHour: false
 durationDay: ""
