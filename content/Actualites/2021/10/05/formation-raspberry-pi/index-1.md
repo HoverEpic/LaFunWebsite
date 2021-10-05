@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Formation RASPBERRY PI
+title: "Formation Raspberry Pi #2"
 tags:
   - cefim
   - funlab
