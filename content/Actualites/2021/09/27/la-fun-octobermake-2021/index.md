@@ -3,7 +3,6 @@ layout: blog
 title: Le mois de la fabrication
 tags:
   - fablabs
-  - festival
   - réseau français des fablabs
   - mois de la fabrication
   - france tiers lieux

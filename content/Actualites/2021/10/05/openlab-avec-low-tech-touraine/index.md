@@ -3,6 +3,8 @@ layout: blog
 title: Openlab avec LOW-TECH TOURAINE
 tags:
   - low tech
+  - Open atelier
+  - Low-tech Touraine
 author: Julie
 eventDate: 2021-11-04T17:00:04.477Z
 publishDate: 2021-10-05T12:41:04.577Z
@@ -15,6 +17,8 @@ presenceActualites: true
 bandeauInfo: true
 youngFriendly: false
 thumbnail: images/dsc00539.jpg
+partenaires:
+  - Low-Tech Touraine
 visible: true
 ---
 ### Atelier fabrication d'un éclairage de vélo à dynamo
