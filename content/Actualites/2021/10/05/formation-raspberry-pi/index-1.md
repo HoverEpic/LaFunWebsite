@@ -8,7 +8,7 @@ eventDate: 2021-10-15T09:00:18.579Z
 publishDate: 2021-10-05T10:06:18.650Z
 displayHour: false
 _lieu: Cefim @Mame, 49 Bd Preuilly, 37000 Tours
-presenceAgenda: false
+presenceAgenda: true
 motherLink: ""
 presenceActualites: false
 bandeauInfo: false
