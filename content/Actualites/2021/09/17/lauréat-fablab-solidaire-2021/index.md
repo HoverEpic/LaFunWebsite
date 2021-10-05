@@ -12,7 +12,7 @@ displayHour: true
 duration: 3h
 durationDay: ""
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-presenceAgenda: true
+presenceAgenda: false
 motherLink: ""
 presenceActualites: true
 bandeauInfo: true
@@ -27,9 +27,3 @@ Une nouvelle série de parcours en partenariat avec l'Ecole de la 2e Chance Val 
 
 
 Les ateliers aborderont des problématiques telles que la gestion, préservation et revalorisation des ressources, le lien au territoire et à la terre, les cultures low tech ou encore la production et la fabrication en circuit-court.
-
-#### 1ère session du 28 septembre au 1er octobre : couture upcycling avec le collectif Lifghtfriday !
-
-
-
-![](images/img_20210406_162208.jpg)
