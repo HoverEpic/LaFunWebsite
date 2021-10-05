@@ -18,6 +18,10 @@ presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/pacman-gcf216fd68_1920.png
+partenaires:
+  - Cultures du coeur 37
+  - Ciclic
+  - Palo altour
 visible: true
 ---
 ### Le jeu, pour en parler, si on en créait ?
