@@ -3,7 +3,6 @@ layout: blog
 title: "Formation Raspberry Pi #2"
 tags:
   - cefim
-  - funlab
 author: Julie
 eventDate: 2021-10-15T09:00:18.579Z
 publishDate: 2021-10-05T10:06:18.650Z
@@ -18,7 +17,7 @@ thumbnail: images/visuel-formation-cefim.png
 visible: true
 ---
 ## Formation RASPBERRY PI
-#### Animé par Clément Gasque (La FUN) - au Cefim
+#### Animée par Clément Gasque (La FUN) - au Cefim
 
 2 jours pour découvrir Raspberry Pi.
 Prise en main et pistes d'activités pour la médiation numérique.
