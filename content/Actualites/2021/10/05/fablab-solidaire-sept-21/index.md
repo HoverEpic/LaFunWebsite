@@ -31,7 +31,3 @@ Chaque pièce LF est unique, réalisée à Tours en France et conçue avec des m
 ![](images/img_85161612748487588.jpeg)
 
 ![](images/img_84061612748487581.jpeg)
-
-![](images/fondation_orange_logo.png)
-
-![](images/logoe2c.png)
