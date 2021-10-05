@@ -21,7 +21,7 @@ partenaires:
 visible: true
 ---
 ## Formation RASPBERRY PI
-#### Animé par Clément Gasque (La FUN) - au Cefim
+#### Animé par Clément Gasque (La FUN)
 
 2 jours pour découvrir Raspberry Pi.
 Prise en main et pistes d'activités pour la médiation numérique.
