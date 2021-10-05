@@ -19,7 +19,7 @@ collections:
     label: "Actualites" # Used in the UI
     slug: "{{slug}}"    
     folder: "/content/Actualites" # The path to the folder where the documents are stored
-    path: "{{year}}/{{month}}/{{day}}/{{slug}}/index"
+    path: "{{year}}/{{month}}/{{day}}/{{file_name}}/index"
     create: true # Allow users to create new documents in this collection
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
@@ -27,6 +27,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Nom fichier", name: "file_name", widget: "string"}
       - {label: "Tags", name: "tags", widget: "relation", collection: "Tags", search_fields: ["title"], value_field: "title", multiple: true, options_length: 5}
       - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]} #repère ACTU01
       - {label: "Date de l'evenement", name: "eventDate", widget: "datetime", date_format: "DD/MM/YYYY", picker_utc: true}
