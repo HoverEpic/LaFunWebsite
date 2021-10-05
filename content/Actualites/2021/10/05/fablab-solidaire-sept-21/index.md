@@ -12,7 +12,7 @@ duration: 3h
 durationDay: 4
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
 presenceAgenda: true
-motherLink: ""
+motherLink: https://lafun.fr/actualites/2021/09/17/laur%C3%A9at-fablab-solidaire-2021/
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
