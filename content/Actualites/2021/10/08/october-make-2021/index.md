@@ -20,8 +20,8 @@ partenaires:
   - Réseau Français des Fablabs
 visible: true
 ---
-## La Fun sera présente à October Make 2021
-### - le festival organisé par le Réseau Français des Fablabs -
+## La Fun sera présente au festival October Make 2021
+### - organisé par le Réseau Français des Fablabs -
 
 La rencontre annuelle pour penser les FabLabs, les Espaces du Faire et le Mouvement Maker français. Un temps pour se rencontrer, échanger, participer à des ateliers et des groupes de travail... 
 
