@@ -31,3 +31,5 @@ Avec Dieudonné Cartier, maker associé de la FUN.
 
 ##### Informations complémentaires : 
 * site du Temps Machine: cliquez [ici](https://www.letempsmachine.com/agenda/juste-une-impression-jardin-et-simon-johannin-bruler-dans-la-ville)
+
+(c)affiche réalisée par Marion Djanoff
