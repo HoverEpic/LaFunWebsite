@@ -1,10 +1,12 @@
 ---
 layout: blog
 title: "Atelier création de jeux vidéos #1 (ados)"
+file_name: Atelier création de jeu vidéo (ados) 2 nov 21
 tags:
   - atelier
   - jeux vidéos
   - jeune public
+  - l'autre brique
 author: Julie
 eventDate: 2021-11-02T14:30:53.853Z
 publishDate: 2021-10-05T14:18:53.920Z
