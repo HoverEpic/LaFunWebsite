@@ -3,9 +3,10 @@ layout: blog
 title: Exploser le plafond
 file_name: rencontre avec Reine Prat
 tags:
-  - cultures numériques
   - égalité
   - collectif h/f centre val de loire
+  - osez le féminisme 37
+  - rencontre
 author: Julie
 eventDate: 2021-10-27T19:30:40.628Z
 publishDate: 2021-10-08T09:46:40.705Z
@@ -19,6 +20,7 @@ youngFriendly: false
 thumbnail: images/exploser-le-plafond.jpg
 partenaires:
   - H/F Centre Val de Loire
+  - Osez le féminisme 37
 visible: true
 ---
 ## Rencontre avec Reine Prat
