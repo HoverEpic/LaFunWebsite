@@ -11,7 +11,7 @@ eventDate: 2021-10-27T19:30:40.628Z
 publishDate: 2021-10-08T09:46:40.705Z
 displayHour: true
 _lieu: Librairie La Vagabonde, 31 rue Bernard Palissy, 37000 TOURS
-presenceAgenda: false
+presenceAgenda: true
 motherLink: ""
 presenceActualites: true
 bandeauInfo: true
