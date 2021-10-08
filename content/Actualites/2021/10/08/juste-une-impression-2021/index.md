@@ -15,7 +15,7 @@ durationDay: 1
 _lieu: Temps machine, parvis Miles Davis, 37300 Joué-les-Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
+presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/juste-une-impression_web-c-marion-jdanoff.png
