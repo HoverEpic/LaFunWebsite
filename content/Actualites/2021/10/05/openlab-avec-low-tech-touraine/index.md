@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Openlab avec LOW-TECH TOURAINE
+file_name: Open lab avec LOW-TECH TOURAINE
 tags:
   - low tech
   - Open atelier
@@ -21,7 +22,7 @@ partenaires:
   - Low-Tech Touraine
 visible: true
 ---
-### Atelier fabrication d'un éclairage de vélo à dynamo
+### Atelier fabrication d'un éclairage de vélo à dynamo sans contact
 
 Le Low-tech Touraine en partenariat avec le Funlab vous propose de participer au prototypage d'un éclairage de vélo à dynamo sans contact. 
 
