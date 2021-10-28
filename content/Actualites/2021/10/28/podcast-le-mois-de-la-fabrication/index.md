@@ -9,6 +9,8 @@ tags:
   - cultures numériques
   - économie circulaire
   - makers
+  - anct
+  - mois de la fabrication
 author: Julie
 eventDate: 2021-10-28T13:06:22.338Z
 publishDate: 2021-10-28T13:06:22.444Z
@@ -22,6 +24,7 @@ thumbnail: images/podcasts-fabrications.png
 partenaires:
   - Réseau Français des Fablabs
   - France Tiers Lieux
+  - Agence Nationale de la Cohésion des Territoires
 visible: true
 ---
 # Podcast "Le mois de la Fabrication"
