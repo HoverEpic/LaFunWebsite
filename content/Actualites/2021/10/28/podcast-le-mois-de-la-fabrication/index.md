@@ -44,7 +44,6 @@ La Fun a participé à la phase d'expérimentation avec 10 autres lieux pilotes 
 Deux mobiliers ont été réalisé au Funlab : 
 
 * le Chariot - à destination du CCAS de Tours ;
-
 * la Maizonet - dans le cadre d'un stage fablab solidaire avec des jeunes de l'E2C Val de Loire. 
 
 La fabrication  de ces mobiliers a mobilisé plusieurs machines du fablab et a fait appel à différents savoir-faire en sollicitant la communauté de makers (artiste et couturier associés).
