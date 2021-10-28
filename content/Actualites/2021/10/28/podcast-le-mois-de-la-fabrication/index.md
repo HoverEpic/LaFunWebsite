@@ -52,7 +52,7 @@ Les deux mobiliers ont pu être présentés lors du festival OctoberMake du RFFL
 
 ## Le podcast
 
-Le podcast relate la fabrication du Chariot avec les makers associés et également la rencontre avec Jean-Baptiste Roy, responsable du service insertion et action sociale du CCAS de Tours. 
+Le podcast relate la fabrication du Chariot avec les makers associés, et la rencontre avec Jean-Baptiste Roy, responsable du service insertion et action sociale du CCAS de Tours. 
 
 écouter [ici](https://tube.futuretic.fr/w/jXTtW3tghkGa6Twuuoah8e)
 
