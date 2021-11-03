@@ -39,7 +39,7 @@ Porté et accompagné par La FUN depuis sa création, Precious Kitchen prend son
 
 Pour accéder aux matières de la chutothèque c'est simple :
 
-- Adhérez à l'association Precious Kitchen (l'adhésion est valable un an)
+- Adhérez à l'association Precious Kitchen (l'adhésion est valable un an) // *à noter : les adhérent.e.s de La FUN ont également accès à la Chutothèque*
 - Abonnez vous à la chutothèque (abonnement valable un an)
 - Signez la charte d'engagement du bon usage des déchets
 - Venez vous approvisionner dans les limites des quantités définies par typologie de chutes
@@ -59,15 +59,3 @@ Precious Kitchen - la Chutothèque est ouverte au public les jours suivants :
 - jeudi 14h-18h
 
 et sur rendez-vous en dehors de ces horaires > contact@precious.kitchen
-
-## J'adhère et je m'abonne !
-
-### Adhésion :
-
-Adhérer à l'association Precious Kitchen, c'est oeuvrer collectivement pour l'environnement par le prisme de la culture et du design. C'est bénéficier de la cartographie des ressources du territoire, accéder à des recettes et expérimentations partagées et démocratiser la transformation des rebuts pour des initiatives singulières et collectives.
-
-(Precious Kitchen communique sur les entreprises qui génèrent des rebuts et sur les projets réalisés par les usagers. Partagez nous vos travaux, de nouvelles recettes, des améliorations, vos objets, constructions, nouvelles matières et nous les relayerons )
-
-### Abonnement :
-
-La chutothèque est le relais physique de la plateforme. S'abonner à la chutothèque vous permettra d'accéder aux rebuts de production dans la limite de quantité au poids définie par typologies de chutes. Similaire à un magasin de vrac, venez vous servir pour vos projets de réemploi.
