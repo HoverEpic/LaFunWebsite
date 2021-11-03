@@ -48,7 +48,7 @@ Pour accéder aux matières de la chutothèque c'est simple :
 
 En plein centre-ville de Tours, au 13 rue Nationale.
 
-Le local accueillant la chutothèque Precious Kitchen est mis à disposition par la SET qui soutient le développement d’occupations transitoires sur ses secteurs d’aménagement, dont le haut de la Rue Nationale à Tours.
+Le local accueillant la chutothèque Precious Kitchen est mis à disposition par la SET (Société d'Equipement de Touraine) qui soutient le développement d’occupations transitoires sur ses secteurs d’aménagement, dont le haut de la Rue Nationale à Tours.
 
 ### C'est quand ?
 
