@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Le Funlab est fermé le 11 et le 12 novembre 2021
+title: Fermeture exceptionnelle du Funlab
 file_name: fermeture funlab novembre 2021
 tags:
   - funlab
@@ -16,4 +16,4 @@ youngFriendly: false
 thumbnail: images/funlab-fermé-11nov.png
 visible: true
 ---
-Fermeture exceptionnelle du Funlab
+Le Funlab est fermé le 11 et le 12 novembre 2021
