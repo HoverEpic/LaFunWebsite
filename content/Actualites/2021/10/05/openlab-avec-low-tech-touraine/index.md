@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Openlab avec LOW-TECH TOURAINE
-file_name: Open lab avec LOW-TECH TOURAINE
+title: Open Atelier avec LOW-TECH TOURAINE
+file_name: Open Atelier avec LOW-TECH TOURAINE
 tags:
   - low tech
   - Open atelier
