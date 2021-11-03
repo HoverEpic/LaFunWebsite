@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Ouverture de la Chutothèque Precious Kitchen
-file_name: Ouverture de la Chutothèque Precious Kitchen
+title: Chutothèque Precious Kitchen
+file_name: Chutothèque Precious Kitchen
 tags:
   - precious kitchen
 author: Julie
