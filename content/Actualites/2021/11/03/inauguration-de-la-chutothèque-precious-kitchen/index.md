@@ -26,13 +26,13 @@ En plein coeur de la ville de Tours, venez découvrir les chutes et rebuts de ma
 
 ## Au programme de la soirée :
 
-* Présentation des rebuts et chutes de production disponibles au réemploi.
+**Présentation des rebuts et chutes** de production disponibles au réemploi.
 
-* Exposition des matériaux réalisés à partir des recettes Precious Kitchen.
+**Exposition des matériaux réalisés** à partir des recettes Precious Kitchen.
 
-* Exposition des résultats des ateliers et workshops réalisés en école d’Art et de Design.
+**Exposition des résultats des ateliers et workshops** réalisés en école d’Art et de Design.
 
-* Live print avec Roule ma Poule, démonstration de cuisine des pour l’environnement par le prisme de matériaux et playlist concoctée par Le Temps Machine pour l’occasion.
+**Live print** avec Roule ma Poule, **démonstration de cuisine** des matériaux et **playlist** concoctée par Le Temps Machine pour l’occasion.
 
 ### Infos pratiques :
 * date : vendredi 26 novembre
