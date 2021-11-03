@@ -8,7 +8,7 @@ author: Julie
 eventDate: 2021-11-26T18:30:41.780Z
 publishDate: 2021-11-03T14:31:41.849Z
 displayHour: true
-_lieu: Precious Kitchen - La Chutothèque, 13 rue Nationale, 37000 TOURS
+_lieu: 13 rue Nationale, 37000 TOURS
 _tarif: gratuit
 presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/11/03/ouverture-de-la-chutoth%C3%A8que-precious-kitchen/
@@ -16,6 +16,8 @@ presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/lachutothèque-pk-logo.png
+partenaires:
+  - Hors studio
 visible: true
 ---
 # Precious Kitchen - La Chutothèque ouvre ses portes !
@@ -37,5 +39,8 @@ En plein coeur de la ville de Tours, venez découvrir les chutes et rebuts de ma
 * horaire :  18h30 - 22h
 * lieu : 13 rue Nationale, 37000 Tours
 * Suivez l'actualité de Precious Kitchen - La Chutothèque sur [instagram](https://www.instagram.com/preciouskitchen_/?hl=fr)
+
+### En savoir plus sur le fonctionnement de la chutothèque : 
+* article ["Precious Kitchen - La Chutothèque"](https://lafun.fr/actualites/2021/11/03/ouverture-de-la-chutoth%C3%A8que-precious-kitchen/)
 
 *Precious Kitchen a été initié en 2019 par hors-studio et La Fabrique d'Usages Numériques/Le Funlab avec pour objectif de développer une plate-forme en ligne et un atelier mobile de cuisine des matériaux. Le projet s'incarne aujourd'hui dans un lieu mutualisé : la chutothèque*
