@@ -20,7 +20,7 @@ partenaires:
   - Hors studio
 visible: true
 ---
-## Precious Kitchen (Hors-studio/La Fun) est lauréat 2021 de la bourse de recherche [Agora du Design](https://www.agoradudesign.fr/#histoire) !
+## Precious Kitchen (Hors-studio/La Fun) est lauréat 2021 de la bourse de recherche Agora du Design !
 
 ### "A LIER" est notre sujet
 ##### Rebecca Fezard Elodie Michaud (designers) Hors-studio & Catherine Lenoble (autrice)
