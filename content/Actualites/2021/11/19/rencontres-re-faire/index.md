@@ -21,4 +21,4 @@ thumbnail: images/re-faire-visuel.png
 partenaires: []
 visible: true
 ---
-Programme à venir
+Programme détaillé bientôt en ligne
