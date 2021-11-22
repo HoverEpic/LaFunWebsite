@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "[Retour sur] les ateliers jeux vidéos"
-file_name: "[Retour sur] les ateliers jeux vidéos"
+title: Retour sur les ateliers jeux vidéos
+file_name: Retour sur les ateliers jeux vidéos
 tags:
   - jeux vidéos
   - jeune public
