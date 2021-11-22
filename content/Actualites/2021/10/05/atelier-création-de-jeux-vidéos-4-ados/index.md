@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Atelier création de jeux vidéos #4 (ados)"
+file_name: "Atelier création de jeux vidéos #4 (ados)"
 tags:
   - atelier
   - jeune public
@@ -25,6 +26,8 @@ partenaires:
   - Palo altour
   - Ciclic
   - Cultures du coeur 37
+  - Utelias
+  - Le panorama du jeu qui provoque des choses
 visible: true
 ---
 ### Le jeu, pour en parler, si on en créait ?
