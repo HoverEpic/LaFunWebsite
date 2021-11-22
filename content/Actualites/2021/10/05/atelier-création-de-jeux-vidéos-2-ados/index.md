@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: "Atelier création de jeux vidéos #2 (ados)"
+file_name: "Atelier création de jeux vidéos #2 (ados)"
 tags:
   - palo altour
   - jeux vidéos
@@ -25,6 +26,8 @@ partenaires:
   - Palo altour
   - Cultures du coeur 37
   - Ciclic
+  - Utelias
+  - Le panorama du jeu qui provoque des choses
 visible: true
 ---
 ### Le jeu, pour en parler, si on en créait ?
