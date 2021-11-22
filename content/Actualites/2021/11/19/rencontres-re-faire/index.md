@@ -20,6 +20,7 @@ youngFriendly: false
 thumbnail: images/re-faire-visuel.png
 partenaires:
   - Cefim
+  - Region Centre Val de Loire
 visible: true
 ---
 # Programme détaillé
