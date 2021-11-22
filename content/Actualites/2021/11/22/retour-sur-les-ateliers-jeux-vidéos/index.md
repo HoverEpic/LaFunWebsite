@@ -26,7 +26,7 @@ visible: true
 
 Les jeunes ont pu aborder de nombreuses choses lors de ce stage : écriture de scénario, dessin, photo, animation pixel, création sonore, code, intégration, level design et gestion de projet collectif !
 
-Ils.elles ont abouti à la création d'un jeu mettant en scène un pirate de l’espace, un vaisseau à réparer, une combinaison à trouver, une éruption de volcan à esquiver et un chat à sauver !
+Ils.elles ont abouti à la création d'un jeu mettant en scène un pirate de l’espace, un vaisseau à réparer, une combinaison à trouver, une éruption de volcan à esquiver et un chat à sauver:)
 
 ### Découvrir le jeu et le contenu du stage [ici](https://jymvernedeballan.itch.io/)
 
