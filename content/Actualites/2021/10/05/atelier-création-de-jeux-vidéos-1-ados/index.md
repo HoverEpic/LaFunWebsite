@@ -24,6 +24,8 @@ partenaires:
   - Cultures du coeur 37
   - Ciclic
   - Palo altour
+  - Utelias
+  - Le panorama du jeu qui provoque des choses
 visible: true
 ---
 ### Le jeu, pour en parler, si on en créait ?
