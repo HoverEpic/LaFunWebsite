@@ -19,6 +19,7 @@ partenaires:
   - Le panorama du jeu qui provoque des choses
   - Ciclic
   - Cultures du coeur 37
+  - Utelias
 visible: true
 ---
 ## Retour sur les ateliers "création de jeux vidéos" au Centre social Jules Verne de Ballan-Miré 
