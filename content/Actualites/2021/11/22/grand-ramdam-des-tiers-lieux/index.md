@@ -18,4 +18,4 @@ youngFriendly: false
 thumbnail: images/ramdam.png
 visible: true
 ---
-La FUN participe à la journée régionale des Tiers-lieux organisées par la CRESS Centre-Val-de-Loire à Orléans.
+La FUN participe à la journée régionale des Tiers-lieux organisée par la CRESS Centre-Val-de-Loire à Orléans.
