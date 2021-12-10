@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Fermeture du Funlab
+title: Fermeture du Funlab - fêtes de fin d'année
 file_name: Fermeture fêtes de fin d'année
 tags:
   - funlab
