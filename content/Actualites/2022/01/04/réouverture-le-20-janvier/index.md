@@ -23,3 +23,5 @@ Nous préparons la réouverture, **nous serons ravis de vous retrouver à l'occa
 Nous restons disponibles d'ici-là pour toute demande et/ou renseignement à l'adresse suivante : association@lafun.fr .
 
 À bientôt.
+
+![](images/voeux-22.png)
