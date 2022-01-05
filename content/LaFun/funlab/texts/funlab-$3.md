@@ -3,10 +3,7 @@ title: §3
 dir: FunLab
 visible: true
 ---
-
 ### Les horaires d'ouverture
-
-#### Créneaux d'ouverture tout public :
 
 Mercredi et vendredi : 14h-18h visites du Funlab sur inscriptions par mail à association@lafun.fr
 
