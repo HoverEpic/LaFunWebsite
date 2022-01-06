@@ -48,7 +48,7 @@
                 <div class="agenda-row">
                     <div class="column" id="year-month">
                         <span class="agenda-month">Janvier</span>
-                        <span class="agenda-year"> 2021
+                        <span class="agenda-year"> 2022
                         </span>
                     </div>
                     <div id="skippers">
@@ -128,9 +128,11 @@
 
     var list = getItemListByDay();
 
-
+if(list[currentY][currentM]){
     buildDays(list[currentY][currentM]);
-
+}else{
+    document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
+}
     function groupBy(xs, f) {
         return xs.reduce((r, v, i, a, k = f(v)) => ((r[k] || (r[k] = [])).push(v), r), {});
     }
@@ -265,7 +267,6 @@
 }
         if (isEmptyOrSpaces(obj.heure)) {
             template.getElementsByClassName('heure')[0].parentNode.style.display = "none";
-            console.log("lol")
         } else {
             template.getElementsByClassName('heure')[0].innerHTML = obj.heure;// A AJOUTER LORSQUE J'AURAIS TOUTES LES INFOS
         }
@@ -289,7 +290,6 @@
         return montharray[parseInt(newnum)];
     }
 
-
     function emptyDays() {
         let days = document.getElementsByClassName("agenda-stamps");
         let length = days.length
@@ -298,6 +298,7 @@
         }
     }
 
+    function addEventsToArrow(){
     for (i = 0; i < document.getElementsByClassName('prevMonth').length; i++) {
         document.getElementsByClassName('prevMonth')[i].addEventListener('click', function (e) {
             let startM = currentM;
@@ -348,6 +349,8 @@
             buildDays(list[currentY][currentM]);
         });
     }
+    }
+addEventsToArrow();
 
 
 </script>
