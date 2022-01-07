@@ -230,6 +230,7 @@
     function buildDays(month) {
         emptyDays();
         document.getElementsByClassName("agenda-month")[0].innerHTML = numberToMonth(currentM);
+        document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
         let wrapper = document.getElementsByClassName("agenda-days")[0];
         let tempday = 0;
         for (let day in month) {
