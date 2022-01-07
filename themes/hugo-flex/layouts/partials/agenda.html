@@ -128,8 +128,12 @@
 
     var list = getItemListByDay();
 
-if(list[currentY][currentM]){
+if(list[currentY]){
+    if(list[currentY][currentM]){
     buildDays(list[currentY][currentM]);
+    }else{
+    document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
+}
 }else{
     document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
 }
