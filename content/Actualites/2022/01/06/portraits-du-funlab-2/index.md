@@ -25,7 +25,7 @@ visible: true
 
 ### Peux-tu nous dire quel est ton parcours ?
 
-J'ai fait des études dans le domaine des arts appliqués. C'est au lycée que j'ai découvert cet univers passionnant - j'ai eu la chance de faire un Bac arts appliqués - je dis "chance" parce que pour moi c'était juste génial d'avoir 10h de cours de dessin par semaine ! Au départ j'avais peur, peu confiance en moi et puis j'ai trouvé mes marques dans cet univers et j'ai vite su que c'était ma voie.
+J'ai fait des études dans le domaine des arts appliqués. C'est au lycée que j'ai découvert cet univers passionnant - j'ai eu la chance de faire un Bac arts appliqués - je dis "chance" parce que pour moi c'était juste génial d'avoir 10h de cours de dessin par semaine ! Au départ j'avais peu confiance en moi et puis j'ai trouvé mes marques dans cet univers et j'ai vite su que c'était ma voie.
 
 Ensuite je me suis dirigée vers un BTS "expression visuelle - espace de communication" à l'école Boulle à Paris. C'était très formateur et concret. Puis j'ai fait un peu de photo et je suis entrée à l'école des Gobelins, toujours à Paris, pour un cursus en traitement de l'image. Mais ensuite, il a fallu choisir, décider ... "qu'est-ce que je fais de ma vie?"... Et puis le marché du travail c'était compliqué... alors je suis devenue décoratrice d'intérieur pour Alinea, en ensuite responsable de l'architecture d'intérieur pour Ikea à Tours.
 
