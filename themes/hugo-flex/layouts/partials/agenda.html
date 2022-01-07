@@ -128,16 +128,16 @@
 
     var list = getItemListByDay();
 
-    if (list[currentY]) {
+    if (list[currentY]) {//On vérifie si l'année contient des post
         if (list[currentY][currentM]) {
             buildDays(list[currentY][currentM]);
         } else {
             document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
         }
     } else {
-        if (list[currentY - 1]) {
+        if (list[currentY - 1]) {//On vérifie si le mois de décembre de l'année d'avant contient une liste
             currentY = currentY - 1;
-            currentM = 11;//On vérifie si le mois de décembre de l'année d'avant contient une liste
+            currentM = 12;
             if (list[currentY][currentM]) {
                 buildDays(list[currentY][currentM]);
             } else {
