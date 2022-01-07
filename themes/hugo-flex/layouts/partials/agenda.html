@@ -128,15 +128,23 @@
 
     var list = getItemListByDay();
 
-if(list[currentY]){
-    if(list[currentY][currentM]){
-    buildDays(list[currentY][currentM]);
-    }else{
-    document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
-}
-}else{
-    document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
-}
+    if (list[currentY]) {
+        if (list[currentY][currentM]) {
+            buildDays(list[currentY][currentM]);
+        } else {
+            document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
+        }
+    } else {
+        if (list[currentY - 1]) {
+            currentY = currentY - 1;
+            currentM = 11;//On vérifie si le mois de décembre de l'année d'avant contient une liste
+            if (list[currentY][currentM]) {
+                buildDays(list[currentY][currentM]);
+            } else {
+                document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
+            }
+        }
+    }
     function groupBy(xs, f) {
         return xs.reduce((r, v, i, a, k = f(v)) => ((r[k] || (r[k] = [])).push(v), r), {});
     }
@@ -266,9 +274,9 @@ if(list[currentY]){
         template.getElementsByClassName('image')[0].setAttribute("href", obj.link);
         template.getElementsByClassName('resume')[0].innerHTML = obj.resume;
         template.getElementsByClassName('lieu')[0].innerHTML = obj.lieu;
-        if(!obj.lieu){
+        if (!obj.lieu) {
             template.getElementsByClassName('lieu')[0].parentNode.style.display = "none";
-}
+        }
         if (isEmptyOrSpaces(obj.heure)) {
             template.getElementsByClassName('heure')[0].parentNode.style.display = "none";
         } else {
@@ -302,59 +310,59 @@ if(list[currentY]){
         }
     }
 
-    function addEventsToArrow(){
-    for (i = 0; i < document.getElementsByClassName('prevMonth').length; i++) {
-        document.getElementsByClassName('prevMonth')[i].addEventListener('click', function (e) {
-            let startM = currentM;
-            let startY = currentY;
-            while (currentY > startY - 10) {
-                currentM--;
-                if (currentM <= 0) {
-                    currentM = 12;
-                    currentY--;
-                }
-                if (list[currentY]) {
-                    if (list[currentY][currentM]) {
-                        break;
+    function addEventsToArrow() {
+        for (i = 0; i < document.getElementsByClassName('prevMonth').length; i++) {
+            document.getElementsByClassName('prevMonth')[i].addEventListener('click', function (e) {
+                let startM = currentM;
+                let startY = currentY;
+                while (currentY > startY - 10) {
+                    currentM--;
+                    if (currentM <= 0) {
+                        currentM = 12;
+                        currentY--;
+                    }
+                    if (list[currentY]) {
+                        if (list[currentY][currentM]) {
+                            break;
+                        }
                     }
                 }
-            }
-            if (currentY == startY - 10) {
-                currentM = startM;
-                currentY = startY;
-                alert("Nous n'avons trouvé aucun évenement dans les années précedentes");
-            }
-            document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
-            buildDays(list[currentY][currentM]);
-        })
-    }
-    for (i = 0; i < document.getElementsByClassName('nextMonth').length; i++) {
-        document.getElementsByClassName('nextMonth')[i].addEventListener('click', function (e) {
-            let startM = currentM;
-            let startY = currentY;
-            while (currentY < startY + 10) {
-                currentM++;
-                if (currentM > 12) {
-                    currentM = 1;
-                    currentY++;
+                if (currentY == startY - 10) {
+                    currentM = startM;
+                    currentY = startY;
+                    alert("Nous n'avons trouvé aucun évenement dans les années précedentes");
                 }
-                if (list[currentY]) {
-                    if (list[currentY][currentM]) {
-                        break;
+                document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
+                buildDays(list[currentY][currentM]);
+            })
+        }
+        for (i = 0; i < document.getElementsByClassName('nextMonth').length; i++) {
+            document.getElementsByClassName('nextMonth')[i].addEventListener('click', function (e) {
+                let startM = currentM;
+                let startY = currentY;
+                while (currentY < startY + 10) {
+                    currentM++;
+                    if (currentM > 12) {
+                        currentM = 1;
+                        currentY++;
+                    }
+                    if (list[currentY]) {
+                        if (list[currentY][currentM]) {
+                            break;
+                        }
                     }
                 }
-            }
-            if (currentY == startY + 10) {
-                currentM = startM;
-                currentY = startY;
-                alert("Nous n'avons trouvé aucun évenement dans les années suivantes");
-            }
-            document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
-            buildDays(list[currentY][currentM]);
-        });
+                if (currentY == startY + 10) {
+                    currentM = startM;
+                    currentY = startY;
+                    alert("Nous n'avons trouvé aucun évenement dans les années suivantes");
+                }
+                document.getElementsByClassName("agenda-year")[0].innerHTML = currentY;
+                buildDays(list[currentY][currentM]);
+            });
+        }
     }
-    }
-addEventsToArrow();
+    addEventsToArrow();
 
 
 </script>
