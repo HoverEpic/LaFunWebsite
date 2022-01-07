@@ -21,6 +21,8 @@ visible: true
 
 **Entretien réalisé en octobre 2021**
 
+![](images/20211015_113150.png)
+
 ### Peux-tu nous dire quel est ton parcours ?
 
 J'ai fait des études dans le domaine des arts appliqués. C'est au lycée que j'ai découvert cet univers passionnant - j'ai eu la chance de faire un Bac arts appliqués - je dis "chance" parce que pour moi c'était juste génial d'avoir 10h de cours de dessin par semaine ! Au départ j'avais peur, peu confiance en moi et puis j'ai trouvé mes marques dans cet univers et j'ai vite su que c'était ma voie.
@@ -40,8 +42,6 @@ Ce sont également les notions de fragilité, de verticalité et d'enchevêtreme
 ### A quel moment as-tu pensé au Funlab et quel a été son apport dans ton projet ?
 
 Je me suis trouvée bloquée après avoir cherché pas mal de solutions techniques et de matériaux différents pour construire ma structure. J'ai essayé le fil de fer - mais le problème c'est que ça se tord facilement , l'osier - mais ce n'est pas assez résistant et il faut pouvoir transporter, démonter, remonter le décor... puis j'ai pensé au bambou... bref j'ai finalement pensé aux techniques possibles dans les fablabs. Etant donné que j'ai ce parcours en école d'art, je connaissais l'existence de ces endroits. Grâce aux outils numériques nouveaux, le fablab est finalement arrivé comme une réponse la plus évidente et la plus convaincante pour la construction de ce décor qui touche à l'art contemporain.
-
-![](images/20211015_113150.png)
 
 ![](images/20211015_113211.png)
 
