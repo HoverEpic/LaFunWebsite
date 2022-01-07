@@ -8,7 +8,7 @@ author: Julie
 eventDate: 2022-01-04T09:48:43.685Z
 publishDate: 2022-01-04T09:48:43.769Z
 displayHour: false
-presenceAgenda: true
+presenceAgenda: false
 motherLink: ""
 presenceActualites: true
 bandeauInfo: false
