@@ -5,6 +5,7 @@ file_name: Initiation à la l'impression 3D SLA 1
 tags:
   - funlab
   - cultures numériques
+  - initiations
 author: Julie
 eventDate: 2021-12-20T18:00:10.224Z
 publishDate: 2021-11-24T10:51:10.283Z
