@@ -32,7 +32,7 @@ visible: true
 
 Pour appréhender la modélisation et les logiques de l’espace 3D,
 ces initiations viseront à fabriquer un paysage artificiel sur le logiciel Blender. 
-En explorant les outils de modélisation, de textures, de “ shading ”(habillage graphique), de lumière et de tracking caméra, l’initiation *Aux abords du paysage numérique* exposera lesbases de l’utilisation de Blender.
+En explorant les outils de modélisation, de textures, de “ shading ”(habillage graphique), de lumière et de tracking caméra, l’initiation *Aux abords du paysage numérique* exposera les bases de l’utilisation de Blender.
 
 La première séance donnera des éléments d'introduction au logiciel.
 
