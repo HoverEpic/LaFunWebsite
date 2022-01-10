@@ -5,6 +5,7 @@ file_name: Initiation à la découpe laser 1
 tags:
   - funlab
   - cultures numériques
+  - initiations
 author: Julie
 eventDate: 2021-11-29T18:00:27.710Z
 publishDate: 2021-11-24T10:35:27.877Z
