@@ -5,6 +5,7 @@ file_name: Initiation à la l'impression 3D FDM 1
 tags:
   - funlab
   - cultures numériques
+  - initiations
 author: Julie
 eventDate: 2021-12-06T18:00:20.409Z
 publishDate: 2021-11-24T10:48:20.476Z
