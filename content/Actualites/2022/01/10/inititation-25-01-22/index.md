@@ -5,6 +5,7 @@ file_name: Inititation 25.01.22
 tags:
   - funlab
   - cultures numériques
+  - initiations
 author: Julie
 eventDate: 2022-01-25T18:00:00.000Z
 publishDate: 2022-01-10T12:58:39.398Z
