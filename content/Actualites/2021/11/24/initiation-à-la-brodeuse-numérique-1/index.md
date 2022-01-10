@@ -5,6 +5,7 @@ file_name: Initiation à la brodeuse numérique 1
 tags:
   - funlab
   - cultures numériques
+  - initiations
 author: Julie
 eventDate: 2021-12-13T18:00:53.074Z
 publishDate: 2021-11-24T10:54:53.183Z
