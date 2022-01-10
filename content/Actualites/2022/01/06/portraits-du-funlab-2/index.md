@@ -23,7 +23,7 @@ visible: true
 
 ![](images/20211015_113150.png)
 
-### Valentine, quel est ton parcours ?
+### Quel est ton parcours ?
 
 J'ai fait des études dans le domaine des arts appliqués. C'est au lycée que j'ai découvert cet univers passionnant - j'ai eu la chance de faire un Bac arts appliqués - je dis "chance" parce que pour moi c'était juste génial d'avoir 10h de cours de dessin par semaine ! Au départ j'avais peu confiance en moi et puis j'ai trouvé mes marques dans cet univers et j'ai vite su que c'était ma voie.
 
