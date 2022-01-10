@@ -41,5 +41,5 @@ La première séance donnera des éléments d'introduction au logiciel.
 
 * Ouvert à tou.te.s les adhérent.e.s de La F.U.N (si vous souhaitez adhérer c’est par ici)
 * Apporter son ordinateur personnel au lab ou annoncer le besoin de prêt
-* Inscriptions : via l’évènement facebook ou directement sur place
+* Inscriptions : via l’[évènement facebook](https://www.facebook.com/events/1078963842942471) ou directement sur place
 * Tarif : prix libre à partir de 2 € *(Nous avons choisi de pratiquer un tarif libre afin que chacun.e puisse participer selon ses moyens, néanmoins nous demandons une contribution minimum de 2€)*
