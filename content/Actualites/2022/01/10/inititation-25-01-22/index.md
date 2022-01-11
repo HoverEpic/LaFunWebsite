@@ -25,9 +25,7 @@ visible: true
 
 ## Séance #1 : Introduction au logiciel Blender
 
-**Cycle animé par Solène Charton**
-
-![crédits : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020](images/image-solene-charton.png "crédits : Solène Charton, \"Ailleurs est ici\", capture d'écran de la vidéo, 2020")
+![crédits : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020](images/image-solene-charton.png "crédits : Solène Charton, \\"Ailleurs est ici\\", capture d'écran de la vidéo, 2020")
 
 *(crédits image : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020)*
 
