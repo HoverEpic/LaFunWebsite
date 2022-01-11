@@ -23,7 +23,7 @@ visible: true
 ---
 ### Le musicien Pierre Lambla en résidence au Funlab
 
-La FUN accueille le musicien Pierre Lambla en résidence pour son projet d'instrumentarium "l'Orchestre Moduli Varius". La fabrication de cet instrumentarium fera appel aux machines à commandes numériques du Funlab. Au cœur du dispositif musical se situera, un synthétiseur modulaire, pensé sur mesure pour les enfants et les néophytes.
+La FUN accueille Pierre Lambla en résidence pour son projet d'instrumentarium "l'Orchestre Moduli Varius". La fabrication de cet instrumentarium fera appel aux machines à commandes numériques du Funlab. Au cœur du dispositif musical se situera, un synthétiseur modulaire, pensé sur mesure pour les enfants et les néophytes.
 
 Ce projet artistique et pédagogique porté par l'association L'Upito, permettra également de créer des interactions avec son application "Gears", un logiciel de composition musicale.
 
