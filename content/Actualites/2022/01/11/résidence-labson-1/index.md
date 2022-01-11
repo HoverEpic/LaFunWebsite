@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Résidence LABson #1"
+title: Résidence LABson
 file_name: "Résidence LABson #1"
 tags:
   - funlab
