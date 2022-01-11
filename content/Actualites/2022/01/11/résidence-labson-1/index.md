@@ -27,6 +27,8 @@ La FUN accueille Pierre Lambla en résidence pour son projet d'instrumentarium "
 
 ![](images/visuel-moduli-varius-c-l-upito.png)
 
+*(crédit image : association L'Upito)*
+
 Ce projet artistique et pédagogique porté par l'association L'Upito, permettra également de créer des interactions avec son application "Gears", un logiciel de composition musicale.
 
 #### En savoir + :
