@@ -16,14 +16,14 @@ _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
 presenceActualites: true
-bandeauInfo: true
+bandeauInfo: false
 youngFriendly: false
 thumbnail: images/visuel-moduli-varius-c-l-upito.png
 visible: true
 ---
 ### Le musicien Pierre Lambla en résidence au Funlab à partir du 26.01.22
 
-La FUN accueille Pierre Lambla en résidence pour son projet d'instrumentarium "l'Orchestre Moduli Varius". La fabrication de cet instrumentarium fera appel aux machines à commandes numériques du Funlab. Au cœur du dispositif musical se situera, un synthétiseur modulaire, pensé sur mesure pour les enfants et les néophytes.
+La FUN accueille Pierre Lambla pour son projet d'instrumentarium "l'Orchestre Moduli Varius". La fabrication de cet instrumentarium fera appel aux machines à commandes numériques du Funlab. Au cœur du dispositif musical se situera, un synthétiseur modulaire, pensé sur mesure pour les enfants et les néophytes.
 
 ![](images/visuel-moduli-varius-c-l-upito.png)
 
