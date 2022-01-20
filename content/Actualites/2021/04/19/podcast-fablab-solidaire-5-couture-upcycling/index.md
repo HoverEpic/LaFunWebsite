@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: "Podcast Fablab solidaire #5 : couture upcycling"
+title: Podcast fablab solidaire ep5
+file_name: Podcast fablab solidaire ep5
 tags:
   - fablab solidaire
   - e2c val de loire
