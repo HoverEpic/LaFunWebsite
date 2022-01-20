@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Podcast - ep.6 "Fablab solidaire"
+title: Podcast fablab solidaire ep6
 file_name: podcast fablab solidaire precious kitchen
 tags:
   - fablab solidaire
