@@ -5,6 +5,7 @@ file_name: Atelier nichoirs avec la LPO
 tags:
   - funlab
   - jeune public
+  - lpo touraine
 author: Julie
 eventDate: 2022-02-17T14:00:24.710Z
 publishDate: 2022-01-25T15:18:24.743Z
