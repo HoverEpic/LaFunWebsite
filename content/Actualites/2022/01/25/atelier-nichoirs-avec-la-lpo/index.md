@@ -18,6 +18,8 @@ presenceActualites: false
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/moules-nichoirs-hirondelles-rustiques-©-baptiste-boulay.png
+partenaires:
+  - LPO Touraine
 visible: true
 ---
 ## Atelier fabrication de nichoirs à hirondelles
