@@ -25,7 +25,7 @@ visible: true
 
 ## Séance #2 : Modéliser à partir d'un plan
 
-![crédits : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020](images/image-solene-charton.png "crédits : Solène Charton, \\"Ailleurs est ici\\", capture d'écran de la vidéo, 2020")
+![](images/image-solene-charton.png)
 
 *(crédits image : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020)*
 
@@ -40,5 +40,5 @@ La première séance donnera des éléments d'introduction au logiciel.
 * Ouvert à tou.te.s les adhérent.e.s de La F.U.N (si vous souhaitez adhérer c’est par ici)
 * Apporter son ordinateur personnel au lab ou annoncer le besoin de prêt
 * Inscriptions par mail à : association@lafun.fr 
-ou directement sur place
+  ou directement sur place
 * Tarif : prix libre à partir de 2 € *(Nous avons choisi de pratiquer un tarif libre afin que chacun.e puisse participer selon ses moyens, néanmoins nous demandons une contribution minimum de 2€)*
