@@ -1,8 +1,12 @@
 ---
 layout: blog
 title: Atelier Wikipédia (journées du Matrimoine 2021)
+file_name: Atelier Wikipédia (journées du Matrimoine 2021) 2
 tags:
   - collectif h/f centre val de loire
+  - atelier
+  - égalité
+  - l'autre brique
 author: Julie
 eventDate: 2021-09-18T10:00:19.798Z
 publishDate: 2021-09-16T14:41:19.841Z
