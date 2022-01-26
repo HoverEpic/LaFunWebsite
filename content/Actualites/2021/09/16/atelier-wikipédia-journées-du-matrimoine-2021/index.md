@@ -6,6 +6,7 @@ tags:
   - collectif h/f centre val de loire
   - atelier
   - égalité
+  - l'autre brique
 author: Julie
 eventDate: 2021-09-19T10:00:57.919Z
 publishDate: 2021-09-16T14:51:57.966Z
