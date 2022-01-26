@@ -1337,7 +1337,6 @@ p {
 .empty-bar {
     overflow: visible;
     height: 150%;
-    bottom: 50%;
     position: relative;
 }
 
