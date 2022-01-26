@@ -56,7 +56,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "ressources"
     name = "Ressources"
-    url = "https://ressources.lafun.fr/"
+    url = "https://wiki.lafun.fr/"
     weight = 5
   [[menu.main]]
     identifier = "connexion"
