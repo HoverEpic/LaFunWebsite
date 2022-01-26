@@ -23,7 +23,7 @@ visible: true
 ---
 # Initiation "Aux abords du paysage numérique"
 
-## Séance #1 : Modéliser à partir d'un plan
+## Séance #2 : Modéliser à partir d'un plan
 
 ![crédits : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020](images/image-solene-charton.png "crédits : Solène Charton, \\"Ailleurs est ici\\", capture d'écran de la vidéo, 2020")
 
