@@ -5,9 +5,9 @@
 
     {{if .Params.duration}}
 <span class="stamp-info" title='Démarre à {{ (time .Params.eventDate).Hour }}:{{ dateFormat "04" (time .Params.eventDate).Minute }}, Dure {{.Params.duration}} heures'>
-            Démarre à {{ (time .Params.eventDate).Hour }}:{{(time .Params.eventDate).Minute}}, Dure {{.Params.duration}}</span>
+            Démarre à {{ (time .Params.eventDate).Hour }}:{{$min := (time .Params.eventDate).Minute}}{{printf "%02d" $min}}, Dure {{.Params.duration}}</span>
     {{else}}
-<span class="stamp-info">{{ (time .Params.eventDate).Hour }}:{{(time .Params.eventDate).Minute}}</span>
+<span class="stamp-info">{{ (time .Params.eventDate).Hour }}:{{$min := (time .Params.eventDate).Minute}}{{printf "%02d" $min}}</span>
     {{end}}
 
 {{else}}
