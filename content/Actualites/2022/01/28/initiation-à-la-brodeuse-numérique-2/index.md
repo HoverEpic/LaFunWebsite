@@ -30,4 +30,4 @@ Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funl
 
 * Ouvert à tou.te.s les adhérent.e.s de La F.U.N (si vous souhaitez adhérer c’est par [ici](https://www.helloasso.com/associations/la-fabrique-d-usages-numeriques/adhesions/adhesion-funlab-fablab-de-tours))
 * Inscriptions par mail à association@lafun.fr
-* Prix libre à partir de 2 € *(Nous avons choisi de pratiquer un tarif libre afin que chacun.e puisse participer selon ses moyens, néanmoins nous demandons une contribution minimum de 2€)*
+* Prix libre
