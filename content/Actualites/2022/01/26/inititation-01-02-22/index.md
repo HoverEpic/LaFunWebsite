@@ -38,5 +38,4 @@ En explorant les outils de modélisation, de textures, de “ shading ”(habi
 * Ouvert à tou.te.s les adhérent.e.s de La F.U.N
 * Apporter son ordinateur personnel au lab ou annoncer le besoin de prêt
 * Inscriptions par mail à : association@lafun.fr 
-  ou directement sur place
-* Tarif : prix libre à partir de 2 € *(Nous avons choisi de pratiquer un tarif libre afin que chacun.e puisse participer selon ses moyens, néanmoins nous demandons une contribution minimum de 2€)*
+* Prix libre
