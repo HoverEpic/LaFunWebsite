@@ -7,7 +7,7 @@ tags:
   - fondation orange
   - e2c val de loire
 author: Julie
-eventDate: 2022-02-24T09:00:52.225Z
+eventDate: 2022-02-24T09:30:52.225Z
 publishDate: 2022-01-31T14:09:52.264Z
 displayHour: true
 durationDay: ""
