@@ -12,7 +12,7 @@ publishDate: 2022-01-26T10:15:54.917Z
 displayHour: true
 duration: 1h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
-_tarif: prix libre à partir de 2€
+_tarif: prix libre
 presenceAgenda: true
 motherLink: ""
 presenceActualites: false
