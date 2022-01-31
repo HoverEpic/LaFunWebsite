@@ -22,7 +22,7 @@ partenaires:
   - LPO Touraine
 visible: true
 ---
-## Atelier fabrication de nichoirs à hirondelles
+## Atelier parents/enfants "fabrication de nichoirs à hirondelles"
 
 ### Animé par la LPO Centre-Val de Loire
 
@@ -38,15 +38,14 @@ Pour leur venir en aide, la [LPO](https://www.lpotouraine.fr/) vous invite à pa
 
 ![](images/hirondelle-rustique-dans-nichoir-artificiel-©-maurice-remond.png)
 
-
-
 ###### Informations pratiques :
 
 * A partir de 8 ans
 * Inscriptions par mail à : association@lafun.fr
 * Matériel : prévoir un tablier
 
-###### En savoir plus sur la Ligue de Protection des Oiseaux : 
+###### En savoir plus sur la Ligue de Protection des Oiseaux :
+
 * site de la [LPO](https://www.lpotouraine.fr/)
 * page facebook de la [LPO](https://www.facebook.com/LPO-Touraine-707021036035030)
 
