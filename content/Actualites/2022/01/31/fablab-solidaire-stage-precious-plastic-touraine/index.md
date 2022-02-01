@@ -6,6 +6,7 @@ tags:
   - fablab solidaire
   - fondation orange
   - e2c val de loire
+  - Precious Plastic Touraine
 author: Julie
 eventDate: 2022-02-24T09:30:52.225Z
 publishDate: 2022-01-31T14:09:52.264Z
@@ -20,6 +21,7 @@ youngFriendly: false
 thumbnail: images/machines-630x354.jpg
 partenaires:
   - Fondation Orange
+  - Precious Plastic Touraine
 visible: true
 ---
 **Durant ce stage, les jeunes de l'E2C Centre Val-de-Loire et de la MFR d'Azay-le-Rideau pourront découvrir [Precious Plastic Touraine](https://preciousplastictouraine.fr/ "https\://preciousplastictouraine.fr/").** Visite de l'atelier, découverte de l'association et découverte des machines qui permettront de broyer, extruder, presser... le plastique pour ensuite fabriquer de nouveaux objets du quotidien ou du mobilier. 
