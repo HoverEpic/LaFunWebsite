@@ -26,4 +26,4 @@ visible: true
 
 ![](images/machines-630x354.jpg)
 
-Le mouvement [Precious Plastic](https://preciousplastic.com/ "https\://preciousplastic.com/") est un mouvement international. Né à l'initiative du designer hollandais Dave Hakkens, il permet de rendre accessible à tous le recyclage du plastique.
+[Precious Plastic](https://preciousplastic.com/ "https\://preciousplastic.com/") est un mouvement international né à l'initiative du designer hollandais Dave Hakkens, visant à rendre accessible à tous le recyclage du plastique.
