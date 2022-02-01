@@ -21,6 +21,8 @@ youngFriendly: false
 thumbnail: images/formation_machines027.png
 visible: true
 ---
+### Animé par le collectif Lightfriday
+
 La brodeuse numérique vous permet de broder des motifs, dessins, lettrage sur du tissu.
 Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funlab par la suite.
 
