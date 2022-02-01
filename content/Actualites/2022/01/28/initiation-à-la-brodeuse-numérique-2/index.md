@@ -30,6 +30,6 @@ Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funl
 
 ### Infos pratiques :
 
-* Ouvert à tou.te.s les adhérent.e.s de La F.U.N (si vous souhaitez adhérer c’est par [ici](https://www.helloasso.com/associations/la-fabrique-d-usages-numeriques/adhesions/adhesion-funlab-fablab-de-tours))
+* Ouvert à tou.te.s les adhérent.e.s de La F.U.N
 * Inscriptions par mail à association@lafun.fr
 * Prix libre
