@@ -14,7 +14,7 @@ duration: 3h
 _lieu: Funlab @Mame, 49 Bd Preuilly 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
+presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/moules-nichoirs-hirondelles-rustiques-©-baptiste-boulay.png
