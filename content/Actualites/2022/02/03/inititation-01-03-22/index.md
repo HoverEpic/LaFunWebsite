@@ -31,7 +31,9 @@ visible: true
 Pour appréhender la modélisation et les logiques de l’espace 3D,
 ces initiations viseront à fabriquer un paysage artificiel sur le logiciel Blender. 
 
-Contenu de la séance : présentation des outils de la fenêtre « shading »,réglages basiques de couleur et de lumière, en démonstration, temps pratique,aide et conseils au cas par cas.
+##### Contenu de la séance : 
+* présentation des outils de la fenêtre « shading »,réglages basiques de couleur et de lumière, en démonstration
+* temps pratique,aide et conseils au cas par cas.
 
 ##### Infos pratiques :
 
