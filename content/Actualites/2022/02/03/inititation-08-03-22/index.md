@@ -24,7 +24,7 @@ visible: true
 ---
 # Initiation "Aux abords du paysage numérique"
 
-## Séance #3 : lumière et tracking caméra
+## Séance #4 : lumière et tracking caméra
 ![](images/image-solene-charton.png)
 
 *(crédits image : Solène Charton, "Ailleurs est ici", capture d'écran de la vidéo, 2020)*
