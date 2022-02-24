@@ -1,18 +1,25 @@
+<!-- Ce fichier permet de générer les pages de listes  -->
 {{ define "main" }}
 <div class="color-wrapper">
+<!-- Si on est dans la section actualité -->
     {{if eq .Section "Actualites"}}
+<!-- On génère le bloc de couleur -->
       {{ partial "color_block_alt.html" .}}
     {{else}}
         {{ partial "heading.html" . }}
     {{if eq .Section "Agenda"}}
+<!-- Dans la section agenda on veut la page agenda -->
         {{partial "agenda.html" (dict "feature" . "ctx" $)}}
 {{end}}
 
     {{.Scratch.Set "bool" false}}
+<!-- Si c'est la section LaFun... -->
 {{if eq .Section "LaFun"}}
     {{$.Scratch.Set "count" 0}}
+<!-- On récupère toutes les pages dans le sens inverse de leur création -->
     {{ range $i,$p := .Pages.Reverse  }}
         {{if not .Params.dir}}
+<!-- Selon si c'est une page pair ou non, on inverse la couleur du bloc de couleur -->
             {{.Scratch.Set "bool" ($.Scratch.Get "count")}}
             {{if (modBool ($.Scratch.Get "count") 2)}}
                 {{ partial "color_block_alt.html" . }}
@@ -23,9 +30,11 @@
         {{end}}
     {{end}}
 {{else}}
+<!-- Si c'est la section Partenaires -->
     {{if eq .Section "partenaires"}}
         {{ partial "partenaires.html" .}}
     {{else}}
+<!-- Si aucune de ces conditions n'est vrai, on cherche les pages de la liste et on les affiche tout comme LaFun -->
         {{ range $i,$p := .Pages.Reverse  }}
             {{.Scratch.Set "bool" $i}}
                 {{if (modBool $i 2)}}
