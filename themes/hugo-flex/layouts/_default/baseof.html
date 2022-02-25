@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.LanguageCode }}">
-<!-- Cette page est la construction standard des pages du site web -->
+
 <head>
-<!-- On charge l'ensemble des données importante dans le head -->
   {{ partial "meta.html" . }}
   {{ partial "title.html" . }}
   {{ partial "link.html" . }}
@@ -14,16 +13,14 @@
 </head>
 
 <body>
-<!-- On utilise partialCached pour invoquer banner.html, c'est le haut de page -->
   {{ partialCached "banner.html" . }}
   <main>
-<!-- On verifie que l'on ne se trouve pas sur une page "single" du site... -->
     {{if not .IsPage }}
     <div class="head-padder">
       <div class="logo-wrapper">
           {{ readFile "static/logow.svg" | safeHTML }}
       </div>
-<!-- ... Et dans le cas d'une section on cache la phrase d'accroche -->
+
       {{if not .Section}}
       <div>
         <h5 class="intro">Fabriquer, comprendre et partager<br /> les techniques qui nous entourent</h5>
@@ -32,7 +29,6 @@
     </div>
     {{end }}
     <div class="full-wrapper">
-<!-- On envoi le contenu selon le fichier markdown sur lequel on se trouve qui va générer un list.html ou single.html -->
       {{ block "main" . }}{{ end }}
     </div>
   </main>

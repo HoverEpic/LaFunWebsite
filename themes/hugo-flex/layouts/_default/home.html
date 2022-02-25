@@ -15,19 +15,16 @@
 
 
 {{ end }}
-<!-- define "main" permet de faire comprendre qu'est-ce qui peut être "main" dans les autres fichiers lorsqu'ils utilisent "block" -->
+
 {{ define "main" }}
-<!-- Chaque color-block est une section sur le site -->
 <div class="color-wrapper">
     <div class="color-block">
-<!-- Triangle du haut -->
         <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
             <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
             <rect width="2000" height="20" y="98" style="fill:var(--white);" />
         </svg>
         <div class="home-rectangle">
             <div class="row activity-link-list">
-<!-- On va chercher les pages présentes dans le dossier content/LaFun/ pour obtenir leur données -->
                 {{ range $i,$p := (where .Site.RegularPages "Section" "LaFun")}}
                 {{if .Params.weight}}
                 {{partial "stamp_home.html" .}}
@@ -35,7 +32,6 @@
                 {{end}}
             </div>
         </div>
-<!-- Triangle du bas -->
         <svg class="downtriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
             <polygon class="downtriangle-shape" fill="white" points="0,100 100,0 100,100" />
         </svg>
@@ -48,7 +44,7 @@
                 <hr>
             </div>
             <div class="row stamp-list-home" style="flex-wrap:wrap;margin-top:0;justify-content:space-around;">
-<!-- On récupère les 3 dernières actualitées -->
+
                 {{range ( ((where .Site.RegularPages "Section" "Actualites").ByPublishDate).Reverse | first 3 )}}
                 {{partial "stamp_alt.html" .}}{{end}}
             </div>
