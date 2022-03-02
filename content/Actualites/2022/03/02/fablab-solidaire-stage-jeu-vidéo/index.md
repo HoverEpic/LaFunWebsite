@@ -12,7 +12,7 @@ author: Julie
 eventDate: 2022-03-16T09:30:18.397Z
 publishDate: 2022-03-02T09:33:18.436Z
 displayHour: true
-durationDay: 2
+durationDay: 1
 _lieu: MFR, Chemin de la Noraie, 37190 Azay-le-Rideau
 presenceAgenda: true
 motherLink: ""
