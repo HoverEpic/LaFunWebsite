@@ -20,7 +20,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/wikipedia-logo_ka.png
+thumbnail: images/femmes-wikipedia-archives.png
 partenaires:
   - Osez le féminisme 37
   - H/F Centre Val de Loire
