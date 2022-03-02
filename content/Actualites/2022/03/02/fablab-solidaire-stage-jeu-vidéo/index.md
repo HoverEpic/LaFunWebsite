@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Fablab solidaire février 2022
+title: Fablab solidaire mars 2022
 file_name: "Fablab solidaire stage jeu vidéo "
 tags:
   - fablab solidaire
