@@ -17,7 +17,7 @@ motherLink: ""
 presenceActualites: true
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/wikipedia-egalite.png
+thumbnail: images/wikipedia-logo_ka.png
 partenaires:
   - H/F Centre Val de Loire
 visible: true
