@@ -17,12 +17,12 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/img_20210406_151908.jpg
+thumbnail: images/decoupe-vinyle-roland.png
 visible: true
 ---
-La découpe vinyle permet de découper le vinyle ou le papier cartonné pour réaliser de la signalétique, des stickers, des pochoirs... Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funlab par la suite.
+La découpe vinyle permet de découper le vinyle ou le papier cartonné pour réaliser de la signalétique, des stickers, des pochoirs... Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funlab par la suite
 
-![](images/img_20210406_151908.jpg)
+![](images/decoupe-vinyle-roland.png)
 
 #### Infos pratiques :
 
