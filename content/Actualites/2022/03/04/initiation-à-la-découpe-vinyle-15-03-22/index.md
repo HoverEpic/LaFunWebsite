@@ -22,7 +22,7 @@ visible: true
 ---
 ![](images/img_20210406_151908.jpg)
 
-La découpe vinyle permet de découper du vinyle ou le papier cartonné pour réaliser de la signalétique, des stickers, des pochoirs... Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funlab par la suite.
+La découpe vinyle permet de découper le vinyle ou le papier cartonné pour réaliser de la signalétique, des stickers, des pochoirs... Venez apprendre à vous en servir pour pouvoir la manipuler en autonomie au Funlab par la suite.
 
 #### Infos pratiques :
 
