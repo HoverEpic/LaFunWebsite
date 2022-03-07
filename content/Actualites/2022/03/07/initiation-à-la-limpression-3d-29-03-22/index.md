@@ -20,7 +20,7 @@ youngFriendly: false
 thumbnail: images/formation_machines017.png
 visible: true
 ---
-L'imprimante 3D permet de fabriquer, de prototyper, de produire des objets usuels, techniques, artistiques, ludiques... L'inititation permet d’acquérir les bases techniques pour réaliser ses projets au Funlab par la suite.
+L'imprimante 3D permet de fabriquer, prototyper, produire des objets usuels, techniques, artistiques, ludiques... L'initiation permet d’acquérir les bases techniques pour pouvoir ensuite réaliser ses projets en autonomie.
 
 ### Infos pratiques :
 
