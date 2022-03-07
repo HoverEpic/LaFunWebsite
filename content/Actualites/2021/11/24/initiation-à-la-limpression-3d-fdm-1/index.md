@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Initiation à la l'impression 3D FDM
+title: Initiation à l'impression 3D FDM
 file_name: Initiation à la l'impression 3D FDM 1
 tags:
   - funlab
