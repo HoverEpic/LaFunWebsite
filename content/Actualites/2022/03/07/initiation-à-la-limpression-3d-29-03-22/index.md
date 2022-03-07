@@ -20,7 +20,7 @@ youngFriendly: false
 thumbnail: images/formation_machines017.png
 visible: true
 ---
-Découvrez les principes de fonctionnement, d'usages et d'utilisation d'une imprimante 3D afin de pouvoir vous en servir en autonomie au Funlab par la suite.
+L'imprimante 3D permet de fabriquer, de prototyper, de produire des objets usuels, techniques, artistiques, ludiques... L'inititation permet d’acquérir les bases techniques pour réaliser ses projets au Funlab par la suite.
 
 ### Infos pratiques :
 
