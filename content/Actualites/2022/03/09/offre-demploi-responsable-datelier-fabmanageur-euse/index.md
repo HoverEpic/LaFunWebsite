@@ -88,13 +88,16 @@ Le travail s’effectue en équipe, seul/en autonomie et en collectif/avec la co
 Prévoir quelques déplacements dans l’année selon les partenariats et événements.
 
 **Conditions d’emploi :**
+
 * Contrat à Durée Déterminée (6 mois) renouvelable
 * 35H hebdomadaires
 * Rémunération 1964 euros brut mensuel - négociable selon compétences et expériences
 
----
+- - -
+
 * Candidature attendue pour le 6 avril 2022 : (CV + Lettre de motivation)
 * Prise de poste début mai.
-* A l’attention de Catherine Lenoble (directrice de La Fabrique d’Usages Numériques) par e-mail : catherine.lenoble@ lafun.f r
+
+A l’attention de Catherine Lenoble (directrice de La Fabrique d’Usages Numériques) par e-mail : catherine.lenoble@ lafun.fr
 
 Association La FUN - Funlab à MAME – Cité de l’innovation - 49 bd Preuilly 37000 TOURS
