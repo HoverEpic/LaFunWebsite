@@ -38,7 +38,7 @@ Sous l’autorité de la Directrice et du Conseil d’Administration, et plus pr
 * Participer au rendez-vous hebdomadaire des Open Ateliers : médiation, accompagnement des usagers, suivi et documentation des projets réalisés
 * Organiser le déroulement des activités et événements de l’association, au Funlab et hors-les-murs, sur le plan opérationnel
 * Appuyer en lien avec l’équipe, la gestion comptable et administrative (courriers,
-conventions, devis et factures, ...)
+  conventions, devis et factures, ...)
 * Participer au développement de la vie associative : réunions, événements, partenariats
 * Assurer une veille et le partage d’expériences avec d’autres tiers-lieux
 
@@ -47,6 +47,7 @@ conventions, devis et factures, ...)
 #### PROFIL RECHERCHÉ
 
 **Savoir-faire et savoir-être pour le poste :**
+
 * Capacité d ' écoute et de médiation, aisance relationnelle
 * Capacité à travailler avec une grande diversité de partenaires et d’usagers (dont des publics fragiles)
 * Pédagogie et créativité
@@ -80,9 +81,12 @@ Prévoir quelques déplacements dans l’année selon les partenariats ou évén
 * 35H hebdomadaires
 * Rémunération 1964 euros brut
 
----
-Candidature attendue pour le 23 mars 2022 : (CV + Lettre de motivation)
+- - -
 
-Entretiens au Funlab à Tours : 29-30 mars
+* Candidature attendue pour le 23 mars 2022 : (CV + Lettre de motivation)
+* Entretiens au Funlab à Tours : 29-30 mars
+* Prise de poste le 4 avril
 
-Prise de poste le 4 avril
+A l’attention de Catherine Lenoble (directrice de La Fabrique d’Usages Numériques) par e-mail : catherine.lenoble@ lafun.fr
+
+Association La FUN - Funlab à MAME – Cité de l’innovation - 49 bd Preuilly 37000 TOURS
