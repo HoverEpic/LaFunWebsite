@@ -27,7 +27,7 @@ En complémentarité de son fablab citoyen, La FUN développe aujourd’hui un a
 
 - - -
 
-Le rôle du ou de la facilitateur·rice est d’accompagner les activités La FUN, d’une part en assurant la gestion et l’animation des activités au sein de son atelier et d’autre part en coordonnant le fonctionnement et le développement de la communauté d’usagers.
+**Le rôle du ou de la facilitateur·rice est d’accompagner les activités La FUN, d’une part en assurant la gestion et l’animation des activités au sein de son atelier et d’autre part en coordonnant le fonctionnement et le développement de la communauté d’usagers.**
 
 Sous l’autorité de la Directrice et du Conseil d’Administration, et plus précisément de sa Présidente, le ou la facilitateur.ice aura pour activités principales :
 
