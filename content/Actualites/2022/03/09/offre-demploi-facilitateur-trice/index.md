@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Offre d'emploi : Facilitateur.trice"
+title: "Offre d'emploi : Facilitateur.rice"
 file_name: "Offre d'emploi : Facilitateur.trice"
 tags:
   - funlab
@@ -18,7 +18,7 @@ visible: true
 ---
 ### L’association La FUN recrute :
 
-## Un.e Facilitateur.trice
+## Un.e Facilitateur.rice
 
 ### CDD 35h - Tours (37)
 
