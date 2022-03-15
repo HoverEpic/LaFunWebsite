@@ -44,7 +44,6 @@ collections:
       - {label: "Jeune public", name: "youngFriendly", widget: "boolean", default: true, required: false}
       - {label: "Vignette", name: "thumbnail", widget: "image", pattern: ["[/\\.(gif|tiff?|png|webp|bmp|gif|svg)$/i]", "L'image ne doit pas être en jpeg/jpg. Les formats acceptés sont gif,tiff,pnf,webp,bmp,svg et gif"]}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Fichier", name: "Ajout PDF", widget: "file", default: "/files/generated.pdf", required: false}
       - {label: "partenaires", name: "partenaires", widget: "relation", collection: "Partenaires", search_fields: ["title"], value_field: "title", multiple: true, required: false}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
   - name : "Presentations"
