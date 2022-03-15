@@ -19,7 +19,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/agriculture-1853323_1920.png
+thumbnail: images/sproutland_2.png
 partenaires:
   - Utelias
   - MFR Azay-le-Rideau
@@ -28,16 +28,18 @@ visible: true
 ---
 ## Créer un jeu vidéo pour sensibiliser aux questions environnementales
 
-
 "Le jeu vidéo, on y joue mais cela se fabrique aussi en équipe et on peut dire des choses avec".
 
 *Le stage est organisé pour les jeunes de l'E2C Val-de-Loire et de la MFR d'Azay-le-Rideau. Co-animé par l'équipe de La Fun et Fabien Vidal (Utelias/game jam hitboxmakers).*
 
-### Contenu : 
+### Contenu :
 
 **Dans un fablab, on ne fabrique pas que des objets mais aussi du contenu.** Il s'agira durant ce stage d'utiliser le média jeu vidéo pour aborder des problématiques environnementales (gestion des ressources, climat, territoires urbains/ruraux, etc.). 
 Le groupe sera amené à utiliser des outils libres, simples, en manipulant : le code, les images, les sons, le design de niveau / de mécanisme de jeu, la narration... 
 
+![](images/cocow_2.png)
+
 ##### Infos pratiques :
+
 * Jours et horaires : 16 et 17 mars, 9h30-16h30
 * Lieu : à la MFR d'Azay-le-Rideau
