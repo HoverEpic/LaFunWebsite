@@ -27,6 +27,8 @@ visible: true
 
 ### Réalisation de cartes postales en impression lowtech
 
+![(c) Dieudonné Cartier](images/gravure-linocric.png "(c) Dieudonné Cartier")
+
 Réalisation de cartes postales à l'aide de la Linocric : mélange de technique d’impression "lowtech" (presse fabriquée en bois et avec pour moyen de pression, un cric de voiture) et "hightech" (matrice gravée à la découpeuse Laser).
 
 Dieudonné Cartier (1988) est artiste, graphiste et enseignant. Il est artiste associé au PrintLab de La FUN.
