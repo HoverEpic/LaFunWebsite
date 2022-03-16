@@ -41,4 +41,4 @@ Dieudonné Cartier (1988) est artiste, graphiste et enseignant. Il est artiste a
 
 * Découvrir le travail de Dieudonné Cartier : [site](http://www.dieudonnécartier.com/), [instagram](https://www.instagram.com/dieudonnecartier/)
 * Programme complet de la journée portes ouvertes Les Beaumont bientôt en ligne
-* Accès : Les Beaumonts,  ZAC des Casernes Beaumonts Chauveau, 37000 TOURS (accès par le portail piéton rue du Capitaine Pougnon)
+* Accès : Les Beaumonts, ZAC des Casernes Beaumonts Chauveau, 37000 TOURS (accès par le portail piéton rue du Capitaine Pougnon)
