@@ -23,7 +23,7 @@ visible: true
 ### CDD 35h - Tours (37)
 
 L’association La Fabrique d’Usages Numériques a pour vocation de rendre accessible au plus grand nombre les outils et les savoirs liés à la fabrication, au faire soi-même et aux cultures numériques. Dans ce cadre, elle anime depuis 2013 un atelier partagé de fabrication (fablab) permettant d’expérimenter, apprendre, créer grâce à des équipements mutualisés favorisant l’émergence de nombreux projets sur le territoire.
-En complémentarité de son fablab citoyen, La FUN développe aujourd’hui un atelier de production tournée vers la fabrication locale et le ré-emploi. Dans ce contexte, La FUN est à la recherche d’un(e) Responsable d’atelier.
+En complémentarité de son fablab citoyen, La FUN développe aujourd’hui un atelier de production tournée vers la fabrication locale et le ré-emploi. Dans ce contexte, La FUN est à la recherche d’un(e) Facilitateur.rice.
 
 - - -
 
@@ -48,7 +48,7 @@ Sous l’autorité de la Directrice et du Conseil d’Administration, et plus pr
 
 **Savoir-faire et savoir-être pour le poste :**
 
-* Capacité d ' écoute et de médiation, aisance relationnelle
+* Capacité d'écoute et de médiation, aisance relationnelle
 * Capacité à travailler avec une grande diversité de partenaires et d’usagers (dont des publics fragiles)
 * Pédagogie et créativité
 * Maîtriser les outils informatiques et connaître (à minima) les machines à commande numérique
