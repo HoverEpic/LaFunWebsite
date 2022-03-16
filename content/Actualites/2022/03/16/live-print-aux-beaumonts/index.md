@@ -13,7 +13,7 @@ duration: 6h
 _lieu: Les Beaumonts,  ZAC des Casernes Beaumonts Chauveau, 37000 TOURS (accès
   par le portail piéton rue du Capitaine Pougnon)
 _tarif: ""
-presenceAgenda: false
+presenceAgenda: true
 motherLink: ""
 presenceActualites: true
 bandeauInfo: true
