@@ -21,11 +21,10 @@ youngFriendly: true
 thumbnail: images/gravure-linocric.png
 visible: true
 ---
-#### Dans le cadre de la journée portes ouvertes des Beaumonts organisée par la ville de Tours et la SET
-
 ## Live print (LA FUN & Dieudonné Cartier)
 
 ### Réalisation de cartes postales en impression lowtech
+*Dans le cadre de la journée portes ouvertes des Beaumonts organisée par la ville de Tours et la SET.*
 
 ![(c) Dieudonné Cartier](images/gravure-linocric.png "(c) Dieudonné Cartier")
 
