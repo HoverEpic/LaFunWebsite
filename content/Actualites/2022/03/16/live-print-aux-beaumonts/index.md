@@ -34,8 +34,6 @@ Dieudonné Cartier (1988) est artiste, graphiste et enseignant. Il est artiste a
 
 ![(c) Dieudonné Cartier](images/scul-struc-1.png "(c) Dieudonné Cartier")
 
-![(c) Dieudonné Cartier](images/scul-struc-2.png "(c) Dieudonné Cartier")
-
 ##### En savoir + :
 
 * Découvrir le travail de Dieudonné Cartier : [site](http://www.dieudonnécartier.com/), [instagram](https://www.instagram.com/dieudonnecartier/)
