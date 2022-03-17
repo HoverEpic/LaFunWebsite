@@ -7,7 +7,7 @@ tags:
   - mame
   - cultures numériques
 author: Julie
-eventDate: 2022-04-19T15:00:43.790Z
+eventDate: 2022-05-19T15:00:43.790Z
 publishDate: 2022-03-17T08:49:43.846Z
 displayHour: true
 _lieu: Mame, 49 Bd Preuilly, 37000 TOURS
