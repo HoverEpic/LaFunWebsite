@@ -8,7 +8,7 @@ tags:
   - funlab
   - cultures numériques
 author: Julie
-eventDate: 2022-03-17T08:53:33.010Z
+eventDate: 2022-04-21T15:00:33.010Z
 publishDate: 2022-03-17T08:53:33.041Z
 displayHour: true
 _lieu: Mame, 49 Bd Preuilly, 37000 TOURS
