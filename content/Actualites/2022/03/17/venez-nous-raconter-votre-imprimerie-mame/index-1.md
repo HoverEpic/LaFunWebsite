@@ -1,9 +1,12 @@
 ---
 layout: blog
 title: Venez nous raconter "votre" imprimerie Mame
-file_name: Venez nous raconter "votre" imprimerie Mame
+file_name: Venez nous raconter "votre" imprimerie Mame - 21.04.22
 tags:
   - Mame
+  - cultures numériques
+  - Mission Val de Loire
+  - funlab
 author: Julie
 eventDate: 2022-04-22T15:00:57.535Z
 publishDate: 2022-03-17T08:44:57.558Z
@@ -22,7 +25,7 @@ visible: true
 ---
 # Venez nous raconter "votre" imprimerie MAME
 
-## Les 21 avril et 19 mai 2022 à partir de 15h00
+## 21 avril 2022 à partir de 15h00
 
 *A l'occasion du projet de mise en valeur de l'histoire
 de l'ancienne imprimerie MAME, la Mission Val de Loire & la Fabrique d'Usages Numériques vous invitent à un café/goûter*
