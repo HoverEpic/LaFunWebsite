@@ -4,6 +4,8 @@ title: Venez nous raconter "votre" imprimerie Mame
 file_name: Venez nous raconter "votre" imprimerie Mame
 tags:
   - cultures numériques
+  - Mission Val de Loire
+  - Mame
 author: Julie
 eventDate: 2022-04-21T15:00:25.894Z
 publishDate: 2022-03-17T08:27:25.964Z
@@ -15,6 +17,9 @@ presenceActualites: true
 bandeauInfo: false
 youngFriendly: false
 thumbnail: images/mame-photo.png
+partenaires:
+  - Mission Val de Loire
+  - Mame - cité de la création et de l'innovation
 visible: true
 ---
 # Venez nous raconter "votre" imprimerie MAME
