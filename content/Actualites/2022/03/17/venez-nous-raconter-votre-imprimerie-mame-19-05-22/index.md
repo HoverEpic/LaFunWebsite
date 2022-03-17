@@ -4,8 +4,9 @@ title: Venez nous raconter "votre" imprimerie Mame - 19.05.22
 file_name: Venez nous raconter "votre" imprimerie Mame - 19.05.22
 tags:
   - Mame
-  - mame
   - cultures numériques
+  - Mission Val de Loire
+  - funlab
 author: Julie
 eventDate: 2022-05-19T15:00:43.790Z
 publishDate: 2022-03-17T08:49:43.846Z
