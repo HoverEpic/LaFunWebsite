@@ -8,7 +8,7 @@ tags:
   - Mission Val de Loire
   - funlab
 author: Julie
-eventDate: 2022-04-22T15:00:57.535Z
+eventDate: 2022-04-21T15:00:57.535Z
 publishDate: 2022-03-17T08:44:57.558Z
 displayHour: true
 _lieu: Mame, 49 Bd Preuilly, 37000 TOURS
