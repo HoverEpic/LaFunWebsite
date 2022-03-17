@@ -5,6 +5,8 @@ file_name: Live Print aux Beaumonts
 tags:
   - fablabs
   - printlab
+  - La SET
+  - Ville de Tours
 author: Julie
 eventDate: 2022-04-02T15:00:48.027Z
 publishDate: 2022-03-16T12:27:48.058Z
