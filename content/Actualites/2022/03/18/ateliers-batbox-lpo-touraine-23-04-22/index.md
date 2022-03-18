@@ -6,9 +6,9 @@ tags:
   - funlab
   - lpo touraine
 author: Julie
-eventDate: 2022-03-28T18:00:06.123Z
+eventDate: 2022-04-23T10:00:06.123Z
 publishDate: 2022-03-18T09:36:06.168Z
-displayHour: false
+displayHour: true
 duration: 3h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
