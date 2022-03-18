@@ -6,7 +6,7 @@ tags:
   - funlab
   - lpo touraine
 author: Julie
-eventDate: 2022-03-18T09:46:04.311Z
+eventDate: 2022-04-23T10:00:04.311Z
 publishDate: 2022-03-18T09:46:04.334Z
 displayHour: true
 duration: 6h
@@ -35,4 +35,4 @@ Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouv
 ### Infos pratiques :
 
 * samedi 23.04.22 : 10h-16h avec une pause repas
-* les ateliers sont déjà complet mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
+* l'atelier est déjà complet mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
