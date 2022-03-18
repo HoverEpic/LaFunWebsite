@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Ateliers Batbox (LPO Touraine) - 23.04.22
-file_name: Ateliers Batbox (LPO Touraine) - 23.04.22
+title: Atelier Batbox (LPO Touraine) - 23.04.22
+file_name: Atelier Batbox (LPO Touraine) - 23.04.22
 tags:
   - funlab
   - LPO Touraine
