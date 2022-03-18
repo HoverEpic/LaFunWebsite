@@ -10,7 +10,7 @@ author: Julie
 eventDate: 2022-04-29T10:00:39.993Z
 publishDate: 2022-03-18T10:44:40.036Z
 displayHour: true
-duration: "3"
+duration: 3h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
