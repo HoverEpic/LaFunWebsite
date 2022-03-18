@@ -16,6 +16,8 @@ presenceActualites: true
 bandeauInfo: false
 youngFriendly: true
 thumbnail: images/batbox-lpo.png
+partenaires:
+  - LPO Touraine
 visible: true
 ---
 ## La FUN accueille la [LPO Touraine](https://www.lpotouraine.fr/) pour des ateliers fabrication de Batbox
@@ -31,7 +33,7 @@ Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouv
 
 ### Infos pratiques :
 
-* mercredi 13.04.22
-* samedi 23.04.22
-* jeudi 28.04.22 de 18h à 21h (open ateliers du Funlab)
+* mercredi 13.04.22 : 10h-16h avec une pause repas
+* samedi 23.04.22 : 10h-16h avec une pause repas
+* jeudi 28.04.22 : 18h-21h (open ateliers du Funlab)
 * les ateliers sont déjà complet mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
