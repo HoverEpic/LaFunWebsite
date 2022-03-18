@@ -27,7 +27,7 @@ visible: true
 Les chauves-souris vous fascinent et leurs ultrasons encore plus, lancez-vous avec nous en participant à un atelier de fabrication de Batbox (détecteur et enregistreur à ultrasons de chauves-souris) !
 Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouvelles technologies.
 
-**A noter : l'atelier est déjà complet mais quelques places sont encore disponibles pour donner un coup de main (vous pourrez participer mais vous ne pourrez pas repartir avec de batbox).**
+**A noter : les ateliers sont déjà complets mais quelques places sont encore disponibles pour donner un coup de main (vous pourrez participer mais vous ne pourrez pas repartir avec de batbox).**
 
 ![](images/batbox-lpo.png)
 
@@ -36,4 +36,4 @@ Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouv
 * mercredi 13.04.22 : 10h-16h avec une pause repas
 * samedi 23.04.22 : 10h-16h avec une pause repas
 * jeudi 28.04.22 : 18h-21h (open ateliers du Funlab)
-* les ateliers sont déjà complet mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
+* les ateliers sont déjà complets mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
