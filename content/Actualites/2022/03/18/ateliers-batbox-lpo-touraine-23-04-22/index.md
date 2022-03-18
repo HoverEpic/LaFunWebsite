@@ -6,7 +6,7 @@ tags:
   - funlab
   - lpo touraine
 author: Julie
-eventDate: 2022-04-23T10:00:06.123Z
+eventDate: 2022-04-28T18:00:06.123Z
 publishDate: 2022-03-18T09:36:06.168Z
 displayHour: true
 duration: 3h
@@ -23,7 +23,7 @@ visible: true
 ---
 ## La FUN accueille la [LPO Touraine](https://www.lpotouraine.fr/) pour des ateliers fabrication de Batbox
 
-### >> jeudi 28 avril 2022
+### Jeudi 28 avril 2022
 
 Les chauves-souris vous fascinent et leurs ultrasons encore plus, lancez-vous avec nous en participant à un atelier de fabrication de Batbox (détecteur et enregistreur à ultrasons de chauves-souris) !
 Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouvelles technologies.
