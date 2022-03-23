@@ -17,7 +17,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/wikipedia-logo_ka.png
+thumbnail: images/el-2022-logo-web.png
 partenaires:
   - H/F Centre Val de Loire
 visible: true
@@ -42,4 +42,8 @@ critique de l'objet encyclopédique
 
 ##### Informations pratiques : 
 * vendredi 29 avril de 10h à 13h au Funlab
+* renseignements : 06 51 89 45 51 - contact@ensembleptyx.com
+* gratuit sur inscription [ici](https://www.helloasso.com/associations/vous-ne-revez-pas-encore/evenements/atelier-wikipedi-egalites)
 * dans la mesure du possible, se munir de son propre ordinateur portable.
+
+*(c) visuel festival Easy Listening*
