@@ -1,4 +1,8 @@
 ---
+_tarif: prix libre à partir de 2€
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Initiation à l'impression 3D FDM
 file_name: Initiation à la l'impression 3D FDM 1
@@ -9,14 +13,11 @@ tags:
 author: Julie
 eventDate: 2021-12-06T18:00:20.409Z
 publishDate: 2021-11-24T10:48:20.476Z
-displayHour: true
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-_tarif: prix libre à partir de 2€
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/formation_machines017.png
 visible: true
 ---
