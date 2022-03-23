@@ -1,4 +1,5 @@
 <div class="row">
+{{if or (not eq .Section "LaFUN") (not eq .Section "Activites")}}
     {{$.Scratch.Set "img_link" "/images/default-image.jpg"}}
     {{if (modBool (.Scratch.Get "bool") 2)}}
     <div class="image"> 
@@ -14,6 +15,7 @@
         <img src='{{$.Scratch.Get "img_link"}}' alt="Illustration manquante">
     </div>
     {{end}}
+{{end}}
     <div class="column preview">
         <div class="title">{{ .Title }}</div>
         <div class="resume">
