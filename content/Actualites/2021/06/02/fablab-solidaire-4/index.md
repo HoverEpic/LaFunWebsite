@@ -1,6 +1,13 @@
 ---
+_tarif: "0"
+presenceActualites: false
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: 3
 layout: blog
 title: "Fablab solidaire #5"
+file_name: "Fablab solidaire #5"
 tags:
   - fablab solidaire
   - makers
@@ -16,16 +23,10 @@ tags:
 author: Julie
 eventDate: 2021-06-08T13:30:56.802Z
 publishDate: 2021-06-02T15:16:56.834Z
-displayHour: true
-duration: ""
-durationDay: 3
+duration: Du 8 au 11 juin (13h30-16h30)
 _lieu: Funlab @Mame - 49 Bd Preuilly 37000 Tours
-_tarif: "0"
-presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/03/25/podcasts-fablab-solidaire/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/moog-1573329_960_720.png
 partenaires:
   - Fondation Orange
