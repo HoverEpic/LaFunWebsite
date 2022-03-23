@@ -1,4 +1,9 @@
 ---
+presenceActualites: false
+youngFriendly: true
+displayHour: true
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: "Atelier création de jeux vidéos #3 (ados)"
 file_name: "Atelier création de jeux vidéos #3 (ados)"
@@ -12,15 +17,10 @@ tags:
 author: Julie
 eventDate: 2021-11-04T14:30:35.914Z
 publishDate: 2021-10-05T14:43:35.966Z
-displayHour: true
-duration: 3h
-durationDay: ""
+duration: 14h30-17h30
 _lieu: Centre Jules Vernes, Rue Henri Dunant, 37510 Ballan-Miré
-presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/pacman-gcf216fd68_1920.png
 partenaires:
   - Palo altour
