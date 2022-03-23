@@ -59,6 +59,7 @@ collections:
       - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Association"
     label: "LaFun/association"
@@ -75,6 +76,7 @@ collections:
       - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Avecqui"
     label: "LaFun/avecqui"
@@ -91,6 +93,7 @@ collections:
       - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Accompagnement"
     label: "Activites/accompagnement"
@@ -106,6 +109,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Cooperation"
     label: "Activites/cooperation"
@@ -121,6 +125,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Education"
     label: "Activites/education"
@@ -136,6 +141,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Funlab"
     label: "Activites/funlab"
@@ -151,6 +157,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Programmation"
     label: "Activites/programmation"
@@ -166,6 +173,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Ordre", name: "order", widget: "number", required: true}
       - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Tags"
     label: "Liste des tags"

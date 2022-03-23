@@ -1,6 +1,6 @@
 <div class="single-div presentation-div" style="margin-top: 0;">
 {{$pab := .Resources.ByType "page"}}
-{{ range $i,$p := sort $pab "Params.Title" }}
+{{ range $i,$p := sort $pab "Params.order" }}
     {{if (modBool $i 2)}}
 <div class="color-block">
     <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" style="margin-top: 0;">
