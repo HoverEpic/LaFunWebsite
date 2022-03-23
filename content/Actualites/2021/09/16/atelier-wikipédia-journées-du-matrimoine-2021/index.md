@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Atelier Wikipédia (journées du Matrimoine 2021)
 file_name: Atelier Wikipédia (journées du Matrimoine 2021) 1
@@ -10,14 +13,11 @@ tags:
 author: Julie
 eventDate: 2021-09-19T10:00:57.919Z
 publishDate: 2021-09-16T14:51:57.966Z
-displayHour: true
-duration: 3h
+duration: 10h-13h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/visuel_matrimoine.png
 partenaires:
   - H/F Centre Val de Loire
