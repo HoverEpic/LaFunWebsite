@@ -1,4 +1,9 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: 2
 layout: blog
 title: Fablab solidaire stage Precious Plastic Touraine
 file_name: Fablab solidaire stage Precious Plastic Touraine
@@ -11,14 +16,10 @@ tags:
 author: Julie
 eventDate: 2022-02-24T09:30:52.225Z
 publishDate: 2022-01-31T14:09:52.264Z
-displayHour: true
-durationDay: 2
+duration: 24 et 25 février (9h30-16h30)
 _lieu: "Atelier Métamorf, 33 rue des Bourgetteries, 37390 METTRAY "
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/machines-630x354.jpg
 partenaires:
   - Fondation Orange
