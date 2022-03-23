@@ -1,4 +1,8 @@
 ---
+_tarif: prix libre à partir de 2€
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Initiation à la découpe laser
 file_name: Initiation à la découpe laser 1
@@ -9,14 +13,11 @@ tags:
 author: Julie
 eventDate: 2021-11-29T18:00:27.710Z
 publishDate: 2021-11-24T10:35:27.877Z
-displayHour: true
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-_tarif: prix libre à partir de 2€
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/formation_machines009.png
 visible: true
 ---
