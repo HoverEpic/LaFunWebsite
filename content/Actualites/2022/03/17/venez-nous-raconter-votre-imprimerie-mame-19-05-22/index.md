@@ -32,7 +32,7 @@ de l'ancienne imprimerie MAME, la Mission Val de Loire & la Fabrique d'Usages Nu
 
 ### Vous avez travaillé dans l'imprimerie MAME, venez nous le raconter !
 
-Vous avez travaillé dans l'imprimerie, venez partager votre expérience autour d'un café/goûter et profitez de cette occasion pour visiter la cité de la création et de l'innovation.
+Vous avez travaillé dans l'imprimerie, venez partager votre expérience et profitez de cette occasion pour visiter la cité de la création et de l'innovation.
 
 L'inscription est obligatoire auprès de la Fabrique d'Usages Numériques par mail ou téléphone :
 
