@@ -27,8 +27,7 @@ visible: true
 
 ## 21 avril 2022 à partir de 15h00
 
-*A l'occasion du projet de mise en valeur de l'histoire
-de l'ancienne imprimerie MAME, la Mission Val de Loire & la Fabrique d'Usages Numériques vous invitent à un café/goûter*
+*A l'occasion du projet de mise en valeur de l'histoire de l'ancienne imprimerie MAME, la Mission Val de Loire & la Fabrique d'Usages Numériques vous invitent à un café/goûter*
 
 ### Vous avez travaillé dans l'imprimerie MAME, venez nous le raconter !
 
