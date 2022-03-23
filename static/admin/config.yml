@@ -275,5 +275,5 @@ collections:
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
-          - {label: "Logo", name: "img", widget: "image", required: true}
+          - {label: "Logo", name: "img", widget: "file", required: true}
           - {label: "Weight (laisser a 1 pour les pages présente sur l'accueil)", name: "weight", widget: "string", required: false, default: 1}
