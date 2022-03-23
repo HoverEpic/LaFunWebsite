@@ -1,4 +1,7 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Atelier Wikipédia aux archives départementales
 file_name: Atelier Wikipédia aux archives départementales
@@ -12,14 +15,11 @@ tags:
 author: Julie
 eventDate: 2022-03-19T09:30:03.987Z
 publishDate: 2022-01-26T14:11:04.025Z
-displayHour: true
-duration: journée
+duration: 9h30-17h
 _lieu: Archives départementales, 6 rue des Ursulines, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/femmes-wikipedia-archives.png
 partenaires:
   - Osez le féminisme 37
