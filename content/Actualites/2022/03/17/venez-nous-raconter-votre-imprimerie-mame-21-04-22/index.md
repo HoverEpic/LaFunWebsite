@@ -35,7 +35,7 @@ de l'ancienne imprimerie MAME, la Mission Val de Loire & la Fabrique d'Usages Nu
 Vous avez travaillé dans l'imprimerie, venez partager votre expérience autour d'un café/goûter et profitez de cette occasion pour visiter la cité de la création et de l'innovation.
 
 **Deux dates sont proposées :
-Les jeudi 22 avril et 19 mai, à partir de 15h00 à MAME, 49 Bd Preuilly.**
+Les jeudi 21 avril et 19 mai, à partir de 15h00 à MAME, 49 Bd Preuilly.**
 
 L'inscription est obligatoire auprès de la Fabrique d'Usages Numériques par mail ou téléphone :
 
