@@ -1,6 +1,13 @@
 ---
+_tarif: "0"
+presenceActualites: false
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: 4
 layout: blog
 title: "Fablab solidaire #1"
+file_name: "Fablab solidaire #1"
 tags:
   - regenbox
   - piles alcalines
@@ -14,18 +21,12 @@ tags:
   - stage
   - funlab
 author: Julie
-displayHour: true
 eventDate: 2021-02-16T12:30:00.000Z
 publishDate: 2021-02-16T15:23:56.241Z
-duration: 3h
-durationDay: 4
+duration: 13h30-16h30
 _lieu: Funlab @Mame - 49 Bd Preuilly 37000 Tours
-_tarif: "0"
-presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/03/25/podcasts-fablab-solidaire/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/img_2184.png
 partenaires:
   - Fondation Orange
