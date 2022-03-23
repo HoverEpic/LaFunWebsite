@@ -53,11 +53,13 @@ collections:
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Adherer {{slug}}"
+    filter: {field: "visible", value: true}
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Association"
     label: "LaFun/association"
     slug: "{{slug}}"
@@ -67,16 +69,19 @@ collections:
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Association {{slug}}"
+    filter: {field: "visible", value: true}
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Avecqui"
     label: "LaFun/avecqui"
     slug: "{{slug}}"
     folder: "/content/LaFun/avecqui"
     path: '{{slug}}/index'
+    filter: {field: "visible", value: true}
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
@@ -86,6 +91,7 @@ collections:
       - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Accompagnement"
     label: "Activites/accompagnement"
     slug: "{{slug}}"
@@ -100,6 +106,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Cooperation"
     label: "Activites/cooperation"
     slug: "{{slug}}"
@@ -114,6 +121,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Education"
     label: "Activites/education"
     slug: "{{slug}}"
@@ -128,6 +136,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Funlab"
     label: "Activites/funlab"
     slug: "{{slug}}"
@@ -142,6 +151,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Programmation"
     label: "Activites/programmation"
     slug: "{{slug}}"
@@ -156,6 +166,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string", required: true}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
+      - {label: "Visible dans l'admin", name: "visible", widget: "boolean", default: true}
   - name : "Tags"
     label: "Liste des tags"
     filter: {field: "visible", value: true}
