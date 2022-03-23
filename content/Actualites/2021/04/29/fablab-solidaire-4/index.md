@@ -21,7 +21,7 @@ tags:
 author: Julie
 eventDate: 2021-05-04T10:00:00.000Z
 publishDate: 2021-04-29T10:36:05.066Z
-duration: 9h30-16h30
+duration: Du 4 au 7 mai (9h30-16h30)
 _lieu: Funlab @Mame - 49 Bd Preuilly 37000 Tours
 motherLink: https://lafun.fr/actualites/2021/03/25/podcasts-fablab-solidaire/
 bandeauInfo: true
