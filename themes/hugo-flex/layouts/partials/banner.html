@@ -20,7 +20,7 @@
 				{{ .Post }}
 			</a>
 			<input type="checkbox" id='{{ replace .Name " " "-" }}'>
-			<span class="menu-dropdown-borderHelper"></span>
+			<span class="menu-dropdown-borderHelper {{.Title}}"></span>
 			<ul class="submenu-list">
 
 				{{ range .Children }}

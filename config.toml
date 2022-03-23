@@ -6,58 +6,106 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "LaFun"
     name = "La Fun"
-    url = "/LaFun/lafun"
+    url = "#"
     weight = 1
   [[menu.main]]
-    identifier = "LaFun-LaFun"
-    name = "La Fun"
-    url = "/LaFun/lafun"
+    identifier = "LaFun-Association"
+    name = "L'association"
+    url = "/LaFun/association"
     parent = "LaFun"
     weight = 1
   [[menu.main]]
-    identifier = "LaFun-funlab"
-    name = "Le FunLab"
-    url = "/LaFun/funLab"
+    identifier = "LaFun-adherer"
+    name = "Adherer"
+    url = "/LaFun/adherer"
     parent = "LaFun"
     weight = 2
   [[menu.main]]
-    identifier = "LaFun-autrebrique"
-    name = "L'Autre Brique"
-    url = "/LaFun/autreBrique"
+    identifier = "LaFun-avecqui"
+    name = "Avec qui"
+    url = "/LaFun/avecqui"
     parent = "LaFun"
     weight = 3
-  [[menu.main]]
-    identifier = "LaFun-ateliersLaboratoires"
-    name = "Ateliers Laboratoires"
-    url = "/LaFun/ateliersLaboratoires"
-    parent = "LaFun"
-    weight = 4
-  [[menu.main]]
-    identifier = "LaFun-interZone"
-    name = "InterZone"
-    url = "/LaFun/interZone"
-    parent = "LaFun"
-    weight = 5
   [[menu.main]]
     identifier = "actualites"
     name = "Actualités"
     url = "/actualites"
     weight = 2
   [[menu.main]]
+    identifier = "Activites"
+    name = "Activités"
+    url = "/activites"
+    weight = 3
+  [[menu.main]]
+    identifier = "Activites-funlab"
+    name = "Le Funlab"
+    url = "/Activites/funlab"
+    parent = "Activites"
+    weight = 1
+  [[menu.main]]
+    identifier = "Activites-education"
+    name = "Education"
+    url = "/Activites/education"
+    parent = "Activites"
+    weight = 2
+  [[menu.main]]
+    identifier = "Activites-cooperation"
+    name = "Cooperation"
+    url = "/Activites/cooperation"
+    parent = "Activites"
+    weight = 3
+  [[menu.main]]
+    identifier = "Activites-programmation"
+    name = "Programmation"
+    url = "/Activites/programmation"
+    parent = "Activites"
+    weight = 4
+  [[menu.main]]
+    identifier = "Activites-accompagnement"
+    name = "Accompagnement"
+    url = "/Activites/accompagnement"
+    parent = "Activites"
+    weight = 5
+  [[menu.main]]
     identifier = "agenda"
     name = "Agenda"
     url = "/Agenda"
-    weight = 3
-  [[menu.main]]
-    identifier = "Projets"
-    name = "Projets"
-    url = "/projets"
     weight = 4
   [[menu.main]]
-    identifier = "ressources"
+    identifier = "Ressources"
     name = "Ressources"
-    url = "https://wiki.lafun.fr/"
+    url = "#"
     weight = 5
+  [[menu.main]]
+    identifier = "Ressources-wiki"
+    name = "Wiki La Fun"
+    url = "https://wiki.lafun.fr/"
+    parent = "Ressources"
+    weight = 1
+  [[menu.main]]
+    identifier = "Ressources-cracn"
+    name = "CRACN"
+    url = "https://cracn.fr/"
+    parent = "Ressources"
+    weight = 2
+  [[menu.main]]
+    identifier = "Ressources-peertube"
+    name = "Peertube"
+    url = "https://tube.lafun.fr/"
+    parent = "Ressources"
+    weight = 3
+  [[menu.main]]
+    identifier = "Ressources-futuretic"
+    name = "FuturEtic"
+    url = "https://futuretic.fr/"
+    parent = "Ressources"
+    weight = 1
+  [[menu.main]]
+    identifier = "Ressources-preciouskitchen"
+    name = "Precious Kitchen"
+    url = "https://precious.kitchen/"
+    parent = "Ressources"
+    weight = 1
   [[menu.main]]
     identifier = "connexion"
     name = "Connexion"

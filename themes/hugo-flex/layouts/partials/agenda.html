@@ -7,13 +7,13 @@
     <div class="">
         <div class="agenda-rectangle">
             {{$scratch := .ctx.Scratch}}
-<!-- On récupère les fichiers de la section actualités -->
+            <!-- On récupère les fichiers de la section actualités -->
             {{$section := where .ctx.Site.RegularPages "Section" "Actualites"}}
-<!-- On les groupe par année et on les parcours afin de les écrire en html-->
+            <!-- On les groupe par année et on les parcours afin de les écrire en html-->
             {{range $section.GroupByDate "2006"}}
             <span class="data-container" name="{{.Key}}">
                 {{range .Pages}}
-<!-- Cela créer un ensemble de valeur exploitable a travers le DOM mais en gardant la liste de donnée cachée-->
+                <!-- Cela créer un ensemble de valeur exploitable a travers le DOM mais en gardant la liste de donnée cachée-->
                 {{if .Params.presenceAgenda}}
                 <span class="data-item" style="display: none;">
                     <span class="day" jour='{{ (time .Params.eventDate).Day }}'></span>
@@ -22,8 +22,11 @@
                     <span class="name" titre='{{.Title}}'></span>
                     <span class="link" lien='{{.RelPermalink}}'></span>
                     {{if .Params.durationDay}}<span class="duration" duree='{{.Params.durationDay}}'></span>{{end}}
-
-                    <span class="hour" heure='{{partial "duration_hour.html" .}}'></span>
+                    {{if .Params.duration}}
+                    <span class="hour" heure='{{.Params.duration}}'></span>
+                    {{else}}
+                    <span class="hour" heure=''></span>
+                    {{end}}
                     <span class="where" lieu='{{.Params._lieu}}'></span>
                     <span class="summary" resume='{{.Summary}}'></span>
                     {{ $scratch.Set "imageURL" "http://lafun.fr/images/default-image.jpg"}}
@@ -39,7 +42,7 @@
                 {{end}}
             </span>
             {{end}}
-<!-- Création du squelette de l'agenda -->
+            <!-- Création du squelette de l'agenda -->
             <div class="row">
                 <div>
                     <span class="title">AGENDA</span>
@@ -74,8 +77,8 @@
                             <img class="image column" src="#" alt="Image manquante">
                             <div class="column infos">
                                 <div class="row" style="justify-content:flex-start;">
-                                    <div class="ellipsed">
-                                        <h5 class="titre" title="">Titre</h5>
+                                    <div>
+                                        <h5 class="titre ellipsed" title="">Titre</h5>
                                         <hr>
                                     </div>
                                 </div>
@@ -122,23 +125,23 @@
 </div>
 
 <script>
-//On récupère les valeur du jour actuel depuis les spans
+    //On récupère les valeur du jour actuel depuis les spans
     var currentY = parseInt(document.getElementById("currentY").innerHTML);
     var currentM = parseInt(document.getElementById("currentM").innerHTML);
     var currentD = parseInt(document.getElementById("currentD").innerHTML);
 
-//On récupère les objets afin de les placer dans une variable exploitable
+    //On récupère les objets afin de les placer dans une variable exploitable
     var list = getItemListByDay();
 
     if (list[currentY]) {//On vérifie si l'année contient des post
         if (list[currentY][currentM]) {//Et si le mois de cette année en contient
             buildDays(list[currentY][currentM]);//Alors on peut executer le script
         } else {
-//Sinon il averti l'usager
+            //Sinon il averti l'usager
             document.getElementsByClassName("agenda-rectangle")[0].innerHTML = "<h1>Aucune information n'a pû être récupéré, contactez l'administrateur du site</h1>"
         }
     } else {
-//Sinon, on verifie si l'année-1 contient des post
+        //Sinon, on verifie si l'année-1 contient des post
         if (list[currentY - 1]) {
             currentY = currentY - 1;
             currentM = 12;
@@ -149,11 +152,11 @@
             }
         }
     }
-//Fonction essentielle pour grouper les données
+    //Fonction essentielle pour grouper les données
     function groupBy(xs, f) {
         return xs.reduce((r, v, i, a, k = f(v)) => ((r[k] || (r[k] = [])).push(v), r), {});
     }
-//Fonction essentielle pour gérer les heures
+    //Fonction essentielle pour gérer les heures
     function isEmptyOrSpaces(str) {
         if (str.trim()) {
             return false;
@@ -207,7 +210,7 @@
         }
         return groupBy(data, (c) => c.annee);
     }
-//Pour sectionner les données, j'utilise la fonction getItemListByYear() que je groupe selon les valeur mensuelles
+    //Pour sectionner les données, j'utilise la fonction getItemListByYear() que je groupe selon les valeur mensuelles
     function getItemListByMonths() {
         var dataByMonth = {};
         for (var key of Object.keys(getItemListByYear())) {
@@ -217,7 +220,7 @@
         }
         return dataByMonth
     }
-//Pour sectionner les données, j'utilise la fonction getItemListByMonth() que je groupe selon les valeur journalières
+    //Pour sectionner les données, j'utilise la fonction getItemListByMonth() que je groupe selon les valeur journalières
     function getItemListByDay() {
         var dataSet = {};
         var dataByDay = {};
@@ -234,8 +237,8 @@
     }
 
 
-//Fonction permettant de construire les journées dans l'agenda
-//month est un tableau contenant les objets jour
+    //Fonction permettant de construire les journées dans l'agenda
+    //month est un tableau contenant les objets jour
     function buildDays(month) {
         emptyDays();//On vide la page pour recréer son contenu 
         document.getElementsByClassName("agenda-month")[0].innerHTML = numberToMonth(currentM);
@@ -273,7 +276,7 @@
         }
         return template;
     }
-//Création de la vignette
+    //Création de la vignette
     function createEvent(obj) {
         let link = document.createElement("a");
         link.setAttribute("href", obj.lien);
@@ -305,8 +308,8 @@
         return link;
     }
 
-//Fonction permettant de changer un chiffre en son mois respectif
-//num est un int entre 1 et 12
+    //Fonction permettant de changer un chiffre en son mois respectif
+    //num est un int entre 1 et 12
     function numberToMonth(num) {
         let newnum = parseInt(num) - 1;
         if (newnum <= 0) {
@@ -316,7 +319,7 @@
         return montharray[parseInt(newnum)];
     }
 
-//Fonction permettant de vider la page
+    //Fonction permettant de vider la page
     function emptyDays() {
         let days = document.getElementsByClassName("agenda-stamps");
         let length = days.length
@@ -325,7 +328,7 @@
         }
     }
 
-//La fonction qui permet aux flèches d'envoyer les apges suivantes
+    //La fonction qui permet aux flèches d'envoyer les apges suivantes
     function addEventsToArrow() {
         for (i = 0; i < document.getElementsByClassName('prevMonth').length; i++) {
             document.getElementsByClassName('prevMonth')[i].addEventListener('click', function (e) {

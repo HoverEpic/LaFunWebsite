@@ -1,15 +1,12 @@
+
+{{if not (eq .Title "Programmation")}}
 <div class="stamp stamp-home">
     <a href="{{.RelPermalink}}">
         <div class="stamp-image">
-{{if eq .Name "l'Autre brique"}}
-        <img src='/lafun/autrebrique/images/autre-brique.svg' alt="Illustration manquante">
-{{else}}
-
             {{ range first 1 (.Resources.ByType "image") }}
 
             <img src="{{.Permalink}}" alt="image">
 {{end}}
-            {{ end }}
         </div>
         <div class="stamp-home-title">
             <div class="titre" title="{{.Title}}">{{.Title}}</div>
@@ -21,3 +18,4 @@
             </div>
         <div class="ligne"><a class="button-tertiary" href="{{.RelPermalink}}">En savoir plus</a></div>
 </div>
+{{end}}

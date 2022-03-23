@@ -32,9 +32,7 @@ collections:
       - {label: "Auteur", name: "author", widget: "select", options: ["Cat", "Fab'Manager", "Julie"]} #repère ACTU01
       - {label: "Date de l'evenement", name: "eventDate", widget: "datetime", date_format: "DD/MM/YYYY", picker_utc: true}
       - {label: "Date de publication", name: "publishDate", widget: "datetime", picker_utc: true}
-      - {label: "Afficher heure", name: "displayHour", widget: "boolean", required: false, default: true }
-      - {label: "Durée (Temps)", name: "duration", widget: "string", required: false}
-      - {label: "Durée (Jours)", name: "durationDay", widget: "number", required: false}
+      - {label: "Durée", name: "duration", widget: "string", required: false}
       - {label: "Lieu", name: "_lieu", widget: "string", required: false}
       - {label: "Tarif de l'évenement", name: "_tarif", widget: "string", required: false}
       - {label: "Present dans l'agenda", name: "presenceAgenda", widget: "boolean", default: false}
@@ -46,39 +44,116 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "partenaires", name: "partenaires", widget: "relation", collection: "Partenaires", search_fields: ["title"], value_field: "title", multiple: true, required: false}
       - {label: "visible", name: "visible", widget: "string", hidden: true, default: true}
-  - name : "Presentations"
-    label: "Presentations"
+  - name : "Adherer"
+    label: "LaFun/adherer"
     slug: "{{slug}}"
-    folder: "/content/LaFun"
-    nested:
-      depth: 3 # max depth to show in the collection tree
-    path: '{{slug}}'
-    view_groups: 
-      - label: Activité 
-        field: dir
-    filter: {field: "visible", value: true}
-    media_folder: "images/" # Media files will be stored in the same folder
-    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
-    create: true
-    summary: "{{slug}}/index"
-    fields:
-      - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Logo", name: "logo", widget: "image", required: false}
-      - {label: "Corps", name: "body", widget: "markdown", required: true}
-      - {label: "visible", name: "visible", widget: "hidden", default: true}
-    meta: { path: {widget: "hidden", label: 'Dossier', index_file: '_index', default: "text"} }
-  - name : "Projets"
-    label: "Projets"
-    slug: "{{slug}}"
-    folder: "/content/Projets"
+    folder: "/content/LaFun/adherer"
     path: '{{slug}}/index'
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
-    summary: "Projet {{slug}}"
+    summary: "Adherer {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image"}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Association"
+    label: "LaFun/association"
+    slug: "{{slug}}"
+    folder: "/content/LaFun/association"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Association {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Avecqui"
+    label: "LaFun/avecqui"
+    slug: "{{slug}}"
+    folder: "/content/LaFun/avecqui"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "avec qui {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Accompagnement"
+    label: "Activites/accompagnement"
+    slug: "{{slug}}"
+    folder: "/content/Activites/accompagnement"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Accompagnement {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Cooperation"
+    label: "Activites/cooperation"
+    slug: "{{slug}}"
+    folder: "/content/Activites/cooperation"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Cooperation {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Education"
+    label: "Activites/education"
+    slug: "{{slug}}"
+    folder: "/content/Activites/education"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Education {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Funlab"
+    label: "Activites/funlab"
+    slug: "{{slug}}"
+    folder: "/content/Activites/funlab"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Funlab {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
+      - {label: "Lien", name: "_link", widget: "string", required: false}
+      - {label: "Corps", name: "body", widget: "markdown", required: true}
+  - name : "Programmation"
+    label: "Activites/programmation"
+    slug: "{{slug}}"
+    folder: "/content/Activites/programmation"
+    path: '{{slug}}/index'
+    media_folder: "images/" # Media files will be stored in the same folder
+    public_folder: "images/" # The src attribute for uploaded media will begin with relative path
+    create: true
+    summary: "Programmation {{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string", required: true}
+      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
   - name : "Tags"
@@ -103,7 +178,7 @@ collections:
     media_folder: "images/" # Media files will be stored in the same folder
     fields:
       - {label: "Nom", name: "title", widget: "string", required: true}
-      - {label: "Logo", name: "logo", widget: "image", required: true}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
       - {label: "Lien", name: "link", widget: "string", required: false}
       - {label: "Présent dans la page des partenaires", name: "display", widget: "boolean", hidden: true, default: true}
     # adding a nested object will show the collection folder structure
@@ -152,6 +227,38 @@ collections:
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
-
-
-
+  - label: "Pages Activites"
+    name: "pagesactivites"
+    files: 
+      - label : "Funlab"
+        name : "Funlab"
+        file: "content/Activites/funlab/_index.md"
+        media_folder: "/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: true}
+      - label : "Accompagnement"
+        name : "Accompagnement"
+        file: "content/Activites/accompagnement/_index.md"
+        media_folder: "/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: true}
+      - label : "Cooperation"
+        name : "Cooperation"
+        file: "content/Activites/cooperation/_index.md"
+        media_folder: "/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: true}
+      - label : "Education"
+        name : "Education"
+        file: "content/Activites/education/_index.md"
+        media_folder: "/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: true}
