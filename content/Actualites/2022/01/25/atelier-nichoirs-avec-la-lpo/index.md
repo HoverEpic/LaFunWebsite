@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: true
 layout: blog
 title: Atelier nichoirs avec la LPO
 file_name: Atelier nichoirs avec la LPO
@@ -9,14 +12,11 @@ tags:
 author: Julie
 eventDate: 2022-02-17T14:00:24.710Z
 publishDate: 2022-01-25T15:18:24.743Z
-displayHour: true
-duration: 3h
+duration: 14h-17h
 _lieu: Funlab @Mame, 49 Bd Preuilly 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/moules-nichoirs-hirondelles-rustiques-©-baptiste-boulay.png
 partenaires:
   - LPO Touraine
