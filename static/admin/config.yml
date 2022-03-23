@@ -89,71 +89,71 @@ collections:
   - name : "Accompagnement"
     label: "Activites/accompagnement"
     slug: "{{slug}}"
-    folder: "/content/Activites/accompagnement"
-    path: '{{slug}}/index'
+    folder: "/content/Activites/accompagnement/texts"
+    path: '{{slug}}'
+    filter: {field: "visible", value: true}
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Accompagnement {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
   - name : "Cooperation"
     label: "Activites/cooperation"
     slug: "{{slug}}"
-    folder: "/content/Activites/cooperation"
-    path: '{{slug}}/index'
+    filter: {field: "visible", value: true}
+    folder: "/content/Activites/cooperation/texts"
+    path: '{{slug}}'
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Cooperation {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
   - name : "Education"
     label: "Activites/education"
     slug: "{{slug}}"
-    folder: "/content/Activites/education"
-    path: '{{slug}}/index'
+    folder: "/content/Activites/education/texts"
+    filter: {field: "visible", value: true}
+    path: '{{slug}}'
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Education {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
   - name : "Funlab"
     label: "Activites/funlab"
     slug: "{{slug}}"
-    folder: "/content/Activites/funlab"
-    path: '{{slug}}/index'
+    folder: "/content/Activites/funlab/texts"
+    filter: {field: "visible", value: true}
+    path: '{{slug}}'
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Funlab {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
   - name : "Programmation"
     label: "Activites/programmation"
     slug: "{{slug}}"
-    folder: "/content/Activites/programmation"
-    path: '{{slug}}/index'
+    folder: "/content/Activites/programmation/texts"
+    filter: {field: "visible", value: true}
+    path: '{{slug}}'
     media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Programmation {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
   - name : "Tags"
@@ -238,6 +238,7 @@ collections:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
           - {label: "Logo", name: "img", widget: "image", required: true}
+          - {label: "Weight (laisser a 1 pour les pages présente sur l'accueil)", name: "weight", widget: "string", required: false, default: 1}
       - label : "Accompagnement"
         name : "Accompagnement"
         file: "content/Activites/accompagnement/_index.md"
@@ -246,6 +247,7 @@ collections:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
           - {label: "Logo", name: "img", widget: "image", required: true}
+          - {label: "Weight (laisser a 1 pour les pages présente sur l'accueil)", name: "weight", widget: "string", required: false, default: 1}
       - label : "Cooperation"
         name : "Cooperation"
         file: "content/Activites/cooperation/_index.md"
@@ -254,6 +256,7 @@ collections:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
           - {label: "Logo", name: "img", widget: "image", required: true}
+          - {label: "Weight (laisser a 1 pour les pages présente sur l'accueil)", name: "weight", widget: "string", required: false, default: 1}
       - label : "Education"
         name : "Education"
         file: "content/Activites/education/_index.md"
@@ -262,3 +265,4 @@ collections:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
           - {label: "Logo", name: "img", widget: "image", required: true}
+          - {label: "Weight (laisser a 1 pour les pages présente sur l'accueil)", name: "weight", widget: "string", required: false, default: 1}

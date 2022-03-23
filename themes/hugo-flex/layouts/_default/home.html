@@ -29,7 +29,9 @@
             <div class="row activity-link-list">
 <!-- On va chercher les pages présentes dans le dossier content/LaFun/ pour obtenir leur données -->
                 {{ range $i,$p := (where .Site.Pages "Section" "Activites")}}
+                    {{if .Params.weight}}
                 {{partial "stamp_home.html" .}}
+{{end}}
                 {{end}}
             </div>
         </div>
