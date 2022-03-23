@@ -1,4 +1,8 @@
 ---
+_tarif: prix libre à partir de 2€
+presenceActualites: true
+youngFriendly: true
+displayHour: true
 layout: blog
 title: "Initiation Blender #1"
 file_name: Inititation 25.01.22
@@ -9,15 +13,11 @@ tags:
 author: Julie
 eventDate: 2022-01-25T18:00:00.000Z
 publishDate: 2022-01-10T12:58:39.398Z
-displayHour: true
-duration: 1h
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
-_tarif: prix libre à partir de 2€
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/image-solene-charton.png
 visible: true
 ---
