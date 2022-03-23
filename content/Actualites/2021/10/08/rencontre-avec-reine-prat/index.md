@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Exploser le plafond
 file_name: rencontre avec Reine Prat
@@ -10,13 +13,11 @@ tags:
 author: Julie
 eventDate: 2021-10-27T19:30:40.628Z
 publishDate: 2021-10-08T09:46:40.705Z
-displayHour: true
+duration: 19h30-21h
 _lieu: Librairie La Vagabonde, 31 rue Bernard Palissy, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/exploser-le-plafond.jpg
 partenaires:
   - H/F Centre Val de Loire
