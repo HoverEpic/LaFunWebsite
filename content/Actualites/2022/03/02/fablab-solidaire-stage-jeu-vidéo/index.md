@@ -1,4 +1,9 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: 1
 layout: blog
 title: Fablab solidaire mars 2022
 file_name: "Fablab solidaire stage jeu vidéo "
@@ -11,14 +16,10 @@ tags:
 author: Julie
 eventDate: 2022-03-16T09:30:18.397Z
 publishDate: 2022-03-02T09:33:18.436Z
-displayHour: true
-durationDay: 1
+duration: 16 et 17 mars (9h30-16h30)
 _lieu: MFR, Chemin de la Noraie, 37190 Azay-le-Rideau
-presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/sproutland_2.png
 partenaires:
   - Utelias
