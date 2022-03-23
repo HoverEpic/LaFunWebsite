@@ -1,4 +1,10 @@
 ---
+_tarif: Prix libre à partir 2€
+presenceActualites: false
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: Initiation à la brodeuse numérique
 file_name: Initiation à la brodeuse numérique 1
@@ -9,15 +15,10 @@ tags:
 author: Julie
 eventDate: 2021-12-13T18:00:53.074Z
 publishDate: 2021-11-24T10:54:53.183Z
-displayHour: true
-durationDay: ""
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-_tarif: Prix libre à partir 2€
-presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/formation_machines027.png
 visible: true
 ---
