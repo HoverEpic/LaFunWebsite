@@ -1,6 +1,6 @@
 ---
 title: Les initiations
-order: 2
+order: 3
 visible: true
 ---
 ### Les initiations 
