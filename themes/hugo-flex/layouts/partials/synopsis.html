@@ -1,5 +1,6 @@
 <div class="row">
-{{if or (not eq .Section "LaFUN") (not eq .Section "Activites")}}
+{{if not ( eq .Section "Activites")}}
+{{if not ( eq .Section "LaFUN")}}
     {{$.Scratch.Set "img_link" "/images/default-image.jpg"}}
     {{if (modBool (.Scratch.Get "bool") 2)}}
     <div class="image"> 
@@ -16,11 +17,25 @@
     </div>
     {{end}}
 {{end}}
+{{end}}
     <div class="column preview">
         <div class="title">{{ .Title }}</div>
+{{if eq .Section "Activites"}}
+<div>
+            <p>{{ .Content }}</p>
+</div>
+{{else if eq .Section "LaFUN"}}
+<div>
+            <p>{{ .Content }}</p>
+</div>
+{{else}}
         <div class="resume">
             <p>{{ .Summary }}</p>
         </div>
+{{end}}
+
+{{if not ( eq .Section "Activites")}}
+{{if not ( eq .Section "LaFUN")}}
         <div class="row">
 
     {{$.Scratch.Set "link_link" .RelPermalink }}
@@ -43,8 +58,12 @@
             </a>
             {{end}}
         </div>
+{{end}}
+{{end}}
     </div>
 
+{{if not ( eq .Section "Activites")}}
+{{if not ( eq .Section "LaFUN")}}
     {{if not (modBool (.Scratch.Get "bool") 2)}}
     <div class="image">
         {{ with .Resources.ByType "image" }}
@@ -55,5 +74,7 @@
         {{end}}
         <img src='{{$.Scratch.Get "img_link"}}' alt="Illustration manquante">
     </div>
+    {{end}}
+    {{end}}
     {{end}}
 </div>

@@ -34,7 +34,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "Activites"
     name = "Activités"
-    url = "/activites"
+    url = "#"
     weight = 3
   [[menu.main]]
     identifier = "Activites-funlab"

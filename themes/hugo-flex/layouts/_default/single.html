@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- Si nous sommes dans une page de type article... -->
-{{if not (eq .Section "LaFun")}}
+{{ if and (not (eq .Section "LaFun")) (not (eq .Section "Activites")) }}
 <!-- Pour celles de la section Lafun, l'image ne s'affiche pas de la même manière que dans un article -->
 <div class="single-image">
 <!-- On affiche l'image au dessus des paragraphes -->
@@ -13,20 +13,16 @@
 {{else}}
 <div class="presentations-logo">
 <!-- Cas spécial de l'autre brique qui n'a pas de logo qui n'est pas svg -->
-  {{if eq .Name "l'Autre brique"}}
-  <img src='/lafun/autrebrique/images/autre-brique-logo-w.svg' alt="Illustration manquante">
-  {{else}}
   {{ with .Resources.ByType "image" }}
   {{ range first 1 . }}
   <img class="" src="{{ .RelPermalink}}" alt="Illustration manquante">
-  {{ end }}
   {{ end }}
   {{end}}
 </div>
 {{end}}
 
 <div class="color-wrapper">
-  {{if eq .Section "LaFun"}}
+  {{if or (eq .Section "LaFun") (eq .Section "Activites")}}
 <!-- Pour la gestion des paragraphes :  -->
   {{partial "presentation.html" .}}
   {{else}}
