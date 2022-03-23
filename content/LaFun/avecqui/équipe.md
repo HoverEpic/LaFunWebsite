@@ -3,7 +3,7 @@ title: Équipe
 order: 2
 visible: true
 ---
-#### Équipe : 
+### Équipe : 
 
 * Catherine Lenoble, Directrice - Chargée de développement :
 clenoble@lafun.fr
