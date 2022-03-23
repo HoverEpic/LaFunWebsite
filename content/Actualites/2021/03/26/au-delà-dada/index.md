@@ -5,6 +5,7 @@ youngFriendly: false
 displayHour: true
 layout: blog
 title: Au-delà d'Ada
+file_name: Au delà d'Ada
 tags:
   - cultures numériques
   - égalité
@@ -16,7 +17,7 @@ tags:
 author: Julie
 eventDate: 2020-10-23T18:00:00.000Z
 publishDate: 2020-10-23T15:12:16.292Z
-duration: 3h
+duration: 18h-21h
 _lieu: Funlab @Mame - 49 Bd Preuilly 37000 Tours
 presenceAgenda: true
 motherLink: ""
