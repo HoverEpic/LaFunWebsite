@@ -1,4 +1,8 @@
 ---
+_tarif: prix libre
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Initiation à la découpe vinyle
 file_name: Initiation à la découpe vinyle 05.04.22
@@ -9,14 +13,11 @@ tags:
 author: Julie
 eventDate: 2022-04-05T18:00:17.836Z
 publishDate: 2022-03-15T09:45:17.885Z
-displayHour: true
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-_tarif: prix libre
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/decoupe-vinyle-roland.png
 visible: true
 ---
