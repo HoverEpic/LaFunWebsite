@@ -1,6 +1,6 @@
 ---
 title: Le Funlab en autonomie
-order: 4
+order: 2
 visible: true
 ---
 ### Le Funlab en autonomie
