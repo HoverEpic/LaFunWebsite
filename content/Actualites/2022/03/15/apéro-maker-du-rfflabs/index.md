@@ -1,4 +1,7 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: L'apéro[Ma]ker du RFFLabs
 file_name: Apéro Maker du RFFLabs
@@ -9,13 +12,11 @@ tags:
 author: Julie
 eventDate: 2022-04-20T19:00:26.702Z
 publishDate: 2022-03-15T13:58:26.770Z
-displayHour: true
+duration: 19h
 _lieu: Betamachine, 15 rue Victor Gilbert, 28000 Chartres
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/reseau-rff.png
 partenaires:
   - Réseau Français des Fablabs
