@@ -1,6 +1,12 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: Rencontres régionales cultures numériques et créativité
+file_name: Rencontres régionales cultures numériques et créativité
 tags:
   - l'autre brique
   - rencontre
@@ -8,14 +14,10 @@ tags:
 author: Julie
 eventDate: 2021-05-19T09:20:00.000Z
 publishDate: 2021-05-06T09:55:38.608Z
-displayHour: true
-durationDay: ""
+duration: 9h20
 _lieu: en ligne
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/photo-artlabo.png
 partenaires: []
 visible: true
