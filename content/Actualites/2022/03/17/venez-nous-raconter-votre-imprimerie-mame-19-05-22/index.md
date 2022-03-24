@@ -1,4 +1,7 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Venez nous raconter "votre" imprimerie Mame - 19.05.22
 file_name: Venez nous raconter "votre" imprimerie Mame - 19.05.22
@@ -10,13 +13,11 @@ tags:
 author: Julie
 eventDate: 2022-05-19T15:00:43.790Z
 publishDate: 2022-03-17T08:49:43.846Z
-displayHour: true
+duration: 15h
 _lieu: Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2022/03/17/venez-nous-raconter-votre-imprimerie-mame/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/mame-photo.png
 partenaires:
   - Mission Val de Loire

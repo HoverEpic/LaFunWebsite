@@ -1,6 +1,11 @@
 ---
+_tarif: ""
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Visite commentée de l'exposition "La partition d'un instant"
+file_name: Visite commentée de l'exposition "La partition d'un instant"
 tags:
   - design matiere
   - économie circulaire
@@ -13,15 +18,11 @@ tags:
 author: Julie
 eventDate: 2021-06-29T17:30:40.612Z
 publishDate: 2021-06-02T13:21:40.654Z
-displayHour: true
-duration: 1h
+duration: 17h30-18h30
 _lieu: CCCOD - Jardins François 1er 37000 Tours
-_tarif: ""
 presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/03/25/fabmati%C3%A8re-2/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/composite-cuir-pk.png
 partenaires:
   - Hors studio

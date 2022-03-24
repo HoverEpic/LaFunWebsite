@@ -1,6 +1,12 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: true
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: Sonorama
+file_name: Sonorama
 tags:
   - funlab
   - résidence
@@ -14,15 +20,10 @@ tags:
 author: Julie
 eventDate: 2021-05-25T10:00:00.000Z
 publishDate: 2021-05-10T07:32:10.806Z
-displayHour: true
-duration: ""
-durationDay: ""
+duration: Du 25 au 28 mai 2021
 _lieu: Funlab et Chapelle des Capuçins (Tours)
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/sonorama_maquette_3.png
 partenaires:
   - Le Temps Machine
