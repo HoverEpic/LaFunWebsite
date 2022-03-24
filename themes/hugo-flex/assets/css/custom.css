@@ -242,7 +242,6 @@ p {
 }
 
 .head-padder h5 {
-    text-transform: uppercase;
     color: var(--white);
     text-align: center;
 }
