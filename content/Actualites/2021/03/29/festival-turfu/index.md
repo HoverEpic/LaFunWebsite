@@ -1,6 +1,12 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: false
+presenceAgenda: true
+durationDay: 1
 layout: blog
 title: Festival Turfu - workshop et rencontre
+file_name: Festival Turfu - workshop et rencontre
 tags:
   - precious kitchen
   - design matiere
@@ -13,16 +19,11 @@ tags:
   - citoyenneté
   - interzone
 author: Julie
-displayHour: false
 eventDate: 2020-10-08T00:00:00.000Z
 publishDate: 2020-10-08T12:16:30.936Z
-durationDay: 1
 _lieu: Le Dôme - 3 Esplanade Stéphane Hessel 14000 CAEN
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
-bandeauInfo: true
-youngFriendly: false
+bandeauInfo: false
 thumbnail: images/turfu-festival-dates-2020.jpg
 partenaires:
   - Hors studio
