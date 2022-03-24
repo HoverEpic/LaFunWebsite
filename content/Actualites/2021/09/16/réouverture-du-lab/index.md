@@ -1,18 +1,20 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: true
 layout: blog
 title: Réouverture du lab
+file_name: Réouverture du lab
 tags:
   - funlab
 author: Julie
 eventDate: 2021-09-16T17:30:58.413Z
 publishDate: 2021-09-16T14:19:58.486Z
-displayHour: true
+duration: 17h30
 _lieu: Funlab @Mame, 49 Bd de Preuilly, 37000 Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/bandeau-réouverture.png
 visible: true
 ---
