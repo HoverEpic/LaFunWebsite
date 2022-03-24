@@ -1,4 +1,8 @@
 ---
+_tarif: gratuit
+presenceActualites: true
+youngFriendly: true
+displayHour: true
 layout: blog
 title: Inauguration de la Chutothèque Precious Kitchen
 file_name: Inauguration de la Chutothèque Precious Kitchen
@@ -7,14 +11,11 @@ tags:
 author: Julie
 eventDate: 2021-11-26T18:30:41.780Z
 publishDate: 2021-11-03T14:31:41.849Z
-displayHour: true
+duration: 18h30
 _lieu: 13 rue Nationale, 37000 TOURS
-_tarif: gratuit
 presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/11/03/ouverture-de-la-chutoth%C3%A8que-precious-kitchen/
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/lachutothèque-pk-logo.png
 partenaires:
   - Hors studio

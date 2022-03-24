@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Open Atelier avec LOW-TECH TOURAINE
 file_name: Open Atelier avec LOW-TECH TOURAINE
@@ -9,14 +12,11 @@ tags:
 author: Julie
 eventDate: 2021-11-04T17:00:04.477Z
 publishDate: 2021-10-05T12:41:04.577Z
-displayHour: true
-duration: 4h
+duration: 17h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/dsc00539.jpg
 partenaires:
   - Low-Tech Touraine

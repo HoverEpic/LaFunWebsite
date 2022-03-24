@@ -6,7 +6,7 @@ visible: true
 ### Infos pratiques :
 ##### Horaires :
 
-* Du mardi au vendredi 10h-18h : réservations créneaux machines pour les adhérents autonomes
+* Du mardi au vendredi 10h-18h : ouvert aux adhérents autonomes sur les machines sur réservation
 * Mardi 18h-19h : initiations 
 * Mercredi et vendredi 14h-18h : visites du Funlab pour le tout public sur inscription 
 * Jeudi 18h-21h : opens ateliers ouverts à tous

@@ -1,4 +1,8 @@
 ---
+_tarif: ""
+presenceActualites: true
+youngFriendly: true
+displayHour: true
 layout: blog
 title: Live Print aux Beaumonts
 file_name: Live Print aux Beaumonts
@@ -10,16 +14,12 @@ tags:
 author: Julie
 eventDate: 2022-04-02T15:00:48.027Z
 publishDate: 2022-03-16T12:27:48.058Z
-displayHour: true
-duration: 6h
+duration: 15h-19h
 _lieu: Les Beaumonts,  ZAC des Casernes Beaumonts Chauveau, 37000 TOURS (accès
   par le portail piéton rue du Capitaine Pougnon)
-_tarif: ""
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/gravure-linocric.png
 visible: true
 ---

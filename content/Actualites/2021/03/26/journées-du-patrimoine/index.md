@@ -1,6 +1,13 @@
 ---
+_tarif: Gratuit
+presenceActualites: true
+youngFriendly: true
+displayHour: true
+presenceAgenda: false
+durationDay: 1
 layout: blog
 title: Journées du patrimoine
+file_name: Journées du patrimoine
 tags:
   - design
   - artisanat
@@ -16,18 +23,12 @@ tags:
   - cultures numériques
   - l'autre brique
 author: Julie
-displayHour: true
 eventDate: 2020-09-19T12:00:00.000Z
 publishDate: 2020-09-19T14:37:52.832Z
-duration: ""
-durationDay: 1
+duration: 12h-19h
 _lieu: Mame, 49 Bd Preuilly 37000 Tours
-_tarif: Gratuit
-presenceAgenda: false
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/journees-patrimoine2020.jpg
 partenaires:
   - Cefim

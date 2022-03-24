@@ -1,18 +1,20 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: false
 layout: blog
 title: "Formation Raspberry Pi #2"
+file_name: "Formation Raspberry Pi #2"
 tags:
   - cefim
 author: Julie
 eventDate: 2021-10-15T09:00:18.579Z
 publishDate: 2021-10-05T10:06:18.650Z
-displayHour: false
+duration: 9h-17h
 _lieu: Cefim @Mame, 49 Bd Preuilly, 37000 Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: false
-youngFriendly: false
 thumbnail: images/visuel-formation-cefim.png
 visible: true
 ---

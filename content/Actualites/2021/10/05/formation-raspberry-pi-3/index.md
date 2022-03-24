@@ -1,20 +1,22 @@
 ---
+_tarif: Formations professionnelles Cefim
+presenceActualites: false
+youngFriendly: false
+displayHour: false
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: "Formation Raspberry Pi #3"
+file_name: "Formation Raspberry Pi #3"
 tags:
   - cefim
 author: Julie
 eventDate: 2021-11-04T09:00:03.985Z
 publishDate: 2021-10-05T10:13:04.039Z
-displayHour: false
-durationDay: ""
+duration: 9h-17h
 _lieu: BétaMachine, 15 Rue Victor Gilbert, 28000 Chartres
-_tarif: Formations professionnelles Cefim
-presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: false
-youngFriendly: false
 thumbnail: images/visuel-formation-cefim.png
 partenaires:
   - Cefim
