@@ -3,7 +3,7 @@ title: Infos pratiques
 order: 4
 visible: true
 ---
-##### Horaires du Funlab :
+##### Horaires d'ouverture :
 
 * Du mardi au vendredi 10h-18h : ouvert aux adhérents autonomes sur les machines sur réservation
 * Mardi 18h-19h : initiations 
