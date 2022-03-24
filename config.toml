@@ -72,10 +72,15 @@ theme = "hugo-flex"
     parent = "Activites"
     weight = 5
   [[menu.main]]
+    identifier = "infopratique"
+    name = "Infos pratiques"
+    url = "/infos"
+    weight = 5
+  [[menu.main]]
     identifier = "Ressources"
     name = "Ressources"
     url = "/ressources"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "Ressources-wiki"
     name = "Wiki La Fun"
@@ -106,11 +111,6 @@ theme = "hugo-flex"
     url = "https://precious.kitchen/"
     parent = "Ressources"
     weight = 1
-  [[menu.main]]
-    identifier = "infopratique"
-    name = "Infos pratiques"
-    url = "/infos"
-    weight = 6
   [[menu.main]]
     identifier = "connexion"
     name = "Connexion"
