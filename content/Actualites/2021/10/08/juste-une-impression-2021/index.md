@@ -1,4 +1,9 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: false
+presenceAgenda: true
+durationDay: 1
 layout: blog
 title: Juste une impression (Roule ma poule/Le temps machine)
 file_name: Juste une impression 2021
@@ -10,14 +15,10 @@ tags:
 author: Julie
 eventDate: 2021-11-20T14:00:00.769Z
 publishDate: 2021-10-08T13:04:00.868Z
-displayHour: false
-durationDay: 1
+duration: journée
 _lieu: Temps machine, parvis Miles Davis, 37300 Joué-les-Tours
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/juste-une-impression_web-c-marion-jdanoff.png
 partenaires:
   - Le Temps Machine
