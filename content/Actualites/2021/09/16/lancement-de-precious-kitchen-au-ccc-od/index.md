@@ -1,6 +1,11 @@
 ---
+_tarif: 4 euros
+presenceActualites: true
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Lancement de Precious Kitchen au CCC OD
+file_name: Lancement de Precious Kitchen au CCC OD
 tags:
   - precious kitchen
   - hors studio
@@ -9,14 +14,11 @@ tags:
 author: Julie
 eventDate: 2021-09-18T16:30:47.917Z
 publishDate: 2021-09-16T14:25:47.980Z
-displayHour: true
+duration: 16h30
 _lieu: CCC OD
-_tarif: 4 euros
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/precisou-kitchen-bandeau-rouge-2.png
 visible: true
 ---
