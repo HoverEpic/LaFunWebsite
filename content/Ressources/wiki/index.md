@@ -1,5 +1,6 @@
 ---
 title: Page du wiki
+_link: https://wiki.lafun.fr/index.php?title=Accueil
 img: images/logo_empty.svg
 order: 3
 ---
