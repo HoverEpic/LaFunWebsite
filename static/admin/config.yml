@@ -98,7 +98,7 @@ collections:
     folder: "/content/Activites/accompagnement/texts"
     path: '{{slug}}'
     filter: {field: "visible", value: true}
-    media_folder: "/" # Media files will be stored in the same folder
+    media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Accompagnement {{slug}}"
@@ -114,7 +114,7 @@ collections:
     filter: {field: "visible", value: true}
     folder: "/content/Activites/cooperation/texts"
     path: '{{slug}}'
-    media_folder: "/" # Media files will be stored in the same folder
+    media_folder: "images/" # Media files will be stored in the same folder
     public_folder: "images/" # The src attribute for uploaded media will begin with relative path
     create: true
     summary: "Cooperation {{slug}}"
@@ -255,7 +255,7 @@ collections:
       - label : "Wiki"
         name : "wiki"
         file: "content/Ressources/wiki/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
               - {label: "Titre", name: "title", widget: "string", required: true}
               - {label: "Lien", name: "_link", widget: "string", required: false}
@@ -265,7 +265,7 @@ collections:
       - label : "Futuretic"
         name : "futuretic"
         file: "content/Ressources/futuretic/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
               - {label: "Titre", name: "title", widget: "string", required: true}
               - {label: "Lien", name: "_link", widget: "string", required: false}
@@ -275,7 +275,7 @@ collections:
       - label : "Precious kitchen"
         name : "preciouskitchen"
         file: "content/Ressources/preciouskitchen/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
               - {label: "Titre", name: "title", widget: "string", required: true}
               - {label: "Lien", name: "_link", widget: "string", required: false}
@@ -285,7 +285,7 @@ collections:
       - label : "Cracn"
         name : "cracn"
         file: "content/Ressources/cracn/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
               - {label: "Titre", name: "title", widget: "string", required: true}
               - {label: "Lien", name: "_link", widget: "string", required: false}
@@ -295,7 +295,7 @@ collections:
       - label : "Peertube"
         name : "peertube"
         file: "content/Ressources/peertube/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
               - {label: "Titre", name: "title", widget: "string", required: true}
               - {label: "Lien", name: "_link", widget: "string", required: false}
@@ -308,7 +308,7 @@ collections:
       - label : "Funlab"
         name : "Funlab"
         file: "content/Activites/funlab/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
@@ -317,7 +317,7 @@ collections:
       - label : "Accompagnement"
         name : "Accompagnement"
         file: "content/Activites/accompagnement/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
@@ -326,7 +326,7 @@ collections:
       - label : "Cooperation"
         name : "Cooperation"
         file: "content/Activites/cooperation/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
@@ -335,7 +335,7 @@ collections:
       - label : "Education"
         name : "Education"
         file: "content/Activites/education/index.md"
-        media_folder: "/" # Media files will be stored in the same folder
+        media_folder: "images/" # Media files will be stored in the same folder
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
