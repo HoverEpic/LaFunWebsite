@@ -32,10 +32,15 @@ theme = "hugo-flex"
     url = "/actualites"
     weight = 2
   [[menu.main]]
+    identifier = "agenda"
+    name = "Agenda"
+    url = "/Agenda"
+    weight = 3
+  [[menu.main]]
     identifier = "Activites"
     name = "Activités"
     url = "/activites"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "Activites-funlab"
     name = "Le Funlab"
@@ -66,16 +71,6 @@ theme = "hugo-flex"
     url = "/Activites/accompagnement"
     parent = "Activites"
     weight = 5
-  [[menu.main]]
-    identifier = "infopratique"
-    name = "Infos pratiques"
-    url = "/infos"
-    weight = 4
-  [[menu.main]]
-    identifier = "agenda"
-    name = "Agenda"
-    url = "/Agenda"
-    weight = 4
   [[menu.main]]
     identifier = "Ressources"
     name = "Ressources"
@@ -112,10 +107,15 @@ theme = "hugo-flex"
     parent = "Ressources"
     weight = 1
   [[menu.main]]
+    identifier = "infopratique"
+    name = "Infos pratiques"
+    url = "/infos"
+    weight = 6
+  [[menu.main]]
     identifier = "connexion"
     name = "Connexion"
     url = "/"
-    weight =6
+    weight =7
 
 [taxonomies]
   tag = "tags"
