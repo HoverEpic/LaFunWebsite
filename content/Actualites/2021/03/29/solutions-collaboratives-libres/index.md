@@ -1,8 +1,12 @@
 ---
+_tarif: gratuit
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Rézolution numérique
+file_name: Rézolution numérique
 tags:
-  - interzone
   - outils coopératifs
   - éthique
   - open source
@@ -10,17 +14,13 @@ tags:
   - la labomedia
   - le mouvement associatif
 author: Julie
-displayHour: true
 eventDate: 2021-01-29T13:00:00.000Z
 publishDate: 2021-01-29T12:53:05.564Z
-duration: 1h30
+duration: 13h-14h30
 _lieu: en ligne
-_tarif: gratuit
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/rezolutions-numeriques.png
 visible: true
 ---
