@@ -10,3 +10,5 @@ La Fabrique d’Usages Numériques a pour vocation de rendre accessible au plus 
 L'association accompagne des jeunes, des acteurs associatifs, des artistes, des artisans, des chercheurs, des écoles, des habitants, des entreprises locales, des collectifs, des rêveurs et rêveuses, dans leurs réalisations et initiatives.
 
 Si le FunLab, en tant qu’atelier partagé, demeure un lieu physique ou s’y rencontre et pratique une communauté d’usagers, La FUN est, quant à elle, un lieu “méta-physique”, une structure porteuse d’idées et de projets.
+
+La FUN propose des espaces de formation et d’apprentissages (éducation), d’entraide et d'animation de réseau-x (coopération), des rencontres et évènements (programmation culturelle), des ressources ou encore des outils en ligne libres et éthiques.
