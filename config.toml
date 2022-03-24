@@ -6,7 +6,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "LaFun"
     name = "La Fun"
-    url = "#"
+    url = "/Lafun"
     weight = 1
   [[menu.main]]
     identifier = "LaFun-Association"
@@ -34,7 +34,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "Activites"
     name = "Activités"
-    url = "#"
+    url = "/activites"
     weight = 3
   [[menu.main]]
     identifier = "Activites-funlab"
@@ -67,6 +67,11 @@ theme = "hugo-flex"
     parent = "Activites"
     weight = 5
   [[menu.main]]
+    identifier = "infopratique"
+    name = "Infos pratiques"
+    url = "/infos"
+    weight = 4
+  [[menu.main]]
     identifier = "agenda"
     name = "Agenda"
     url = "/Agenda"
@@ -74,7 +79,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "Ressources"
     name = "Ressources"
-    url = "#"
+    url = "/ressources"
     weight = 5
   [[menu.main]]
     identifier = "Ressources-wiki"

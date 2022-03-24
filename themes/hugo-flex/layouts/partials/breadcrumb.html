@@ -1,3 +1,4 @@
+{{if not (eq .Title "Infos pratiques") }}
 <div class="breadcrumb">
     <a href="{{.Site.BaseURL}}" class="icon">
         {{ readFile "static/icones/home.svg" | safeHTML}}
@@ -9,3 +10,4 @@
         <a href="{{.RelPermalink}}">{{.Title}}</a>
     </div>
 </div>
+{{end}}

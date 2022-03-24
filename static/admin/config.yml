@@ -56,7 +56,6 @@ collections:
     filter: {field: "visible", value: true}
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
       - {label: "Ordre", name: "order", widget: "number", required: true}
@@ -73,7 +72,6 @@ collections:
     filter: {field: "visible", value: true}
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
       - {label: "Ordre", name: "order", widget: "number", required: true}
@@ -90,7 +88,6 @@ collections:
     summary: "avec qui {{slug}}"
     fields:
       - {label: "Titre", name: "title", widget: "string", required: true}
-      - {label: "Vignette", name: "thumbnail", widget: "image", required: false}
       - {label: "Lien", name: "_link", widget: "string", required: false}
       - {label: "Corps", name: "body", widget: "markdown", required: true}
       - {label: "Ordre", name: "order", widget: "number", required: true}
@@ -246,6 +243,60 @@ collections:
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
+      - label : "Infos pratiques"
+        name : "infos_pratiques"
+        file: "content/infos/index.md"
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+  - label: "Pages ressources"
+    name: "pages ressources"
+    files: 
+      - label : "Wiki"
+        name : "wiki"
+        file: "content/ressources/wiki/index.md"
+        fields:
+              - {label: "Titre", name: "title", widget: "string", required: true}
+              - {label: "Lien", name: "_link", widget: "string", required: false}
+              - {label: "Vignette", name: "img", widget: "image", required: false}
+              - {label: "Corps", name: "body", widget: "markdown", required: true}
+              - {label: "Ordre", name: "order", widget: "number", required: true}
+      - label : "Futuretic"
+        name : "futuretic"
+        file: "content/ressources/futuretic/index.md"
+        fields:
+              - {label: "Titre", name: "title", widget: "string", required: true}
+              - {label: "Lien", name: "_link", widget: "string", required: false}
+              - {label: "Vignette", name: "img", widget: "image", required: false}
+              - {label: "Corps", name: "body", widget: "markdown", required: true}
+              - {label: "Ordre", name: "order", widget: "number", required: true}
+      - label : "Precious kitchen"
+        name : "preciouskitchen"
+        file: "content/ressources/preciouskitchen/index.md"
+        fields:
+              - {label: "Titre", name: "title", widget: "string", required: true}
+              - {label: "Lien", name: "_link", widget: "string", required: false}
+              - {label: "Vignette", name: "img", widget: "image", required: false}
+              - {label: "Corps", name: "body", widget: "markdown", required: true}
+              - {label: "Ordre", name: "order", widget: "number", required: true}
+      - label : "Cracn"
+        name : "cracn"
+        file: "content/ressources/cracn/index.md"
+        fields:
+              - {label: "Titre", name: "title", widget: "string", required: true}
+              - {label: "Lien", name: "_link", widget: "string", required: false}
+              - {label: "Vignette", name: "img", widget: "image", required: false}
+              - {label: "Corps", name: "body", widget: "markdown", required: true}
+              - {label: "Ordre", name: "order", widget: "number", required: true}
+      - label : "Peertube"
+        name : "peertube"
+        file: "content/ressources/peertube/index.md"
+        fields:
+              - {label: "Titre", name: "title", widget: "string", required: true}
+              - {label: "Lien", name: "_link", widget: "string", required: false}
+              - {label: "Vignette", name: "img", widget: "image", required: false}
+              - {label: "Corps", name: "body", widget: "markdown", required: true}
+              - {label: "Ordre", name: "order", widget: "number", required: true}
   - label: "Pages Activites"
     name: "pagesactivites"
     files: 

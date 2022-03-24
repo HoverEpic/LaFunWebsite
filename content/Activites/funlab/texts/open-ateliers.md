@@ -1,6 +1,7 @@
 ---
 title: Open Ateliers
 visible: true
+order: 1
 ---
 ### Les Open ateliers - jeudis de 18h à 21h
 **démos de machines et de logiciels, bricolage, réparation, entraide, évènements**
