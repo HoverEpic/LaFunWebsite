@@ -1,4 +1,7 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Open atelier Batbox (LPO Touraine) - 28.04.22
 file_name: Open atelier Batbox (LPO Touraine) - 28.04.22
@@ -8,14 +11,11 @@ tags:
 author: Julie
 eventDate: 2022-04-28T18:00:07.229Z
 publishDate: 2022-03-18T09:47:07.250Z
-displayHour: true
-duration: 3h
+duration: 18h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2022/03/15/ateliers-batbox-lpo-touraine/
-presenceActualites: false
 bandeauInfo: false
-youngFriendly: false
 thumbnail: images/batbox-lpo.png
 partenaires:
   - LPO Touraine
