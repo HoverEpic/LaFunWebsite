@@ -1,6 +1,12 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: false
+presenceAgenda: true
+durationDay: 4
 layout: blog
 title: Carte blanche Atelier21 - précarité énergétique
+file_name: Carte blanche Atelier21 - précarité énergétique
 tags:
   - atelier21
   - maker.euse.s associe.e.s
@@ -11,15 +17,10 @@ tags:
 author: Julie
 eventDate: 2020-11-09T00:00:56.531Z
 publishDate: 2020-11-09T14:58:56.597Z
-displayHour: false
 duration: ""
-durationDay: 4
 _lieu: Funlab @Mame - 49 Bd Preuilly, 37000 Tours
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: false
-youngFriendly: true
 thumbnail: images/cedric-carles3.png
 partenaires:
   - Atelier21
