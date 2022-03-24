@@ -1,20 +1,22 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Rencontres ReFAIRE
+file_name: Rencontres ReFAIRE 2020
 tags:
   - makers
   - rencontre
   - l'autre brique
 author: Julie
-displayHour: true
 eventDate: 2020-10-06T13:30:20.549Z
 publishDate: 2020-10-06T14:47:20.602Z
+duration: 14h-19h
 _lieu: Funlab @Mame - 49 Bd Preuilly 37000 Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/logo-l-autre-brique.png
 partenaires:
   - Cefim
