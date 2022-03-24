@@ -1,6 +1,6 @@
 ---
 title: Infos pratiques
-order: 5
+order: 4
 visible: true
 ---
 ### Infos pratiques :
