@@ -1,6 +1,6 @@
 ---
 title: Adherer
 visible: false
-img: images/fablab_solidaire422.png
+img: images/mobilier-dieudo-1.jpg
 ---
 Adhérer, c'est avoir accès à...
