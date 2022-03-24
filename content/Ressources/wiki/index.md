@@ -1,5 +1,5 @@
 ---
-title: Page du wiki
+title: Wiki La FUN
 _link: https://wiki.lafun.fr/index.php?title=Accueil
 img: images/logo_empty.svg
 order: 3
