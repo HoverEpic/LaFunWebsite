@@ -341,3 +341,30 @@ collections:
           - {label: "Texte", name: "body", widget: "markdown", required: true}
           - {label: "Logo", name: "img", widget: "image", required: false}
           - {label: "Weight (laisser a 1 pour les pages présente sur l'accueil)", name: "weight", widget: "string", required: false, default: 1}
+  - label: "Pages LaFUN"
+    name: "pageslafun"
+    files: 
+      - label : "Avec qui"
+        name : "withwho"
+        file: "content/LaFun/avecqui/index.md"
+        media_folder: "images/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: false}
+      - label : "Association"
+        name : "association"
+        file: "content/LaFun/association/index.md"
+        media_folder: "images/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: false}
+      - label : "Adherer"
+        name : "adherer"
+        file: "content/LaFun/adherer/index.md"
+        media_folder: "images/" # Media files will be stored in the same folder
+        fields:
+          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Logo", name: "img", widget: "image", required: false}
