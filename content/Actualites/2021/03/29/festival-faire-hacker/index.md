@@ -1,6 +1,12 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: false
+presenceAgenda: true
+durationDay: 21
 layout: blog
 title: Festival Faire Hacker
+file_name: Festival Faire Hacker
 tags:
   - cultures numériques
   - fablabs
@@ -9,16 +15,11 @@ tags:
   - festival
   - l'autre brique
 author: Julie
-displayHour: false
 eventDate: 2020-09-26T00:00:00.000Z
 publishDate: 2020-09-26T14:31:06.504Z
-durationDay: 21
 _lieu: Betamachine - 15 rue Victor Gilbert 28000 Chartres
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
-bandeauInfo: true
-youngFriendly: false
+bandeauInfo: false
 thumbnail: images/faire-hacker.png
 partenaires:
   - Betamachine
