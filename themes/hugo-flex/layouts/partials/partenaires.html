@@ -4,14 +4,19 @@
         <rect width="2000" height="20" y="98" style="fill:var(--white);" />
     </svg>
     <div class="rectangle">
-<h3>Nous soutiennent :</h3>
-<h3>Membres :</h3>
+<h3>Ils nous soutiennent :</h3>
+<img src="/images/logos-partenaires-financiers.png" alt="bannière indisponible">
+<h3>Nos réseaux :</h3>
+<img src="/images/logos-reseaux.png" alt="bannière indisponible">
         <div class="row" style="justify-content: center;">
             <ul>
                 {{range .Pages }}
                 {{$linkToCheck := .Params.link}}
+                {{if eq .Params.display true}}
                 <li><a href="{{$linkToCheck}}" {{partial "partials/linkTarget.html" (dict "linkString" $linkToCheck "ctx" $)| print | safeHTMLAttr}}>{{.Name}}</a></li>
+                {{end}}                
                 {{end}}
+
             </ul>
         </div>
     </div>
