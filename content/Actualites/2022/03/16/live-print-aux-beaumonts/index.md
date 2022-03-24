@@ -14,7 +14,7 @@ tags:
 author: Julie
 eventDate: 2022-04-02T15:00:48.027Z
 publishDate: 2022-03-16T12:27:48.058Z
-duration: 15h-21h
+duration: 15h-19h
 _lieu: Les Beaumonts,  ZAC des Casernes Beaumonts Chauveau, 37000 TOURS (accès
   par le portail piéton rue du Capitaine Pougnon)
 presenceAgenda: true
