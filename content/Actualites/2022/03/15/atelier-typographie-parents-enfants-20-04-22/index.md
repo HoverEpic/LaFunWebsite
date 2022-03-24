@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: true
 layout: blog
 title: Atelier typographie parents/enfants
 file_name: Atelier typographie parents/enfants 20.04.22
@@ -8,14 +11,11 @@ tags:
 author: Julie
 eventDate: 2022-04-20T14:00:26.729Z
 publishDate: 2022-03-15T09:47:26.772Z
-displayHour: true
-duration: 2h30
+duration: 14h-16h30
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/atelier-vinyle-typo.png
 visible: true
 ---

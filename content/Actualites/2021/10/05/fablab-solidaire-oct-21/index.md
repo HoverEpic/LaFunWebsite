@@ -1,6 +1,12 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: Fablab solidaire - oct. 21
+file_name: Fablab solidaire - oct. 21
 tags:
   - funlab
   - fablab solidaire
@@ -8,15 +14,10 @@ tags:
 author: Julie
 eventDate: 2021-10-18T09:30:03.414Z
 publishDate: 2021-10-05T10:39:03.496Z
-displayHour: true
-duration: 7h
-durationDay: ""
+duration: 18 et 19 oct (9h30-16h30)
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/09/17/laur%C3%A9at-fablab-solidaire-2021/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/visuel-atelier-outils.png
 visible: true
 ---

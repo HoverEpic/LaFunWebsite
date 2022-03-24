@@ -1,4 +1,8 @@
 ---
+_tarif: prix libre
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Initiation à la l'impression 3D SLA
 file_name: Initiation à la l'impression 3D SLA 1
@@ -9,14 +13,11 @@ tags:
 author: Julie
 eventDate: 2021-12-20T18:00:10.224Z
 publishDate: 2021-11-24T10:51:10.283Z
-displayHour: true
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-_tarif: prix libre à partir de 2€
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/20211122_173526.png
 visible: true
 ---

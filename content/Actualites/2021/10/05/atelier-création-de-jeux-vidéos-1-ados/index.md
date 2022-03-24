@@ -1,4 +1,9 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: true
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: "Atelier création de jeux vidéos #1 (ados)"
 file_name: Atelier création de jeu vidéo (ados) 2 nov 21
@@ -10,15 +15,10 @@ tags:
 author: Julie
 eventDate: 2021-11-02T14:30:53.853Z
 publishDate: 2021-10-05T14:18:53.920Z
-displayHour: true
-duration: 3h
-durationDay: ""
+duration: 14h30-17h30
 _lieu: Centre Jules Vernes, Rue Henri Dunant, 37510 Ballan-Miré
-presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/pacman-gcf216fd68_1920.png
 partenaires:
   - Cultures du coeur 37

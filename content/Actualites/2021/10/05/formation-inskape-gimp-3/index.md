@@ -1,21 +1,23 @@
 ---
+_tarif: Formations professionnelles Cefim
+presenceActualites: false
+youngFriendly: false
+displayHour: false
+presenceAgenda: true
+durationDay: ""
 layout: blog
 title: "Formation Inskape/Gimp #3"
+file_name: "Formation Inskape/Gimp #3"
 tags:
   - cefim
   - funlab
 author: Julie
 eventDate: 2021-10-28T09:00:41.191Z
 publishDate: 2021-10-05T10:09:41.259Z
-displayHour: false
-durationDay: ""
+duration: 9h-17h
 _lieu: En ligne
-_tarif: Formations professionnelles Cefim
-presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: false
-youngFriendly: false
 thumbnail: images/visuel-formation-cefim.png
 partenaires:
   - Cefim

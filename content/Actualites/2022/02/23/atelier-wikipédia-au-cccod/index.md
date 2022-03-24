@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Atelier Wikipédia au CCC OD
 file_name: atelier wikipédia au CCCOD
@@ -9,14 +12,11 @@ tags:
 author: Julie
 eventDate: 2022-03-12T10:00:33.539Z
 publishDate: 2022-02-23T13:46:33.594Z
-displayHour: true
-duration: "3"
+duration: 10h-13h
 _lieu: CCC OD, jardin François 1er, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/wikipedia-logo_ka.png
 partenaires:
   - H/F Centre Val de Loire

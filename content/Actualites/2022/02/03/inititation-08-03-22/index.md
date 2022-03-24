@@ -1,4 +1,10 @@
 ---
+_tarif: prix libre
+presenceActualites: false
+youngFriendly: true
+displayHour: true
+presenceAgenda: true
+durationDay: -3
 layout: blog
 title: "Initiation Blender #4"
 file_name: Inititation 08.03.22
@@ -9,16 +15,10 @@ tags:
 author: Julie
 eventDate: 2022-03-08T18:00:10.152Z
 publishDate: 2022-02-03T14:32:10.176Z
-displayHour: true
-duration: 1h
-durationDay: -3
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
-_tarif: prix libre
-presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/image-solene-charton.png
 visible: true
 ---

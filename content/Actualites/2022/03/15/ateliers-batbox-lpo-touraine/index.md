@@ -1,4 +1,7 @@
 ---
+presenceActualites: true
+youngFriendly: true
+displayHour: false
 layout: blog
 title: Ateliers Batbox (LPO Touraine)
 file_name: Ateliers Batbox (LPO Touraine)
@@ -8,13 +11,11 @@ tags:
 author: Julie
 eventDate: 2022-04-13T14:00:15.036Z
 publishDate: 2022-03-15T10:20:15.071Z
-displayHour: false
+duration: 10h-16h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: false
 motherLink: ""
-presenceActualites: true
 bandeauInfo: false
-youngFriendly: true
 thumbnail: images/batbox-lpo.png
 partenaires:
   - LPO Touraine

@@ -5,6 +5,7 @@ youngFriendly: false
 displayHour: true
 layout: blog
 title: Atelier territoires fabricants et besoins locaux
+file_name: Atelier territoires fabricants et besoins locaux
 tags:
   - atelier
   - circuit-court
@@ -15,6 +16,7 @@ tags:
 author: Julie
 eventDate: 2021-03-31T11:15:00.000Z
 publishDate: 2021-03-29T22:00:00.000Z
+duration: 11h15-13h15
 _lieu: en ligne
 presenceAgenda: true
 motherLink: ""

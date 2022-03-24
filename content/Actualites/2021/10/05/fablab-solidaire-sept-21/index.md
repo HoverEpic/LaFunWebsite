@@ -1,21 +1,22 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
+presenceAgenda: true
+durationDay: 4
 layout: blog
 title: Fablab solidaire - sept. 21
+file_name: Fablab solidaire - sept. 21
 tags:
   - fondation orange
   - funlab
 author: Julie
 eventDate: 2021-09-28T14:00:00.000Z
 publishDate: 2021-10-05T10:54:39.192Z
-displayHour: true
-duration: 3h
-durationDay: 4
+duration: du 28 sept au 1er oct (13h30-16h30)
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/09/17/laur%C3%A9at-fablab-solidaire-2021/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/couture-visuel.png
 visible: true
 ---

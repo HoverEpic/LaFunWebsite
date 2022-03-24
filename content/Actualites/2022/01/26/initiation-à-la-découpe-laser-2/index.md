@@ -1,4 +1,8 @@
 ---
+_tarif: prix libre
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Initiation à la découpe laser
 file_name: Initiation à la découpe laser 2
@@ -9,14 +13,11 @@ tags:
 author: Julie
 eventDate: 2022-02-08T18:00:47.050Z
 publishDate: 2022-01-26T10:20:47.081Z
-displayHour: true
+duration: 18h-19h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
-_tarif: prix libre
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/formation_machines009.png
 visible: true
 ---
