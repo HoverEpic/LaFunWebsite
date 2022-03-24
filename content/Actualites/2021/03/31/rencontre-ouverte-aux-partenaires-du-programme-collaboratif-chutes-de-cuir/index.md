@@ -1,6 +1,11 @@
 ---
+_tarif: ""
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
 title: Rencontre ouverte aux partenaires du programme collaboratif "Chutes de cuir"
+file_name: Rencontre ouverte aux partenaires du programme collaboratif "Chutes de cuir"
 tags:
   - design matiere
   - économie circulaire
@@ -12,15 +17,11 @@ tags:
 author: Julie
 eventDate: 2021-06-28T17:30:46.266Z
 publishDate: 2021-06-02T13:07:46.339Z
-displayHour: true
-duration: 1h
+duration: 17h30-18h30
 _lieu: Funlab @Mame - 49 Bd Preuilly 37000 Tours
-_tarif: ""
 presenceAgenda: true
 motherLink: https://lafun.fr/actualites/2021/03/25/fabmati%C3%A8re-2/
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: false
 thumbnail: images/composite-cuir-pk.png
 partenaires:
   - Hors studio
