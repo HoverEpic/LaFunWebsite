@@ -11,3 +11,10 @@ Le Funlab est un atelier partagé de fabrication de 170m2 situé au cœur de Mam
 Apprenez à utiliser les machines de l'atelier auprès de la communauté (adhérents, artisans et artistes en résidence...)
 
 Description du parc machine ci-dessous.
+
+### Les Open Ateliers 
+#### Tous les jeudis de 18h à 21h
+
+*Démos de machines et logiciels, bricolage, réparation, entraide, évènements*
+
+Que vous soyez bricoleurs, artistes, artisans, designers, développeurs, entrepreneurs, chercheurs, éducateurs, ingénieurs, étudiants, habitants, voisins, rêveurs... Venez rencontrer la communauté et échanger autour de vos idées et projets !
