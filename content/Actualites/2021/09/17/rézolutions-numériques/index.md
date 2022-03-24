@@ -1,19 +1,20 @@
 ---
+presenceActualites: false
+youngFriendly: false
+displayHour: true
 layout: blog
-title: Rézolutions numériques
+title: Rézolutions numériques 2021
+file_name: Rézolutions numériques 2021
 tags:
   - le mouvement associatif
 author: Julie
 eventDate: 2021-09-14T09:30:30.824Z
 publishDate: 2021-09-07T08:57:30.899Z
-displayHour: true
-duration: 3h
+duration: 9h30-11h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
 presenceAgenda: true
 motherLink: ""
-presenceActualites: false
 bandeauInfo: true
-youngFriendly: true
 thumbnail: images/cafe-assos-numérique.png
 visible: true
 ---
