@@ -3,7 +3,6 @@ title: Accompagnement
 order: 1
 visible: true
 ---
-## Accompagnement
-La FUN accompagne artisans, artistes, designers, indépendants, tiers-lieux émergents, ateliers du faire.
+**La FUN accompagne artisans, artistes, designers, indépendants, tiers-lieux émergents, ateliers du faire.**
 
 *...les infos bientôt en ligne...*
