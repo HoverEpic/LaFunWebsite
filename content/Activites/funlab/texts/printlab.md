@@ -5,7 +5,7 @@ visible: true
 ---
 ### Printlab
 
-Développé en collaboration avec l'artiste [Dieudonné Cartier](http://www.dieudonnécartier.com/), le Printlab de La Fun est un atelier de micro édition et d'impression intégré au Funlab. Ouvert à toutes et tous, il met à disposition des machines et des outils permettant de réaliser ses propres publications.
+Développé en collaboration avec l'artiste [Dieudonné Cartier](http://www.dieudonnécartier.com/), le Printlab de La Fun est un atelier de micro édition et d'impression intégré au Funlab. Ouvert à toutes et tous, il met à disposition des machines et des outils permettant de réaliser ses propres publications (affiches, livrets, fanzines...).
 
 *Workshops, initiations et autres évènements sont également proposés tout au long de l'année.*
 
