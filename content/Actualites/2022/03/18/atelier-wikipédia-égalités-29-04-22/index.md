@@ -24,7 +24,7 @@ visible: true
 ---
 ## Atelier wikipédia égalité - festival "Easy Listening"
 
-### En partenariat avec [l'ensemble Ptyx](https://www.ensembleptyx.com/) et H/F Centre Val-de-Loire
+### En partenariat avec l'ensemble Ptyx et H/F Centre Val-de-Loire
 
 Cet atelier a pour objectif de rendre visible des (in)égalités femmes-hommes dans les Arts et la culture, en enrichissant le contenu de l’encyclopédie libre de nouvelles pages dédiées à des artistes femmes.  
 
