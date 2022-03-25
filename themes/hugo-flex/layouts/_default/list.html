@@ -15,7 +15,7 @@
 
     {{.Scratch.Set "bool" false}}
 <!-- Si c'est la section LaFun... -->
-{{if or (eq .Section "LaFun") (eq .Section "Activites")}}
+{{if or (eq .Section "LaFun")}}
     {{$.Scratch.Set "count" 0}}
 <!-- On récupère toutes les pages dans le sens inverse de leur création -->
     {{ range $i,$p := .Pages.Reverse  }}
@@ -34,7 +34,7 @@
 <!-- Si c'est la section Partenaires -->
     {{if eq .Section "partenaires"}}
         {{ partial "partenaires.html" .}}
-    {{else if eq .Section "Ressources"}}
+    {{else if or (eq .Section "Ressources") (eq .Section "Activites")}}
         {{$pan := .Pages}}
         {{ range $i,$p := sort $pan "Params.order" }}
             {{.Scratch.Set "bool" $i}}

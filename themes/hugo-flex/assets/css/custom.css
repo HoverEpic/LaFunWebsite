@@ -2291,6 +2291,9 @@ input[type=radio]:checked~.menu-responsive-submenu-list {
     .rectangle img {
         width: 100%;
     }
+    .rectangle h2{
+word-break: break-word;
+}
 
     .agenda-row {
         width: 90%;
