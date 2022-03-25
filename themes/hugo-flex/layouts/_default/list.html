@@ -34,7 +34,7 @@
 <!-- Si c'est la section Partenaires -->
     {{if eq .Section "partenaires"}}
         {{ partial "partenaires.html" .}}
-    {{else if or (eq .Section "Ressources") (eq .Section "Activites")}}
+    {{else if or (eq .Section "Ressources") (eq .Section "activites")}}
         {{$pan := .Pages}}
         {{ range $i,$p := sort $pan "Params.order" }}
             {{.Scratch.Set "bool" $i}}
@@ -47,7 +47,6 @@
         
     {{else}}
 <!-- Si aucune de ces conditions n'est vrai, on cherche les pages de la liste et on les affiche tout comme LaFun -->
-
         {{ range $i,$p := .Pages.Reverse  }}
             {{.Scratch.Set "bool" $i}}
                 {{if (modBool $i 2)}}
