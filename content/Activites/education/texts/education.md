@@ -3,9 +3,7 @@ title: Education
 order: 1
 visible: true
 ---
-## Education
-
-La FUN élabore des parcours sur mesure avec des partenaires de la formation professionnelle, de l'insertion, de l'éducation populaire, des arts et de la culture.
+**La FUN élabore des parcours sur mesure avec des partenaires de la formation professionnelle, de l'insertion, de l'éducation populaire, des arts et de la culture.**
 
 Vous souhaitez organiser une visite apprenante ou un atelier créatif pour vos publics (scolaires, adolescents, parents/enfants, adultes) ;
 
