@@ -1,6 +1,7 @@
 ---
 title: Cooperation
 visible: false
+img: images/autre-brique.svg
 order: 3
 weight: 1
 ---
