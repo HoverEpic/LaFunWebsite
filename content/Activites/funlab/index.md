@@ -1,6 +1,7 @@
 ---
 title: Funlab
 visible: false
+img: images/logo-funlab.svg
 order: 1
 weight: 1
 ---
