@@ -221,7 +221,7 @@ collections:
         media_folder: "images/" # Media files will be stored in the same folder
         file: "content/nous_rejoindre/_index.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Titre", name: "title", widget: "string", required: false}
           - {label: "Image", name: "img", widget: "image", required: true}
           - {label: "Resumé", name: "body", widget: "markdown", required: true}
           - {label: "lien", name: "link", widget: "string", required: true}
@@ -229,25 +229,25 @@ collections:
         name : "accueil"
         file: "content/_index.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Titre", name: "title", widget: "string", required: false}
           - {label: "Resumé", name: "body", widget: "markdown", required: true}
       - label : "Site LoWeb"
         name : "site_loweb"
         file: "content/siteloweb/_index.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Titre", name: "title", widget: "string", required: false}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
       - label : "Reglement Interieur"
         name : "reglement_interieur"
         file: "content/reglementinterieur/_index.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Titre", name: "title", widget: "string", required: false}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
       - label : "Infos pratiques"
         name : "infos_pratiques"
         file: "content/infos/index.md"
         fields:
-          - {label: "Titre", name: "title", widget: "string", required: true}
+          - {label: "Titre", name: "title", widget: "string", required: false}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
   - label: "Pages ressources"
     name: "pages ressources"
