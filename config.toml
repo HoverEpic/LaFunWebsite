@@ -16,7 +16,7 @@ theme = "hugo-flex"
     weight = 1
   [[menu.main]]
     identifier = "LaFun-adherer"
-    name = "Adherer"
+    name = "Adhérer"
     url = "/LaFun/adherer"
     parent = "LaFun"
     weight = 2
@@ -49,13 +49,13 @@ theme = "hugo-flex"
     weight = 1
   [[menu.main]]
     identifier = "Activites-education"
-    name = "Education"
+    name = "éducation"
     url = "/Activites/education"
     parent = "Activites"
     weight = 2
   [[menu.main]]
     identifier = "Activites-cooperation"
-    name = "Cooperation"
+    name = "Coopération"
     url = "/Activites/cooperation"
     parent = "Activites"
     weight = 3
@@ -96,7 +96,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "Ressources-peertube"
     name = "Peertube"
-    url = "https://tube.lafun.fr/"
+    url = "https://tube.futuretic.fr/"
     parent = "Ressources"
     weight = 3
   [[menu.main]]

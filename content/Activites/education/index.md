@@ -1,5 +1,5 @@
 ---
-title: Education
+title: Éducation
 visible: false
 img: images/atelierlablogo.svg
 order: 2

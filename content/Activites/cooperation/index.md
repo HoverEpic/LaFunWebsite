@@ -1,5 +1,5 @@
 ---
-title: Cooperation
+title: Coopération
 visible: false
 img: images/autre-brique.svg
 order: 3

@@ -12,7 +12,6 @@
 </div>
 {{else}}
 <div class="presentations-logo">
-<!-- Cas spécial de l'autre brique qui n'a pas de logo qui n'est pas svg -->
   {{ with .Resources.ByType "image" }}
   {{ range first 1 . }}
   <img class="" src="{{ .RelPermalink}}" alt="Illustration manquante">
