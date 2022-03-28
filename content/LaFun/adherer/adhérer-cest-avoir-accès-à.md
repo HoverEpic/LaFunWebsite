@@ -3,8 +3,8 @@ title: Adhérer c'est avoir accès à
 order: 1
 visible: true
 ---
-## Adhérer 
-### C'est avoir accès à :
+### Adhérer 
+C'est avoir accès à :
 ##### Un atelier partagé 
 et un parc machines mutualisé  (imprimantes 3D, découpe laser, brodeuse numérique, outillage électro-portatif, etc)
 * Funlab, au 49 Bd Preuilly (à Mame)
