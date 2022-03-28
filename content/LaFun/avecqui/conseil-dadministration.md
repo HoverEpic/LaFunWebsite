@@ -1,6 +1,6 @@
 ---
 title: Conseil d'administration
-order: 3
+order: 2
 visible: true
 ---
 ### Conseil d'administration (depuis janvier 2022)
