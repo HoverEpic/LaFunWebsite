@@ -18,13 +18,13 @@
   {{ partialCached "banner.html" . }}
   <main>
 <!-- On verifie que l'on ne se trouve pas sur une page "single" du site... -->
-    {{if not .IsPage }}
+    {{if or (not .IsPage) (eq .Title "Infos pratiques") }}
     <div class="head-padder">
       <div class="logo-wrapper">
           {{ readFile "static/logow.svg" | safeHTML }}
       </div>
 <!-- ... Et dans le cas d'une section on cache la phrase d'accroche -->
-      {{if not .Section}}
+      {{if and (not (.Section)) (not (eq .Title "Infos pratiques")) }}
       <div>
         <h5 class="intro">UN ATELIER PARTAGÉ DE FABRICATION À TOURS<br /> Lieu de rencontres, de créativité et de fabrication</h5>
       </div>

@@ -366,6 +366,7 @@ collections:
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Ordre", name: "order", widget: "number", required: true}
           - {label: "Logo", name: "img", widget: "image", required: false}
       - label : "Association"
         name : "association"
@@ -374,6 +375,7 @@ collections:
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Ordre", name: "order", widget: "number", required: true}
           - {label: "Logo", name: "img", widget: "image", required: false}
       - label : "Adherer"
         name : "adherer"
@@ -382,4 +384,5 @@ collections:
         fields:
           - {label: "Titre", name: "title", widget: "string", required: true}
           - {label: "Texte", name: "body", widget: "markdown", required: true}
+          - {label: "Ordre", name: "order", widget: "number", required: true}
           - {label: "Logo", name: "img", widget: "image", required: false}

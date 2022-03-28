@@ -26,16 +26,18 @@
   {{partial "presentation.html" .}}
   {{else}}
 <!-- Dans un cas normal... -->
-  <div class="color-block single-div">
-    <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+{{$titlecompare := "Infos pratiques"}} 
+  <div class="color-block single-div" {{if eq .Title $titlecompare }}style="margin-top:0;"{{end}}>
+    <svg class="uptriangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" {{if eq .Title $titlecompare }}style="margin-top:0;"{{end}} >
       <polygon class="uptriangle-shape" fill="white" points="0,100 100,0 100,100" />
       <rect width="2000" height="20" y="98" style="fill:var(--white);" />
     </svg>
     <div class="rectangle">
       <div class="" style="width: 100%;">
-        <div class="row justify-center">
+ {{if not (eq .Title $titlecompare) }}        
+<div class="row justify-center">
           <h1 class="single-title">{{.Title}}</h1>
-        </div>
+        </div>{{end}}
         <div class="row">
           {{ partial "breadcrumb.html" . }}
         </div>

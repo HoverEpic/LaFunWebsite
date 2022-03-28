@@ -18,7 +18,7 @@
 {{if or (eq .Section "LaFun")}}
     {{$.Scratch.Set "count" 0}}
 <!-- On récupère toutes les pages dans le sens inverse de leur création -->
-    {{ range $i,$p := .Pages.Reverse  }}
+{{ range $i,$p := sort .Pages "Params.order" }}
         {{if not .Params.dir}}
 <!-- Selon si c'est une page pair ou non, on inverse la couleur du bloc de couleur -->
             {{.Scratch.Set "bool" ($.Scratch.Get "count")}}
