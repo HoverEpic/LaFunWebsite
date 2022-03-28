@@ -9,7 +9,7 @@ Développé en collaboration avec l'artiste [Dieudonné Cartier](http://www.dieu
 
 *Workshops, initiations et autres évènements sont également proposés tout au long de l'année.*
 
-#### Risographie
+##### Risographie
 
 **Le Printlab est équipé d'un duplicopieur Riso deux tambours cinq couleurs**
 
