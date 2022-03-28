@@ -25,3 +25,5 @@ Tarifs :
 * Electronique : gratuit
 
 Pour réserver des créneaux machines : envoyer un mail à association@lafun.fr
+
+Retrouver toutes les informations dans le guide de l'adhérent.e [ici](https://cloud.lafun.fr/s/DTjAdqmCsfpBgRb)
