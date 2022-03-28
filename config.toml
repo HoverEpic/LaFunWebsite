@@ -22,7 +22,7 @@ theme = "hugo-flex"
     weight = 2
   [[menu.main]]
     identifier = "LaFun-avecqui"
-    name = "Avec qui"
+    name = "Avec qui ?"
     url = "/LaFun/avecqui"
     parent = "LaFun"
     weight = 3
