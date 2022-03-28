@@ -1,6 +1,6 @@
 ---
 title: Équipe
-order: 1
+order: 2
 visible: true
 ---
 ### Équipe : 
