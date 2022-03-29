@@ -35,4 +35,4 @@ Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouv
 ### Infos pratiques :
 
 * mercredi 13.04.22 : 10h-16h avec une pause repas
-* les ateliers sont déjà complet mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
+* pour donner un coup de main : envoyez un mail à asso@lafun.fr
