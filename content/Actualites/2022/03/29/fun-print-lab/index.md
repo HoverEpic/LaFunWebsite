@@ -21,8 +21,6 @@ visible: true
 **Développé en collaboration avec l'artiste Dieudonné Cartier, le Printlab de La Fun est un atelier de micro édition et d'impression intégré au Funlab.** Ouvert à toutes et tous, il met à disposition des machines et des outils permettant de réaliser ses propres publications (affiches, livrets, fanzines...).
 Workshops, initiations et autres évènements sont également proposés tout au long de l'année.
 
-![](images/p1010030-copie.png)
-
 ### La Risographie
 
 **Le printlab est équipé d'un duplicopieur Riso deux tambours, cinq couleurs.**
