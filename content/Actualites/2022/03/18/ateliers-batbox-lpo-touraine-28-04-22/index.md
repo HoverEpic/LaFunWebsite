@@ -35,4 +35,4 @@ Convivial et formateur, vous en apprendrez plus sur les chiroptères et les nouv
 ### Infos pratiques :
 
 * jeudi 28.04.22 : 18h-21h
-* l'atelier est déjà complet mais il est possible de venir assister et donner un coup de main : envoyez un mail à association@lafun.fr
+* pour donner un coup de main : envoyez un mail à association@lafun.fr
