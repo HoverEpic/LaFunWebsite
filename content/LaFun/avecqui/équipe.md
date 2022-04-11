@@ -9,8 +9,9 @@ visible: true
   clenoble@lafun.fr
 * Julie Lallement, Coordinatrice et chargée de communication :
   jlallement@lafun.fr
+* Sam Rocheron : facilitateur :
+srocheron@lafun.fr 
 * fabmanager.euse : en recrutement
-* facilitateur.rice : en recrutement
 
 ##### Les volontaires en service civique
 
