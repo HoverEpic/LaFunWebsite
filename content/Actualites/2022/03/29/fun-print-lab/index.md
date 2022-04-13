@@ -25,8 +25,7 @@ Workshops, initiations et autres évènements sont également proposés tout au 
 
 **Le printlab est équipé d'un duplicopieur Riso deux tambours, cinq couleurs.**
 
-La risographie est un procédé d'impression à faible impact sur l'environnement.
-Cette technique d'impression à froid utilise des encres à base de soja et des pochoirs ("master") en fibre de banane. La risographie se caractérise par une esthétique unique qui repose sur une impression couche par couche, couleur par couleur, comme en sérigraphie. Les encres végétales ont un rendu plus intense. Leur impression sur des papiers naturels ou recyclés offre un rendu optimal et texturé.
+La risographie intègre une dimension écologique. Cette technique d'impression à froid utilise des encres à base de soja et des pochoirs ("master") en fibre de banane. La risographie se caractérise par une esthétique unique qui repose sur une impression couche par couche, couleur par couleur, comme en sérigraphie. Les encres végétales ont un rendu plus intense. Leur impression sur des papiers naturels ou recyclés offre un rendu optimal et texturé.
 
 **Nos couleurs**
 
