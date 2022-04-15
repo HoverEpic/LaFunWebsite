@@ -18,9 +18,9 @@ youngFriendly: true
 thumbnail: images/20220402_144622.png
 visible: true
 ---
-## Open atelier spécial Printlab
+### Open atelier spécial Printlab
 
-#### Avec l'artiste Dieudonné Cartier
+##### avec l'artiste Dieudonné Cartier
 
 Venez fabriquer une "Linocric" au Funlab ! 
 
