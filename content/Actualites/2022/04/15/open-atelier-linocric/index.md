@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
-thumbnail: images/20220402_144622.jpg
+thumbnail: images/20220402_144622.png
 visible: true
 ---
 ## Open atelier spécial Printlab
@@ -25,3 +25,5 @@ visible: true
 Venez fabriquer une "Linocric" au Funlab ! 
 
 La Linocric mêle technique d’impression "lowtech" (presse fabriquée en bois et avec pour moyen de pression, un cric de voiture) et "hightech" (matrice gravée à la découpeuse Laser).
+
+![](images/20220402_144622.png)
