@@ -6,7 +6,7 @@ tags:
   - printlab
   - Open atelier
 author: Julie
-eventDate: 2022-04-15T12:26:51.620Z
+eventDate: 2022-05-19T18:00:51.620Z
 publishDate: 2022-04-15T12:26:51.663Z
 duration: 18h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
