@@ -20,15 +20,25 @@ partenaires:
   - Region Centre Val de Loire
 visible: true
 ---
-## La FUN organise un editathon 
-### le mercredi 4 mai 2022
-#### de 10h à 17h au Funlab
+## « Documenter en commun » 
+### Mercredi 4 mai 2022
+#### de 10h à 17h, au Funlab
 
-Une journée pour documenter des projets, des initiatives existantes ou abonder de nouvelles ressources des plate-formes de documentation ouverte (wiki de La FUN et wiki régional CRACN – Centre de ressources arts & cultures numériques).
+*Événement labellisé HTD - Human Tech Days 2022 avec le soutien de la région Centre Val de Loire.*
 
-Pour information, cette journée est organisée dans le cadre des Human Tech Days 2022. L'évènement se déroulera sur 2 jours :
+La FUN propose une journée d'édition de contenus (editathon) ouverte à toutes et tous afin de produire des connaissances en commun. L'occasion de découvrir des plate-formes ouvertes (wiki de La FUN, wiki régional CRACN – Centre de ressources arts & cultures numériques, le wiki des tiers-lieux Movilab,  ...) documenter des projets, des initiatives existantes ou abonder de nouvelles ressources.
 
-* "Documenter en commun" - le mercredi 4 mai (editathon)
-* "Design en commun" - le jeudi 5 mai (rencontre avec Camille Bosqué autour de son ouvrage "Open design", un apéro maker...) (programme détaillé à venir)
+À la fin de la journée un docu-fanzine sera produit, imprimé avec la nouvelle riso du Funlab, et partagé avec l'ensemble des participant.e.s.
+
+##### Dans le cadre de la manifestation régionale Human Tech Days, La FUN organise deux événements :
+
+* “Documenter en commun” - le mercredi 4 mai 
+
+* "Design en commun" - le jeudi 5 mai autour des tiers-lieux de fabrication et la venue de Camille Bosqué pour présenter son ouvrage Open design, fabrication numérique, mouvement maker.
+
+##### Infos pratiques : 
+
+* Journée gratuite sur inscription par mail à asso@lafun.fr (déjeuner offert aux participant.e.s)
+
 
 *Photo : imprimerie Crété à Corbeil - agence Rol - source Gallica (BNF)*
