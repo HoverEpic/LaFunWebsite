@@ -39,6 +39,3 @@ La FUN propose une journée d'édition de contenus (editathon) ouverte à toutes
 ##### Infos pratiques : 
 
 * Journée gratuite sur inscription par mail à asso@lafun.fr (déjeuner offert aux participant.e.s)
-
-
-*Photo : imprimerie Crété à Corbeil - agence Rol - source Gallica (BNF)*
