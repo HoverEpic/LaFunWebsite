@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/imprimerie_crété_à_corbeil_-_-...-agence_rol.png
+thumbnail: images/editathon.png
 partenaires:
   - Region Centre Val de Loire
 visible: true
