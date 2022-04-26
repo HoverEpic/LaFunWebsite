@@ -25,7 +25,7 @@ Durant ce stage, la FUN invite l'association Precious Plastic Touraine. Les jeun
 
 **Ecouter le podcast [ici](https://tube.futuretic.fr/w/sqLxHaByd39daEnw5Cc3bH)**
 
-*(Prise de son, montage et mixage de ce podcast faits par Solène Charton)*
+*(Prise de son, montage et mixage de ce podcast réalisés par Solène Charton)*
 
 ![](images/fablab_solidaire5-02.png)
 
