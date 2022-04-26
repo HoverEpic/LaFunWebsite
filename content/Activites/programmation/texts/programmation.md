@@ -3,7 +3,7 @@ title: Programmation
 order: 1
 visible: true
 ---
-**La FUN concocte chaque année une programmation autour de la fabrication et des cultures numériques**
+### La FUN concocte chaque année une programmation autour de la fabrication et des cultures numériques**
 
 **Rencontres, conférences, ateliers parents/enfants, évènements, résidences artistiques...** Retrouvez tous nos évènements sur la page [AGENDA](https://lafun.fr/agenda/)
 
