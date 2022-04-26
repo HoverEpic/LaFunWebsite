@@ -3,7 +3,7 @@ title: Coopération
 order: 1
 visible: true
 ---
-**Depuis sa création, l'association propose des modèles ouverts de production et de coopération sur le territoire, à l'échelle locale et régionale.**
+### Depuis sa création, l'association propose des modèles ouverts de production et de coopération sur le territoire, à l'échelle locale et régionale.
 
 **Depuis 2020 La FUN avec le CEFIM est Lauréat du dispositif « Fabrique de Territoire » de France Tiers-Lieux depuis mars 2020 (projet "L'autre Brique").**
 
