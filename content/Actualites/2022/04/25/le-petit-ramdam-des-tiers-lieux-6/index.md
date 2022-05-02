@@ -34,23 +34,16 @@ Visite de l’atelier partagé de fabrication de La FUN, sessions pratiques, con
 
 Cet événement entre en résonance avec l’opération nationale du Mois de la Fabrication Distribuée, porté par France Tiers-Lieux, le Réseau Français des Fablabs et l’ANCT, un projet qui expérimente pour la première fois à l’échelle nationale la fabrication de mobilier pour outiller les acteurs de la médiation numérique, sur la base de plans ouverts et fabriqués localement par les les fablabs et tiers-lieux du coin.
 
-##### Programme de la journée : 
+##### Programme de la journée :
 
 * 9h30-10h : Accueil café
-
 * 10h-11h : Visite du Funlab (atelier partagé de fabrication numérique/artisanale à Mame) et rencontre avec l’équipe de La FUN
-
 * 11h-12h : Session découverte « Des outils pour mon tiers-lieux » : Documenter ses activités / Communiquer autrement / Créer sa signalétique (3 x 20min)
-
 * 12h-13h30 : Pause déjeuner au restaurant Sésame à Mame (repas offert)
-
 * 13h30-14h : Accueil café
-
 * 14h-14h30 : Présentation de la feuille de route du réseau Tiers-Lieux CVL par Simon Laurent (CRESS) et introduction culture des réseaux et tiers-lieux de fabrication par Catherine Lenoble (La FUN)
-
 * 14h30-16h : Conférence de Camille Bosqué "Open Design, Mouvement Maker, Fabrication numérique" et temps d’échange avec les participant.e.s
-16h-17h : Table-ronde "Territoires fabricants : circuits courts, ré-emploi, fabrication distribuée" avec Cécilia Quay-Chatelet (France-Tiers Lieux / Manufacture de proximité), Alexandre Rousselet (Réseau Français des Fablabs / Mois de la fabrication distribuée) et Jean-Christophe Léger (artisan et président de la Manufacture Artis'Up à Chateauroux).
-
+* 16h-17h : Table-ronde "Territoires fabricants : circuits courts, ré-emploi, fabrication distribuée" avec Cécilia Quay-Chatelet (France-Tiers Lieux / Manufacture de proximité), Alexandre Rousselet (Réseau Français des Fablabs / Mois de la fabrication distribuée) et Jean-Christophe Léger (artisan et président de la Manufacture Artis'Up à Chateauroux).
 * 17h-18h : Clôture autour d’un verre – Open Atelier au Funlab
 
 ##### Informations pratiques :
