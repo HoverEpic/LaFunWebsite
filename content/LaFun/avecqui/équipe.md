@@ -11,7 +11,8 @@ visible: true
   jlallement@lafun.fr
 * Sam Rocheron : facilitateur :
 srocheron@lafun.fr 
-* fabmanager.euse : en recrutement
+* Lucas Viot : fabmanager/responsable d'atelier :
+lviot@lafun.fr
 
 ##### Les volontaires en service civique
 
