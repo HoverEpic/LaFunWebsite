@@ -21,10 +21,11 @@ visible: true
 ---
 Une initiation pour apprendre à utiliser le logiciel de dessin vectoriel Inkscape afin de préparer ses fichiers au plotter ou à la découpe laser.
 
-
-
 ![](images/inkscape_1.png)
 
 #### Infos pratiques :
 
-*
+* Ouvert à tou.te.s les adhérent.e.s de La F.U.N\
+* Inscriptions par mail à asso@lafun.fr
+* Prix libre
+* Venez avec votre propre ordinateur si possible
