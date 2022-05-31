@@ -19,7 +19,7 @@ youngFriendly: false
 thumbnail: images/inkscape_1.png
 visible: true
 ---
-Une initiation pour apprendre à utiliser le logiciel de dessin vectoriel Inkscape afin de préparer ses fichiers au plotter ou à la découpe laser.
+Venez apprendre à utiliser le logiciel de dessin vectoriel Inkscape pour préparer vos fichiers au plotter ou à la découpe laser.
 
 ![](images/inkscape_1.png)
 
