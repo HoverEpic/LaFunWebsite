@@ -11,6 +11,7 @@ build:
   #image: registry.gitlab.com/pages/hugo:latest
   script:
   #- cd /var/www/my_webapp/git
+  - whoami
   - git clone https://gitlab.lafun.fr/lafun/site-web.git
   - rm -R /var/www/my_webapp/tmp/
   - hugo -s /home/gitlab-runner/builds/fuTHxH6i/0/lafun/site-web/ -d /var/www/my_webapp/tmp/
