@@ -25,7 +25,7 @@ Venez apprendre à utiliser le logiciel de dessin vectoriel Inkscape pour prépa
 
 #### Infos pratiques :
 
-* Ouvert à tou.te.s les adhérent.e.s de La F.U.N\
+* Ouvert à tou.te.s les adhérent.e.s de La FUN
 * Inscriptions par mail à asso@lafun.fr
 * Prix libre
 * Venez avec votre propre ordinateur si possible
