@@ -4,6 +4,9 @@ title: Vue explosée
 file_name: makeHERspace - vue explosée
 tags:
   - atelier
+  - funlab
+  - égalité
+  - Région Centre Val de Loire
 author: Julie
 eventDate: 2022-06-14T14:00:34.347Z
 publishDate: 2022-06-09T12:55:34.391Z
