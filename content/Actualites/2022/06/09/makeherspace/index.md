@@ -13,7 +13,7 @@ publishDate: 2022-06-09T12:09:20.804Z
 duration: Du 14 au 16 juin 2022
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 _tarif: Gratuit
-presenceAgenda: true
+presenceAgenda: false
 motherLink: ""
 presenceActualites: true
 bandeauInfo: true
