@@ -70,7 +70,8 @@ Après 20h, la soirée se poursuit de-ci de-là dans des jardins, avec des surpr
 
 #### INFOS PRATIQUES
 
-Festival ouvert à TOUSTES, gratuit sur inscriptions via le formulaire en ligne [ici](https://framaforms.org/makeherspace-141516-juin-2022-au-funlab-a-tours-1654076994).
-
 *Evènement organisé avec le soutien de la Région Centre Val-de-Loire
 dans le cadre de Human Tech Days 2022 & des journées portes ouvertes de Mame*
+
+* Festival ouvert à TOUSTES, gratuit sur inscriptions via le formulaire en ligne [ici](https://framaforms.org/makeherspace-141516-juin-2022-au-funlab-a-tours-1654076994).
+* Programme téléchargeable [ici](https://cloud.lafun.fr/apps/files/?dir=/La%20FUN/ACTIVIT%C3%89S/PROJETS/PROJETS%202022/HTD%20LA%20FUN/MAKEherSPACE&fileid=163945)
