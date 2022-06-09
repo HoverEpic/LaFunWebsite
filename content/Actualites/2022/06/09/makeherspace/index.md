@@ -66,7 +66,7 @@ Après 20h, la soirée se poursuit de-ci de-là dans des jardins, avec des surpr
 
 ##### Et tous les jours :
 
-* LABO FANZINE (17h-17h)
+* LABO FANZINE (14h-17h)
 
 #### INFOS PRATIQUES
 
