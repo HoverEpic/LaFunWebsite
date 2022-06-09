@@ -18,7 +18,7 @@ motherLink: https://lafun.fr/actualites/2022/06/09/makeherspace/
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/who-s-she.jpg
+thumbnail: images/who-s-she.png
 partenaires:
   - Region Centre Val de Loire
 visible: true
@@ -35,7 +35,7 @@ Modulaire, le jeu propose différents sets de cartes avec des notices biographiq
 additionnelles. Et si nous fabriquions un nouveau set mettant à l’honneur des
 portraits d’écoféministes ?
 
-![](images/who-s-she.jpg)
+![](images/who-s-she.png)
 
 Qu’elles soient philosophes, microbiologistes, écrivaines de science-
 fiction, cyberféministes, poétesses, activistes anti-nucléaire, meneuses de
