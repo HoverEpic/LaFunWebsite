@@ -9,7 +9,7 @@ eventDate: 2022-07-07T18:00:00.000Z
 publishDate: 2022-06-27T12:44:12.108Z
 duration: 07 et 08 juillet 2022
 _lieu: Les Machines de l’île, Parc des Chantiers, Bd Léon Bureau, 44200 Nantes
-presenceAgenda: true
+presenceAgenda: false
 motherLink: ""
 presenceActualites: true
 bandeauInfo: true
