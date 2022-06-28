@@ -16,6 +16,8 @@ Développé en collaboration avec l'artiste [Dieudonné Cartier](http://www.dieu
 La risographie intègre une dimension écologique.
 Cette technique d'impression à froid utilise des encres à base de soja et des pochoirs ("master") en fibre de banane. La risographie se caractérise par une esthétique unique qui repose sur une impression couche par couche, couleur par couleur, comme en sérigraphie. Les encres végétales ont un rendu plus intense. Leur impression sur des papiers naturels ou recyclés offre un rendu optimal et texturé.
 
+* télécharger le guide [ici](https://cloud.lafun.fr/s/npDqPDCPmNoM3dM)
+
 **Nos couleurs**
 
 Black - Federal blue - Bright red - Green - Fluorescent orange
@@ -23,3 +25,4 @@ Black - Federal blue - Bright red - Green - Fluorescent orange
 **Nos papiers**
 
 Papiers naturels Munken Print White et Munken Print Cream (90gr) - Munken Pure Rough (120gr) - recyclé Shiro Echo (250gr)
+
