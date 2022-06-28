@@ -17,5 +17,5 @@ visible: true
 ---
 Au mois d'août, c'est la pause estivale, le Funlab ferme ses portes. Nous vous informerons des dates et horaires de la rentrée dans la newsletter de septembre.
 
-*À noter pour le mois de juillet : à partir du 4 juillet, nous vous accueillons uniquement sur rendez-vous. Pour réserver un créneau ou pour visiter l'atelier, merci de nous envoyer un mail à asso@lafun.fr*
+*À noter si vous voulez venir en juillet : à partir du 4 juillet, nous vous accueillons uniquement sur rendez-vous. Pour réserver un créneau ou pour visiter l'atelier, merci de nous envoyer un mail à asso@lafun.fr*
 
