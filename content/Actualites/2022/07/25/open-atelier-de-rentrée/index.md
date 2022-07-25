@@ -21,4 +21,4 @@ visible: true
 
 Venez découvrir le Funlab et les nouveautés de la rentrée! 
 
-L'équipe de La FUN vous dit tout sur le fonctionnement de l'atelier et vous dévoile les évènements programmés cet automne, les futurs projets de l'association...
+L'équipe de La FUN vous dit tout sur le fonctionnement de l'atelier, vous dévoile les évènements programmés cet automne et les futurs projets de l'association.
