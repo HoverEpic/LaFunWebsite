@@ -13,7 +13,7 @@ build:
   #- cd /var/www/my_webapp/git
   - whoami
   - git clone https://gitlab.lafun.fr/lafun/site-web.git
-  - sudo rm -R /var/www/my_webapp/tmp/
+  - sudo rm -Rf /var/www/my_webapp/tmp/
   - sudo hugo -s /home/gitlab-runner/builds/fuTHxH6i/0/lafun/site-web/ -d /var/www/my_webapp/tmp/
   - sudo sh /var/www/my_webapp/script.sh
 
