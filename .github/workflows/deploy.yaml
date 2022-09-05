@@ -24,12 +24,12 @@ jobs:
     - name: Build
       run: hugo --minify
 
-#    - name: Clean
-#      run: rm -rf /hugo/*
+    - name: Clean
+      run: rm -rf /hugo/*
 
     - name: Copy
-      run: pwd && ls -la
-#      run: cp ./public/ /hugo
+#      run: pwd && ls -la
+      run: cp -r ./* /hugo
 
 #    - name: Copy to webserver
 #      run: rsync --delete -rvzh ./public/ user@www.yellowduck.be:/var/www/html/yellowduck.be/
