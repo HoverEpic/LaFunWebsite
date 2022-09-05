@@ -27,8 +27,9 @@ jobs:
 #    - name: Clean
 #      run: rm -rf /hugo/*
 
-#    - name: Copy
-#    - run: cp ./public/ /hugo
+    - name: Copy
+      run: pwd && ls -la
+#      run: cp ./public/ /hugo
 
 #    - name: Copy to webserver
 #      run: rsync --delete -rvzh ./public/ user@www.yellowduck.be:/var/www/html/yellowduck.be/
