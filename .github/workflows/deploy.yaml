@@ -1,0 +1,28 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'v0.101.0'
+    - name: Build
+      run: hugo --minify
+
+#    - name: Copy to webserver
+#      run: rsync --delete -rvzh ./public/ user@www.yellowduck.be:/var/www/html/yellowduck.be/
