@@ -20,9 +20,15 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: 'v0.101.0'
+        hugo-version: 'latest'
     - name: Build
       run: hugo --minify
+
+#    - name: Clean
+#      run: rm -rf /hugo/*
+
+#    - name: Copy
+#    - run: cp ./public/ /hugo
 
 #    - name: Copy to webserver
 #      run: rsync --delete -rvzh ./public/ user@www.yellowduck.be:/var/www/html/yellowduck.be/
