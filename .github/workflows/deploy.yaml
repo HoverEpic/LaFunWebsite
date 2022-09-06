@@ -28,9 +28,10 @@ jobs:
     - name: Debug
       run: pwd && ls -la && ls -la / && ls -la /tmp
 
-#    - name: Clean
+    - name: Clean
 #      run: rm -rf /hugo/*
+      run: ls -la /hugo
 
-#    - name: Copy
-#      run: pwd && ls -la
-#      run: cp -r ./* /hugo/
+    - name: Copy
+#      run: rsync -av --progress sourcefolder /destinationfolder --exclude thefoldertoexclude
+      run: cp -r ./* /hugo/
