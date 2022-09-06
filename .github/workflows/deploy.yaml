@@ -29,9 +29,9 @@ jobs:
       run: pwd && ls -la && ls -la / && ls -la /tmp
 
     - name: Clean
-#      run: rm -rf /hugo/*
-      run: ls -la /hugo
+      run: rm -rf /hugo/*
+#      run: ls -la /hugo
 
     - name: Copy
-#      run: rsync -av --progress sourcefolder /destinationfolder --exclude thefoldertoexclude
-      run: cp -r ./* /hugo/
+      run: rsync -av --progress ./ /hugo --exclude .git
+#      run: cp -r ./* /hugo/
