@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build and Deploy
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
 
     - name: Checkout code
@@ -26,7 +26,7 @@ jobs:
       run: hugo --minify
       
     - name: Debug
-      run: pwd && ls -la && ls -la /
+      run: pwd && ls -la && ls -la / && ls -la /tmp
 
 #    - name: Clean
 #      run: rm -rf /hugo/*
