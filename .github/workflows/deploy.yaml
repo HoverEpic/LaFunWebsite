@@ -25,13 +25,17 @@ jobs:
     - name: Build
       run: hugo --minify
       
-    - name: Debug
-      run: pwd && ls -la && ls -la / && ls -la /tmp
+#    - name: Minify images
+#      run: rsync -av --exclude='*.png' --exclude='*.gif' --exclude='*.jpg' --exclude='*.jpeg' --exclude='*.bmp' --exclude='*.tiff' --exclude='*.GIF' --exclude='*.PNG' --exclude='*.JPG' --exclude='*.JPEG' --exclude='*.BMP' --exclude='*.TIFF' -avz /var/www/my_webapp/tmp/ /var/www/my_webapp/www/
+
+#    - name: Copy minified images
+#      run: diff -rq /var/www/my_webapp/www/ /var/www/my_webapp/tmp/ | grep -E "^Only in /var/www/my_webapp/tmp/*" | sed "s/:\ /\//g" | sed 's/.*tmp\(.*\)/\1/' | xargs -n1 -t -I % convert -resize 800x800\> -type truecolor -quality 80 -monochrome +level-colors "#302F42","#73C7D3"  -verbose /var/www/my_webapp/tmp/%  /var/www/my_webapp/www/%
 
     - name: Clean
       run: rm -rf /hugo/*
-#      run: ls -la /hugo
 
     - name: Copy
       run: rsync -av --progress ./ /hugo --exclude .git
-#      run: cp -r ./* /hugo/
+
+    - name: Chown
+      run: sudo chown -R 1000:1000 /hugo
