@@ -32,10 +32,10 @@ jobs:
 #      run: diff -rq /var/www/my_webapp/www/ /var/www/my_webapp/tmp/ | grep -E "^Only in /var/www/my_webapp/tmp/*" | sed "s/:\ /\//g" | sed 's/.*tmp\(.*\)/\1/' | xargs -n1 -t -I % convert -resize 800x800\> -type truecolor -quality 80 -monochrome +level-colors "#302F42","#73C7D3"  -verbose /var/www/my_webapp/tmp/%  /var/www/my_webapp/www/%
 
     - name: Clean
-      run: rm -rf /hugo/*
+      run: rm -rf /hugo/*.*
 
     - name: Copy
-      run: rsync -av --progress ./ /hugo --exclude .git
+      run: rsync -av --progress ./ /hugo --exclude .git --exclude .hugo_build.lock
 
     - name: Chown
       run: sudo chown -R 1000:1000 /hugo
