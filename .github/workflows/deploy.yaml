@@ -24,7 +24,7 @@ jobs:
       run: hugo --minify
       
     - name: Debug
-      run: pwd && ls -la
+      run: pwd && ls -la && ls -la /
 
 #    - name: Clean
 #      run: rm -rf /hugo/*
