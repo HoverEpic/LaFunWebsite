@@ -7,9 +7,9 @@ tags:
 author: Fab'Manager
 eventDate: 2022-09-06T19:38:45.341Z
 publishDate: 2022-09-06T19:38:45.362Z
-presenceAgenda: true
+presenceAgenda: false
 motherLink: ""
-presenceActualites: true
+presenceActualites: false
 bandeauInfo: true
 youngFriendly: true
 thumbnail: images/testscreen-large.jpg
