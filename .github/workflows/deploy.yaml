@@ -3,10 +3,8 @@ name: Build and Deploy
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '0 0 1 * *'
 
 jobs:
   build:
@@ -21,15 +19,16 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
+
     - name: Build
       run: hugo --minify
+      
+    - name: Debug
+      run: pwd && ls -la
 
-    - name: Clean
-      run: rm -rf /hugo/*
+#    - name: Clean
+#      run: rm -rf /hugo/*
 
-    - name: Copy
+#    - name: Copy
 #      run: pwd && ls -la
-      run: cp -r ./* /hugo/
-
-#    - name: Copy to webserver
-#      run: rsync --delete -rvzh ./public/ user@www.yellowduck.be:/var/www/html/yellowduck.be/
+#      run: cp -r ./* /hugo/
