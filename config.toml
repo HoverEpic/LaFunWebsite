@@ -114,7 +114,7 @@ theme = "hugo-flex"
   [[menu.main]]
     identifier = "connexion"
     name = "Connexion"
-    url = "/"
+    url = "https://fabmanager.lafun.fr/"
     weight =7
 
 [taxonomies]
