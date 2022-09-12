@@ -29,7 +29,7 @@ Accédez au parc machines une fois que vous êtes initié.e.
 * imprimante Riso : nous consulter
 
 ### Les initiations
-tous les mercredis de 18h à 20h, animées par un membre de
+Tous les mercredis de 18h à 20h, animées par un membre de
 l’équipe pour des groupes de 4 à 6 personnes.
 * laser et cnc > 20 €
 * brodeuse, vinyle, impression 3d et logiciels > 10 €
