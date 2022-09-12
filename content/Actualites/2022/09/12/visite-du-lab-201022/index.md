@@ -14,7 +14,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/visite-du-lab-22.png
+thumbnail: images/visite-du-lab-ok-22.png
 visible: true
 ---
 Tu souhaites découvrir l'association La FUN et ses locaux ? Retrouves nous tous les 3ème jeudis du mois pour une visite d'une heure à partir de 18h30. A bientôt !
