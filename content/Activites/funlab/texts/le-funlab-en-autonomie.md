@@ -38,8 +38,7 @@ Nous proposons des forfaits :
 * module 2d (inkscape, laser, brodeuse)
 * module 3d (cao, impression 3d)
 
-Imprimante Riso : Pour réaliser votre projet, une initiation est prévue lors de la
-1ère impression
+Imprimante Riso : Pour réaliser votre projet, une initiation est prévue lors de la 1ère impression.
 
 ###### Pour réserver des créneaux machines et s'inscrire aux initiations : créez votre compte sur fabmanager via le bouton [connexion](https://fabmanager.lafun.fr/#!/)
 
