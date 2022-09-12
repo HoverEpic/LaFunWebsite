@@ -5,9 +5,9 @@ file_name: Open lab de rentrée
 tags:
   - funlab
 author: Julie
-eventDate: 2022-09-21T15:00:13.716Z
+eventDate: 2022-09-21T14:00:13.716Z
 publishDate: 2022-07-25T08:25:13.797Z
-duration: 15h-20h
+duration: 14h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
