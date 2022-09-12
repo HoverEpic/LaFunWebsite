@@ -14,7 +14,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: true
-thumbnail: images/bienvenues.png
+thumbnail: images/open-atelier-rentrée-22-fabmanager.png
 visible: true
 ---
 ### Réouverture du Funlab
