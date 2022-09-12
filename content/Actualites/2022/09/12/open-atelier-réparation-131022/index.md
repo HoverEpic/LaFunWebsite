@@ -18,6 +18,6 @@ youngFriendly: false
 thumbnail: images/open-atelier-reparation.png
 visible: true
 ---
-##### Rendez vous tout les 2eme jeudis du mois de 14h à 21h pour les Ateliers Réparation de La FUN.
-Un appareil ne fonctionne plus, viens apprendre avec nous à le réparer ! Cet atelier aura essentiellement comme objectif d'identifier la panne pour avancer dans la réparation.
+##### Rendez vous tous les 2eme jeudis du mois de 14h à 21h pour les Ateliers Réparation de La FUN.
+Un appareil ne fonctionne plus, viens apprendre avec nous à le réparer ! Cet atelier aura pour objectif d'identifier la panne et d'avancer dans la réparation.
 Open Atelier du FunLab classique en parallèle, tu veux découvrir le lieu ou venir tout simplement utiliser l'atelier, il reste accessible comme un open atelier classique. 
