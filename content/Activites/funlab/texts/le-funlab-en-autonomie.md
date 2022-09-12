@@ -41,5 +41,5 @@ Nous proposons des forfaits :
 Imprimante Riso : Pour réaliser votre projet, une initiation est prévue lors de la
 1ère impression
 
-###### Pour réserver des créneaux machines et s'inscrire aux initiations : rdv sur [fabmanager](https://fabmanager.lafun.fr/#!/)
+###### Pour réserver des créneaux machines et s'inscrire aux initiations : créez votre compte sur fabmanager via le bouton [connexion](https://fabmanager.lafun.fr/#!/)
 
