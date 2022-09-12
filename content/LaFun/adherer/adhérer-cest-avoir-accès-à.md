@@ -18,4 +18,4 @@ et un parc machines mutualisé  (imprimantes 3D, découpe laser, brodeuse numér
 * Vous êtes un particulier > rendez-vous sur
 la plateforme [Fabmanager](https://fabmanager.lafun.fr/#!/) pour
 l’adhésion.
-* Vous êtes une personne morale > merci de nous contacter pour effectuer l’adhésion.
+* Vous êtes une personne morale > merci de nous contacter par mail à à asso@lafun.fr pour effectuer l’adhésion.
