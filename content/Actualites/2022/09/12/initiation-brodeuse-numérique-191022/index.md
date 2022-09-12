@@ -1,5 +1,5 @@
 ---
-_tarif: 10€ (inscription sur fabmanager.lafun.fr)
+_tarif: 10€
 presenceActualites: false
 youngFriendly: false
 displayHour: true
