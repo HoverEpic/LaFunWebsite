@@ -10,7 +10,7 @@ eventDate: 2022-10-12T18:00:01.893Z
 publishDate: 2022-09-12T08:51:01.942Z
 duration: 18h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
-_tarif: 10€ (inscription sur fabmanager.lafun.fr)
+_tarif: 10€
 presenceAgenda: true
 motherLink: ""
 presenceActualites: true
