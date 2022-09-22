@@ -19,7 +19,7 @@ visible: true
 ## C’est parti les votes sont ouverts !
 
 Vous avez jusqu'au 18 octobre pour voter. 
-Pour apporter votre voix à notre projet d’atelier partagé d’impression et de micro-édition, c’est [ici](https://decidonsensemble.tours.fr/.../budgets/1/projects/15)
+Pour apporter votre voix à notre projet d’atelier partagé d’impression et de micro-édition, c’est [ici](https://decidonsensemble.tours.fr/processes/budget-participatif-2022/f/2/budgets/1/projects/15)
 
 ![](images/budget-participatif-lafun.png)
 
