@@ -28,4 +28,5 @@ On profite de la venue de ces deux musiciens au Funlab pour proposer diverses ac
 
 ##### Infos pratiques : 
 * inscriptions pour l'atelier du jeudi après-midi sur [fabmanager.lafun.fr](https://fabmanager.lafun.fr/#!/events/76)
+
 (c) photo : Pierre Lambla
