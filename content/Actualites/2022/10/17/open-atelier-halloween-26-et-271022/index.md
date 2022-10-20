@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Open atelier Halloween
+title: Open atelier Halloween - mercredi
 file_name: Open atelier Halloween 26 et 271022
 tags:
   - funlab
@@ -8,7 +8,7 @@ tags:
 author: Julie
 eventDate: 2022-10-26T14:00:04.341Z
 publishDate: 2022-10-17T10:19:04.374Z
-duration: de 14h à 20h le mercredi et de 14h à 21h le jeudi
+duration: "de 14h à 20h "
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 _tarif: 1€ le masque, 2€ pour les non adhérent.es
 presenceAgenda: true
