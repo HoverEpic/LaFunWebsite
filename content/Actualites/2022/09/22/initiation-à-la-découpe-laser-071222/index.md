@@ -1,12 +1,12 @@
 ---
 layout: blog
 title: Initiation à la découpe laser
-file_name: Initiation à la découpe laser 071222
+file_name: Initiation à la découpe laser 301122
 tags:
   - funlab
   - initiations
 author: Fab'Manager
-eventDate: 2022-12-07T18:00:57.366Z
+eventDate: 2022-11-30T18:00:57.366Z
 publishDate: 2022-09-22T07:28:57.414Z
 duration: 18h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
