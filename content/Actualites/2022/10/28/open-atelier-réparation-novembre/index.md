@@ -18,7 +18,7 @@ youngFriendly: false
 thumbnail: images/open-atelier-reparation.png
 visible: true
 ---
-## Rendez vous tout les deuxième Jeudis du mois pour les Ateliers Réparation de La FUN.
+## Rendez vous tous les 2èmes Jeudis du mois pour les Ateliers Réparation de La FUN.
 
 Un appareil ne fonctionne plus, viens apprendre avec nous à le réparer ! Cet atelier aura essentiellement comme objectif d'identifier la panne pour avancer dans la réparation.
 
