@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: true
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/img_6449.jpg
+thumbnail: images/open-ateliers-fabmanager-labson.png
 visible: true
 ---
 ## Deux jours d'activités sonores et de fabrication d'instruments. Animés par Pierre Lambla et Frédéric Mancini.
@@ -26,7 +26,14 @@ On profite de la venue de ces deux musiciens au Funlab pour proposer diverses ac
 * Le Jeudi de 14h à 17h l'atelier est ouvert à toutes et tous, sur réservation dans la limite de 12 places.
 * Le jeudi de 18h à 21h, surprise + apéro LABson ouvert à toutes et tous !
 
-##### Infos pratiques : 
+##### Infos pratiques :
+
 * inscriptions pour l'atelier du jeudi après-midi sur [fabmanager.lafun.fr](https://fabmanager.lafun.fr/#!/events/76)
 
-(c) photo : Pierre Lambla
+![](images/img_6449.jpg)
+
+![](images/img_6405.jpg)
+
+![](images/img_6452.jpg)
+
+(c) photos : Pierre Lambla
