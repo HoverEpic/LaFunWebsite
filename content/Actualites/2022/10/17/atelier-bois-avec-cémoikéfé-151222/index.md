@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Atelier bois avec Cémoikéfé - décembre
+title: Atelier de Noël avec Cémoikéfé - décembre
 file_name: Atelier bois avec Cémoikéfé 151222
 tags:
   - funlab
@@ -18,7 +18,7 @@ youngFriendly: false
 thumbnail: images/visuel-atelier-outils.png
 visible: true
 ---
-## Rendez vous tous les troisièmes jeudis du mois de 18h à 21h pour les Ateliers bois coanimés avec l'association Cémoikéfé.
+## Open atelier de Noël avec l'association Cémoikéfé.
 
 Envie de vous initier ou d'apporter des connaissances en construction bois ? L'association Cémoikéfé vient animer un atelier de fabrication tout les troisièmes jeudis du mois au Funlab.
 
