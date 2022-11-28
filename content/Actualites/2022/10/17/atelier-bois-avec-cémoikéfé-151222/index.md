@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Atelier de Noël avec Cémoikéfé - décembre
+title: Open atelier de Noël avec Cémoikéfé - décembre
 file_name: Atelier bois avec Cémoikéfé 151222
 tags:
   - funlab
