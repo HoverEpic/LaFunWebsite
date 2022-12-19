@@ -1,12 +1,12 @@
 ---
 layout: blog
 title: Open atelier bois
-file_name: Open atelier bois 18 janvier 2023
+file_name: Open atelier bois 19 janvier 2023
 tags:
   - funlab
   - developpement durable
 author: Fab'Manager
-eventDate: 2023-01-18T18:00:13.631Z
+eventDate: 2023-01-19T18:00:13.631Z
 publishDate: 2022-12-19T08:39:13.660Z
 duration: 18h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
