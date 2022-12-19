@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Initiation modélisation 3D
-file_name: Initiation modélisation 3D 11 janvier 2022
+file_name: Initiation modélisation 3D 11 janvier 2023
 tags:
   - funlab
   - initiations
