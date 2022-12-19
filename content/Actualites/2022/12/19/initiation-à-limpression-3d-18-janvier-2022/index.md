@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Initiation à l'impression 3D
-file_name: Initiation à l'impression 3D 18 janvier 2022
+file_name: Initiation à l'impression 3D 18 janvier 2023
 tags:
   - funlab
   - initiations
