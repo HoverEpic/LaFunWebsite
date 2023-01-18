@@ -6,7 +6,7 @@ tags:
   - funlab
   - Open atelier
 author: Julie
-eventDate: 2023-02-09T12:49:31.031Z
+eventDate: 2023-02-09T14:00:31.031Z
 publishDate: 2023-01-18T14:00:31.058Z
 duration: 14h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
