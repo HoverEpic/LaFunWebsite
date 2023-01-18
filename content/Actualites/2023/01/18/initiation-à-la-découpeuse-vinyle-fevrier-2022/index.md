@@ -6,7 +6,7 @@ tags:
   - initiations
   - funlab
 author: Fab'Manager
-eventDate: 2023-03-08T18:00:02.840Z
+eventDate: 2023-02-08T18:00:02.840Z
 publishDate: 2023-01-18T12:31:02.870Z
 duration: 18h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
