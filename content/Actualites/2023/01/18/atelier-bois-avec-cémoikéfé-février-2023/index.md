@@ -22,7 +22,7 @@ visible: true
 
 L'association Cémoikéfé vient animer un atelier de fabrication tout les troisièmes jeudis du mois au Funlab. Au programme ce jeudi : fabrication de nichoirs pour les oiseaux.
 
-![](images/open_atelier_bois_nichoirs.jpg)
+![]()
 
 "Cémoikéfé" gère [L'Atelier 216](https://www.atelier216.fr/fr/presentation-de-latelier), un atelier de bricolage participatif à Tours. Nous les accueillons 1 jeudi/mois à partir du mois d'octobre et tout au long de l'année, l'occasion de se lancer sur des projets en commun et de croiser techniques de fabrication artisanales & numériques !
 
