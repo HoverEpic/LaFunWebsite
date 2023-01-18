@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/open-atelier-reparation.png
+thumbnail: images/20220614_180142.jpg
 visible: true
 ---
 ##### Rendez vous tous les 2èmes jeudis du mois de 14h à 21h pour les Ateliers Réparation de La FUN.
