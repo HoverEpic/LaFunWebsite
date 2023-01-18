@@ -18,11 +18,9 @@ youngFriendly: false
 thumbnail: images/open-ateliers-cemoikefe-ok.png
 visible: true
 ---
-## Rendez vous tous les troisièmes jeudis du mois de 18h à 21h pour les Ateliers bois coanimés avec l'association Cémoikéfé.
+## Au programme ce jeudi : fabrication de nichoirs pour les oiseaux!
 
-L'association Cémoikéfé vient animer un atelier de fabrication tout les troisièmes jeudis du mois au Funlab. Au programme ce jeudi : fabrication de nichoirs pour les oiseaux.
-
-![]()
+Rendez vous tous les troisièmes jeudis du mois de 18h à 21h pour les Ateliers bois coanimés avec l'association Cémoikéfé.
 
 "Cémoikéfé" gère [L'Atelier 216](https://www.atelier216.fr/fr/presentation-de-latelier), un atelier de bricolage participatif à Tours. Nous les accueillons 1 jeudi/mois à partir du mois d'octobre et tout au long de l'année, l'occasion de se lancer sur des projets en commun et de croiser techniques de fabrication artisanales & numériques !
 
