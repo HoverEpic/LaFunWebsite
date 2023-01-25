@@ -5,7 +5,7 @@ file_name: Open atelier Retro-Futur 012023
 tags:
   - funlab
 author: Julie
-eventDate: 2023-01-26T18:00:45.718Z
+eventDate: 2023-01-26T14:00:45.718Z
 publishDate: 2023-01-25T13:31:45.763Z
 duration: 14h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
