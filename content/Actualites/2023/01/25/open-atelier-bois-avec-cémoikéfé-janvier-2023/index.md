@@ -5,7 +5,7 @@ file_name: Open atelier Bois avec Cémoikéfé - janvier 2023
 tags:
   - funlab
 author: Julie
-eventDate: 2023-01-18T18:00:12.543Z
+eventDate: 2023-01-19T18:00:12.543Z
 publishDate: 2023-01-25T14:13:12.576Z
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
