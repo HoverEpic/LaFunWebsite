@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Initiation à l'impression 3D
+title: Initiation à l'impression 3D - mars 2023
 file_name: Initiation à l'impression 3D - 15032023
 tags:
   - funlab
