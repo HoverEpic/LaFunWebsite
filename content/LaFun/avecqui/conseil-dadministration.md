@@ -10,7 +10,5 @@ visible: true
 * Bernard Guéret - trésorier
 * Olivier Rouet - vice-trésorier
 * Benoît Royer - administrateur
-* Nicolas Stadler - administrateur
-* Alice Stadler - administratrice
 * Patrick David - administrateur
 * Rosalie Durlent - administratrice
