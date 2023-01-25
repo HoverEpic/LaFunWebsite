@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Atelier bois avec Cémoikéfé "
+title: Atelier bois avec Cémoikéfé - février 2023
 file_name: Atelier bois avec Cémoikéfé - février 2023
 tags:
   - funlab
