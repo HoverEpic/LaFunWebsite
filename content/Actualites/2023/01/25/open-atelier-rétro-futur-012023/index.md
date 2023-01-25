@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Open atelier Rétro-Futur
-file_name: Open atelier Rétro-Futur 012023
+title: Open atelier Retro-Futur
+file_name: Open atelier Retro-Futur 012023
 tags:
   - funlab
 author: Julie
