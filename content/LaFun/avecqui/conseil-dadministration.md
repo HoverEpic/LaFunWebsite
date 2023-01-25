@@ -3,7 +3,7 @@ title: Conseil d'administration
 order: 3
 visible: true
 ---
-### Conseil d'administration (depuis janvier 2022)
+### Conseil d'administration (depuis juin 2022)
 
 * Carol Simonet - présidente
 * Mickael Clément - secrétaire
