@@ -9,11 +9,11 @@ eventDate: 2023-01-26T14:00:45.718Z
 publishDate: 2023-01-25T13:31:45.763Z
 duration: 14h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
-presenceAgenda: false
+presenceAgenda: true
 motherLink: ""
 presenceActualites: true
 bandeauInfo: true
-youngFriendly: true
+youngFriendly: false
 thumbnail: images/retro-futur-fabmanager.png
 visible: true
 ---
