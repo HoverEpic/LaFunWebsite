@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Fresque du climat (atelier pour les 10-14 ans)
+title: Fresque du climat (10-14 ans)
 file_name: Fresque du climat (10-14 ans)
 tags:
   - funlab
@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: true
 bandeauInfo: true
 youngFriendly: true
-thumbnail: images/la-fresque-du-climat-logo-768x198-3056027170.png
+thumbnail: images/photo_fresque4.jpg
 visible: true
 ---
 ## Un atelier scientifique collaboratif et créatif
