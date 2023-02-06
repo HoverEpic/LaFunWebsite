@@ -21,12 +21,12 @@ visible: true
 ---
 ## Apprendre à programmer son propre jeu vidéo !
 
+*Animé par : Sam Rocheron*
+
 Un atelier de 2h30 avec des défis ludiques sur le thème des jeux vidéos pour découvrir l’univers du code et comprendre la pensée logique qui se cache derrière les algorithmes.
 
 Novice ou fan de robotique ? Il y en aura pour tous les
 goûts !
-
-Animé par : Sam Rocheron
 
 ##### Infos pratiques : 
 * Tarifs : 5€ (adhérent.es), 10€ (non adhérent.es)
