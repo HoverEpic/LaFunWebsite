@@ -19,6 +19,7 @@ thumbnail: images/photo_fresque4.jpg
 visible: true
 ---
 ## Un atelier scientifique collaboratif et créatif
+*Animé par : Marie Ghekiere*
 
 La fresque du climat junior permet aux enfants en peu de temps de comprendre lefonctionnement du système climatique ainsi que les causes et conséquences de son dérèglement.
 Elle donne une vision d’ensemble de cette vaste problématique et fournit les clés de compréhension pour agir efficacement à son échelle.
