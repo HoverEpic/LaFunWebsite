@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Open atelier "Solidarité énergétique" avec Atelier21
+title: Open atelier Solidarité énergétique avec Atelier21
 file_name: Open atelier Solidarité énergétique avec Atelier21
 tags:
   - funlab
