@@ -13,7 +13,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/retro-futur-fabmanager.png
+thumbnail: images/potager_electronique.jpg
 visible: true
 ---
 ## Rejoignez-nous un jeudi par mois !
