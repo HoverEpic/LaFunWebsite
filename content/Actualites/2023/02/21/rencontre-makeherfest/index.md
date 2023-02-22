@@ -52,7 +52,8 @@ Présentation de projets portés par l’association :
 * Exposition « Illustres inconnues de Touraine » du 03.03.23 au 01.04.23, Bibliothèque centrale, Tours
 * Atelier wikipédia « Illustres inconnues de Touraine » le 18.03.23, archives départementales d’Indre-et-Loire, Tours
 
-*MakeHerFest est un festival initié par le collectif MakeHerSpace. Il met à l’honneur des makeuses, artisanes et fabriqueuses en tout genre via une série d’évènements dans plusieurs villes de France (Paris, Montreuil, Tours, Malakoff...). L’édition #1 se déroulera du 8 au 30 mars 2023 dans différents fablabs et ateliers partagés qui proposeront pour l’occasion des rencontres, workshops, expositions, portes ouvertes ... 
-Cet évènement en réseau fait suite à l’édition 0 du festival MakeHerSpace initié à Tours au Funlab en juin 2022.*
+##### LE FESTIVAL 
+[MakeHerFest](https://www.makeherspace.fr/festival-makeherfest-edition-1/) est un festival initié par le collectif MakeHerSpace. Il met à l’honneur des makeuses, artisanes et fabriqueuses en tout genre via une série d’évènements dans plusieurs villes de France (Paris, Montreuil, Tours, Malakoff...). L’édition #1 se déroulera du 8 au 30 mars 2023 dans différents fablabs et ateliers partagés qui proposeront pour l’occasion des rencontres, workshops, expositions, portes ouvertes ... 
+Cet évènement en réseau fait suite à l’édition #0 du festival MakeHerSpace initié à Tours au Funlab en juin 2022.*
 
 ![](images/affichea3_makeherspace_v6.png)
