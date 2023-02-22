@@ -43,7 +43,7 @@ Présentation de projets portés par l’association :
 
 "Ramène tes sœurs" > adhésions à prix libre ce soir !
 
-##### LE FESTIVAL 
+#### LE FESTIVAL 
 [MakeHerFest](https://www.makeherspace.fr/festival-makeherfest-edition-1/) est un festival initié par le collectif MakeHerSpace. Il met à l’honneur des makeuses, artisanes et fabriqueuses en tout genre via une série d’évènements dans plusieurs villes de France (Paris, Montreuil, Tours, Malakoff...). L’édition #1 se déroulera du 8 au 30 mars 2023 dans différents fablabs et ateliers partagés qui proposeront pour l’occasion des rencontres, workshops, expositions, portes ouvertes ... 
 Cet évènement en réseau fait suite à l’édition #0 du festival MakeHerSpace initié à Tours au Funlab en juin 2022.*
 
