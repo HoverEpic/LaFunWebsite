@@ -24,5 +24,7 @@ visible: true
 
 A l’occasion d’une session de maintenance que nous devons réaliser sur nos ordinateurs, la FUN organise un atelier pour vous permettre de découvrir comment changer un disque dur et ajouter une carte wifi. Alors venez braver vos peurs et dépecer un ordinateur !
 
+(proposé dans le cadre de l'Open Atelier Réparation)
+
 ###### Informations pratiques :
 * Tarif : gratuit
