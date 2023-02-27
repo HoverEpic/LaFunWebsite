@@ -18,7 +18,7 @@ thumbnail: images/img_20221117_205012.jpg
 visible: true
 ---
 ## Fabrication de mobilier en bois.
-### Viens apprendre à utiliser les outils à bois du Funlab !!
+### Viens apprendre à utiliser les outils du Funlab !!
 
 La FUN organise un chantier participatif pour fabriquer deux bancs/jardinières qui équiperont le restaurant Sésame de Mame.
 
