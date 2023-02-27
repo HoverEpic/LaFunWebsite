@@ -11,7 +11,7 @@ duration: 18h-21h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
+presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
 thumbnail: images/img_20221117_205012.jpg
