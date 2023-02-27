@@ -18,5 +18,7 @@ visible: true
 ---
 Envie de t'initier ou apporter des connaissances en construction bois ? l'association Cémoikéfé (L'Atelier 216) vient animer un atelier de fabrication tout les troisièmes jeudis du mois.
 
+Au programme ce mois-ci : fin du chantier participatif fabrication de mobilier (montage des bancs/jardinières) !
+
 *A noter :
 Open Atelier du Funlab classique en parallèle de 14h à 21h, tu veux découvrir le lieu ou venir tout simplement utiliser l'atelier, il reste accessible comme un open atelier classique*
