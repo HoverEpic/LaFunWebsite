@@ -9,7 +9,7 @@ author: Julie
 eventDate: 2023-04-26T14:00:32.105Z
 publishDate: 2023-03-20T09:09:32.150Z
 duration: 14h-16h30
-_lieu: Funlab @Mame, 49 Bd Preuilly, 37000 Tours
+_lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 _tarif: 5€ pour les adhérent.es, 10€ pour les non adhérent.es
 presenceAgenda: true
 motherLink: ""
