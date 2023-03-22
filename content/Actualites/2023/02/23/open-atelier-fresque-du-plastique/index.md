@@ -32,5 +32,5 @@ La Fresque du plastique s’appuie sur des travaux scientifiques autant que sur 
 
 ##### Infos pratiques :
 * Tarifs : 12€ adhérent•es, 20€ non adhérent•es (adhérent•es de La FUN et de Precious Plastic Touraine)
-* Inscriptions : [ici](https://www.helloasso.com/associations/precious-plastic-touraine-val-de-loire/evenements/fresque-du-plastique-2?_ga=2.78473495.244430763.1679403561-2134982705.1664371729&_gl=1%2a18wl2kx%2a_ga%2aMjEzNDk4MjcwNS4xNjY0MzcxNzI5%2a_ga_TKC826G3G2%2aMTY3OTQxMDY0NS45OS4xLjE2Nzk0MTEwMTkuMC4wLjA.)
+* Inscriptions : [ici](https://www.helloasso.com/associations/precious-plastic-touraine-val-de-loire/evenements/fresque-du-plastique-2)
 * Contact/infos évènement : partenaires@preciousplastictouraine.fr ou asso@lafun.fr
