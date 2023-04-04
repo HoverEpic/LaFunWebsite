@@ -21,7 +21,7 @@ visible: true
 ---
 ## Comment agir pour le climat ?
 
-*Animé par : Marie Ghekiere*
+*Atelier animé par : Marie Ghekiere*
 
 Eco-gestes ou actions collectives ? Devenir flexitarien ou acheter de seconde-main ? Rénover son logement ou se déplacer à vélo ? S'engager dans une association ou dans son travail ?
 
