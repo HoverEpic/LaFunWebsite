@@ -11,7 +11,7 @@ publishDate: 2023-04-05T07:38:05.298Z
 presenceAgenda: false
 motherLink: ""
 presenceActualites: true
-bandeauInfo: false
+bandeauInfo: true
 youngFriendly: false
 thumbnail: images/capture-d’écran-de-2023-03-31-10-57-03.png
 partenaires:
