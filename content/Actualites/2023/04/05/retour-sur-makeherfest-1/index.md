@@ -12,7 +12,7 @@ presenceAgenda: false
 motherLink: ""
 presenceActualites: true
 bandeauInfo: false
-youngFriendly: true
+youngFriendly: false
 thumbnail: images/capture-d’écran-de-2023-03-31-10-57-03.png
 partenaires:
   - Region Centre Val de Loire
