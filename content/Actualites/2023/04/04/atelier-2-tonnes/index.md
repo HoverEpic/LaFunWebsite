@@ -32,5 +32,5 @@ Quelles actions sont à réaliser ? Lesquelles ont le plus d'impact ? Quel est m
 Venez le découvrir en participant à l'atelier.
 
 ##### Infos pratiques : 
-* Tarif : gratuit
-* Réservation obligatoire par mail : asso@lafun.fr
+* Tarif : prix libre pour l'association 2 Tonnes
+* Inscriptions : [ici](https://www.eventbrite.fr/e/billets-2tonnes-atelier-a-tours-37000-609348005287)
