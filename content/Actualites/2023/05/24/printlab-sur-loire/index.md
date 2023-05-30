@@ -28,15 +28,17 @@ visible: true
 
 **Avec : [Alice Savoie](https://frenchtype.com/) (typographie), [Dieudonné Cartier](http://www.dieudonnécartier.com/) (arts visuels), [Gauthier Roussilhe](https://gauthierroussilhe.com/) (recherche en design), [Mustapha Azeroual](https://azeroualmustapha.com/) (photographie), Florence Cherrier (sérigraphie) et autres invités.**
 
+![](images/printlab-sur-loire_affiche-a3.png)
+
 ### Au programme :
 
 #### Le jeudi 15 juin
 
-* 14h-17h → open Atelier typo Loire [ places limitées ]
-Exploration de déclinaisons graphiques avec les machines du lab et fabrication d'un « kit typo Loire ».
+* 14h-17h → open Atelier typo Loire \[ places limitées ]
+  Exploration de déclinaisons graphiques avec les machines du lab et fabrication d'un « kit typo Loire ».
 * 17h-18h → restitution publique au Funlab
 * 18h-20h → Conférence d'Alice savoieau café sésame
-Rencontre autour de l'histoire de la création de la typo Loire.
+  Rencontre autour de l'histoire de la création de la typo Loire.
 
 #### Le vendredi 16 juin
 
@@ -45,6 +47,7 @@ Rencontre autour de l'histoire de la création de la typo Loire.
 * 19h → rencontre avec Gauthier roussilhe à la Librairie Les temps sauvages : Présentation de l'ouvrage Perspectives low-tech (éditions Divergences, mars 2023) co-écrit avec Quentin Mateus (Low-tech Lab).
 
 #### Le samedi 17 juin
+
 * 16h-19h → Print-Party en bord de Loire à la Guinguette : un abécédaire de la typo loire, des tirages réalisés avec un traceur made in Funlab, de la sérigraphie avec Florence Cherrier ou encore l’impression solaire dévoilée par Mustapha Azeroual, venez découvrir des techniques d’impressions low-tech au bord de l’eau.
 * 19h-21h → Clôture de l’évènement en musique à la Guinguette
 
@@ -52,6 +55,7 @@ Rencontre autour de l'histoire de la création de la typo Loire.
 
 *En partenariat avec : la Mission Val de Loire, la librairie [Les temps sauvages](https://lestempssauvages.fr/), [la Guinguette - Le petit monde](https://www.facebook.com/GuinguettedeTours), [Mode d'Emploi](https://mode-demploi.org/)* 
 
-###### Infos pratiques : 
+###### Infos pratiques :
+
 * Télécharger le programme avec le plan [ici](https://cloud.lafun.fr/index.php/s/xTG3mcZWEgJ54DK)
 * s'inscrire via le formulaire ici
