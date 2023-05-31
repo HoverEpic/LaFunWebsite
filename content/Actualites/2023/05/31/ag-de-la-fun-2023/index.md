@@ -26,6 +26,6 @@ A l'ordre du jour :
 * Vote
 * Zoom sur la Manufacture et présentation du futur lieu
 
-Et aussi : AG extraordinaire (modifications apportées aux statuts en vue de l'agrément Jeunesse)
+Et aussi : AG extraordinaire (modifications apportées aux statuts)
 
 Nous finirons par un pot convivial au Funlab !
