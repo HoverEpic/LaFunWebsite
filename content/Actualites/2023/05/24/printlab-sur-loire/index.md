@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Printlab sur Loire
-file_name: Printlab sur Loire
+title: PrintLab-sur-Loire
+file_name: PrintLab-sur-Loire
 tags:
   - festival
   - htd
