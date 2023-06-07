@@ -10,8 +10,8 @@ tags:
 author: Julie
 eventDate: 2023-07-05T14:00:08.539Z
 publishDate: 2023-06-07T07:32:08.590Z
-duration: 5 et 6 juillet 2023
-_lieu: Funlab @Mame
+duration: 14h-20h
+_lieu: 'A Tours et à La  Riche : Mame - Funlab - ferme "Paysan Bleu" '
 _tarif: Gratuit / Participation demandée pour la dégustation
 presenceAgenda: true
 motherLink: ""
