@@ -8,7 +8,7 @@ tags:
   - résidence
   - makers
 author: Julie
-eventDate: 2023-07-05T14:00:08.539Z
+eventDate: 2023-07-06T14:00:08.539Z
 publishDate: 2023-06-07T07:32:08.590Z
 duration: 14h-20h
 _lieu: 'A Tours et à La  Riche : Mame - Funlab - ferme "Paysan Bleu" '
