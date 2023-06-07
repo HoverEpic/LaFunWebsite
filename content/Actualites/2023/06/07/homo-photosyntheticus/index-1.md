@@ -15,7 +15,7 @@ _lieu: Funlab
 _tarif: Gratuit / Participation demandée pour la dégustation
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
+presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
 thumbnail: images/algues.png
