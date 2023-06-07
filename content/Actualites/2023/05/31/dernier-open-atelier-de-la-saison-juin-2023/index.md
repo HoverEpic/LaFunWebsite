@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Dernier Open Atelier de la saison
-file_name: Dernier Open Atelier de la saison - juin 2023
+title: Open Atelier sortie de résidence (Fanzine)
+file_name: Open Atelier sortie de résidence (Fanzine) - juin 2023
 tags:
   - funlab
   - Open atelier
@@ -18,6 +18,6 @@ youngFriendly: false
 thumbnail: images/eliane-radigue-pionnieres-electro.png
 visible: true
 ---
-## Florence Cherrier présentera le fruit de sa résidence de production sur les pionnières de la musique électronique
+## Florence Cherrier présentera le fruit de sa résidence de production sur les femmes musiciennes et compositrices de musiques électroniques
 
-Pour ce dernier Open Atelier, on a donc prévu une sortie de résidence mais il y a aussi l'Open Atelier classique en parallèle : tu peux découvrir le lieu ou venir tout simplement utiliser les machines comme d'habitude.
+Il y aura aussi l'Open Atelier classique en parallèle : tu peux découvrir le lieu ou venir tout simplement utiliser les machines comme d'habitude.
