@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Homo Photosyntheticus
-file_name: Homo Photosyntheticus
+file_name: Homo Photosyntheticus - 05.07.23
 tags:
   - funlab
   - biolab
