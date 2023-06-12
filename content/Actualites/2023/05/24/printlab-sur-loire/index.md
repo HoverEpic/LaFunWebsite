@@ -57,5 +57,6 @@ visible: true
 
 ###### Infos pratiques :
 
+* Inscriptions pour les visites d'atelier et la rencontre en librairie du vendredi : [ici](https://framaforms.org/inscription-vendredi-16-juin-printlab-sur-loire-1685642691?fbclid=IwAR3h3VEDBvua7l0NSOTwl9WXdycpJR3LW2YoSZTnNxYzB653UTFacrk0hZc)
 * Télécharger le programme avec le plan [ici](https://cloud.lafun.fr/index.php/s/xTG3mcZWEgJ54DK)
 * s'inscrire via le formulaire ici
