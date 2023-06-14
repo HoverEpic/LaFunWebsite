@@ -22,7 +22,8 @@ thumbnail: images/algues.png
 partenaires: []
 visible: true
 ---
-# Le Funlab invite les artistes-chercheurs Ewen Chardronnet et Maya Minder. 
+# Les algues, entre bioindicateur du changement climatique et alternative alimentaire et écologique.
+## Le Funlab invite les artistes-chercheurs Ewen Chardronnet et Maya Minder. 
 
 Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux.net/ressources/projet-homo-photosyntheticus-spiruline-sur-mars-deviendrons-nous-des-petits-hommes-verts/) à Bourges, ils proposent une enquête autour des algues et des cyanobactéries, explorant leur rôle dans la transition alimentaire et écologique. 
 
@@ -34,14 +35,14 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 #### Visites et découvertes
 * 14h-16h : Visite-dégustation à la ferme de spiruline [Paysan Bleu](https://www.paysanbleu.fr/)
 * 16h-18h : Visite de [Mame](https://mame-tours.com/) et du Funlab, Rencontre avec la [Mission Val de Loire](https://www.valdeloire.org)
-* 18h-20h : Projection du film documentaire *"Umi No Oya / Uto Monogatari"* de Ewen Chardronnet et Maya Minder. 
+* 18h-19h : Projection du film documentaire *"Umi No Oya / Uto Monogatari"* de Ewen Chardronnet et Maya Minder. 
 Discussion + repas partagé
+* 19h-20h : Dégustation cuisine japonaire avec [Kulila](https://www.kulila.fr/)
 
 ### Jeudi 06.07.2023 
 #### Open Atelier KitchenLab
 * 14h-18h : Atelier découverte fabrication de biomatériaux à partir d’une algue(agar-agar)
-* 18h-21h : Restitution de l’atelier suivi d’une dégustation algues et cuisine japonaise avec [Kulila](https://www.kulila.fr/)
-
+* 18h-21h : Restitution de l’atelier
 ### Infos pratiques : 
 * Inscriptions bientôt ouvertes (via un formulaire en ligne)
 * Tarifs : Gratuit. Une participation sera demandée pour la dégustation
