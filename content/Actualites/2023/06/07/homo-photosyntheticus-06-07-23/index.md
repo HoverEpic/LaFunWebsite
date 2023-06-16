@@ -27,7 +27,7 @@ visible: true
 
 Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux.net/ressources/projet-homo-photosyntheticus-spiruline-sur-mars-deviendrons-nous-des-petits-hommes-verts/) à Bourges, ils proposent une enquête autour des algues et des cyanobactéries, explorant leur rôle dans la transition alimentaire et écologique. 
 
-[Evènement organisé en partenariat avec Mame, La Mission Val de Loire, Paysan bleu et Kulila. Avec le soutien de la Région Centre Val-de-Loire / labellisé Nouvelles Renaissances.]
+[Evènement organisé en partenariat avec Mame, La Mission Val de Loire, Paysan bleu et Kulila. Avec le soutien de la Région Centre Val-de-Loire / labellisé Nouvelles Renaissances et Transition écologique et résilience : Les acteurs culturels s'engagent !]
 
 ## Le programme :
 
