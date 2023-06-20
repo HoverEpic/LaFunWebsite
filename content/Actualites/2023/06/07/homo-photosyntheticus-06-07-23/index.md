@@ -10,7 +10,7 @@ tags:
 author: Julie
 eventDate: 2023-07-06T14:00:05.503Z
 publishDate: 2023-06-07T08:02:05.537Z
-duration: 14h-21h
+duration: 14h-17h
 _lieu: Funlab
 _tarif: Gratuit / Participation demandée pour la dégustation
 presenceAgenda: true
@@ -41,8 +41,8 @@ Discussion + repas partagé
 
 ### Jeudi 06.07.2023 
 #### Open Atelier KitchenLab
-* 14h-18h : Atelier découverte fabrication de biomatériaux à partir d’une algue(agar-agar)
-* 18h-21h : Restitution de l’atelier
+* 14h-17h : Atelier découverte fabrication de biomatériaux à partir d’une algue(agar-agar)
+
 ### Infos pratiques : 
 * Inscriptions bientôt ouvertes (via un formulaire en ligne)
 * Tarifs : Gratuit. Une participation sera demandée pour la dégustation
