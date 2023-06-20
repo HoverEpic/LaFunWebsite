@@ -41,8 +41,7 @@ Discussion + repas partagé
 
 ### Jeudi 06.07.2023 
 #### Open Atelier KitchenLab
-* 14h-18h : Atelier découverte fabrication de biomatériaux à partir d’une algue(agar-agar)
-* 18h-21h : Restitution de l’atelier
+* 14h-17h : Atelier découverte fabrication de biomatériaux à partir d’une algue(agar-agar)
 
 ### Infos pratiques : 
 * Inscriptions bientôt ouvertes (via un formulaire en ligne)
