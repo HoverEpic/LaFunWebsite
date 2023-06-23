@@ -36,7 +36,6 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 * 14h-16h : Visite-dégustation à la ferme de spiruline [Paysan Bleu](https://www.paysanbleu.fr/)
 * 16h-18h : Visite de [Mame](https://mame-tours.com/) et du Funlab, Rencontre avec la [Mission Val de Loire](https://www.valdeloire.org)
 * 18h-19h : Projection du film documentaire *"Umi No Oya / Uto Monogatari"* de Ewen Chardronnet et Maya Minder. 
-Discussion + repas partagé
 * 19h-20h : Dégustation cuisine japonaire avec [Kulila](https://www.kulila.fr/)
 
 ### Jeudi 06.07.2023 
