@@ -34,7 +34,8 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 ### Mercredi 05.07.2023 
 #### Visites et découvertes
 * 14h-16h : Visite-dégustation à la ferme de spiruline [Paysan Bleu](https://www.paysanbleu.fr/)
-* 16h-18h : Visite de [Mame](https://mame-tours.com/) et du Funlab, Rencontre avec la [Mission Val de Loire](https://www.valdeloire.org)
+* 16h-17h : Visite de [Mame](https://mame-tours.com/) et du Funlab
+* 17h-18h : Rencontre avec les artistes invités, La FUN et la [Mission Val de Loire](https://www.valdeloire.org)
 * 18h-19h : Projection du film documentaire *"Umi No Oya / Uto Monogatari"* de Ewen Chardronnet et Maya Minder. 
 * 19h-20h : Dégustation cuisine japonaire avec [Kulila](https://www.kulila.fr/)
 
@@ -44,6 +45,6 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 
 ### Infos pratiques : 
 * Inscriptions bientôt ouvertes (via un formulaire en ligne)
-* Tarifs : Gratuit. Une participation sera demandée pour la dégustation
+* Tarifs : Gratuit
 
 
