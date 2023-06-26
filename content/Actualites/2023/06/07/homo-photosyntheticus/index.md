@@ -18,7 +18,7 @@ motherLink: ""
 presenceActualites: true
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/algues.png
+thumbnail: images/carré-homophotosynth-copie.jpg
 partenaires: []
 visible: true
 ---
