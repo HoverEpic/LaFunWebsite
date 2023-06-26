@@ -32,7 +32,6 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 ## Le programme :
 
 ### Mercredi 05.07.2023 
-#### Visites et découvertes
 * 14h-16h : Visite-dégustation à la ferme de spiruline [Paysan Bleu](https://www.paysanbleu.fr/)
 * 16h-17h : Visite de [Mame](https://mame-tours.com/) et du Funlab
 * 17h-18h : Rencontre avec les artistes invités, La FUN et la [Mission Val de Loire](https://www.valdeloire.org)
@@ -40,8 +39,7 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 * 19h-20h : Dégustation cuisine japonaire avec [Kulila](https://www.kulila.fr/)
 
 ### Jeudi 06.07.2023 
-#### Open Atelier KitchenLab
-* 14h-17h : Atelier découverte fabrication de biomatériaux à partir d’une algue(agar-agar)
+* 14h-17h : Open Atelier fabrication de biomatériaux
 
 ### Infos pratiques : 
 * Inscriptions bientôt ouvertes (via un formulaire en ligne)
