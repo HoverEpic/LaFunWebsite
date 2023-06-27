@@ -44,7 +44,7 @@ Cette année en résidence longue durée à [L‘Antre-Peaux](https://antrepeaux
 * 14h-17h : Open Atelier fabrication de biomatériaux
 
 ### Infos pratiques : 
-* Inscriptions bientôt ouvertes (via un formulaire en ligne)
+* Inscriptions via ce [formulaire](https://framaforms.org/inscription-homo-photosyntheticus-1686560938)
 * Tarifs : Gratuit
 
 
