@@ -6,7 +6,7 @@ tags:
   - funlab
 author: Fab'Manager
 eventDate: 2023-10-04T16:00:08.286Z
-publishDate: 2023-09-06T16:38:08.314Z
+publishDate: 2023-09-06T16:45:08.314Z
 duration: 16h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
 _tarif: Gratuit
