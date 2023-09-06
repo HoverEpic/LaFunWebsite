@@ -4,7 +4,6 @@ order: 2
 visible: true
 ---
 ### Les tarifs utilisation machines
-##### Tarifs Open ateliers
 
 Accédez au parc machines une fois que vous êtes initié.e.
 
@@ -21,24 +20,16 @@ Accédez au parc machines une fois que vous êtes initié.e.
 * Outillage - établi : gratuit
 * Electronique : gratuit
 
-##### Tarifs Créneaux de production : 
-* forfait 3D : 6 €/journée (PLA), 12 €/journée (autres matériaux), 15 € /journée (résine)
-* forfait vinyle : 5 € la 1/2 journée, 10 €/journée
-* forfait brodeuse : 10 € la 1/2 journée, 20 €/journée
-* forfait laser : 70 € la 1/2 journée, 140 €/journée
-* imprimante Riso : nous consulter
-
-### Les initiations
-Tous les mercredis de 18h à 20h, animées par un membre de
-l’équipe pour des groupes de 4 à 6 personnes.
-* laser et cnc > 20 €
-* brodeuse, vinyle, impression 3d et logiciels > 10 €
-
-Nous proposons des forfaits : 
-* module 2d (inkscape, laser, brodeuse)
-* module 3d (cao, impression 3d)
 
 Imprimante Riso : Pour réaliser votre projet, une initiation est prévue lors de la 1ère impression.
+* masters : le 1er master à 10€, puis masters supplémentaires à 7€
+* forfait 5-10 masters : 7€ le master
+* forfait à partir de 10 masters : 5€ le master
+* passages : 0,12€ l'unité
+* papier : de 0,08€ à 0,12€ la feuille selon le grammage (papiers Munken de 90 à 150g)
 
-###### Pour réserver des créneaux machines et s'inscrire aux initiations : créez votre compte sur fabmanager via le bouton [connexion](https://fabmanager.lafun.fr/#!/)
+Demandez-nous un devis pour estimer le coût de votre publication.
+
+
+###### Pour réserver des créneaux machines : créez votre compte sur fabmanager via le bouton [connexion(https://fabmanager.lafun.fr/#!/)
 
