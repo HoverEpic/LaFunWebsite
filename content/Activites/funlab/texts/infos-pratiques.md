@@ -16,4 +16,4 @@ visible: true
 En dehors des temps d'Open Atelier, il ne se passe pas rien au Funlab ! Souvent le lieu est occupé par des journées de formations, des évènements, des temps de rencontres professionnelles... On reçoit des groupes pour un projet de fabrication (écoles, organismes de formation, institutions, associations, collectifs...), on accueille des artistes, artisan·es, designers pour des résidences...
 
 #### Adhérer :
-Rendez-vous sur la page [adhérer](https://lafun.fr/lafun/adherer/)
+Rendez-vous sur [fabmanager.lafun.fr](https://fabmanager.lafun.fr/#!/)
