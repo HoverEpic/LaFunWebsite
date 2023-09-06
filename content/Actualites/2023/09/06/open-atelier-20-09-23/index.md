@@ -20,7 +20,7 @@ visible: true
 ---
 ## L'Open Atelier, c'est quoi  ?
 
-C'est le moment où vous pouvez peut venir bricoler au Funlab, réserver des créneaux machines, apprendre ensemble ...
+C'est le moment où vous pouvez venir bricoler au Funlab, réserver des créneaux machines, apprendre ensemble ...
 
 Souvent, on passe la porte une première fois pour découvrir le Funlab lors d'un Open Atelier. On y vient seul·e ou avec un ami·e, avec un projet ou pas, dans la tête. Si on y trouve les ressources et les sourires alors on vous voit revenir et adhérer. 
 
