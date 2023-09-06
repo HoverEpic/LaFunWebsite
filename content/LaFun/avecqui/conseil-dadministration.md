@@ -6,9 +6,8 @@ visible: true
 ### Conseil d'administration (depuis juin 2022)
 
 * Carol Simonet - présidente
-* Mickael Clément - secrétaire
+* Rosalie Durlent - secrétaire
 * Bernard Guéret - trésorier
 * Olivier Rouet - vice-trésorier
-* Benoît Royer - administrateur
-* Patrick David - administrateur
-* Rosalie Durlent - administratrice
+* Christophe Gaillard - administrateur
+* Loïc Volat - administrateur
