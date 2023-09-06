@@ -21,7 +21,9 @@ partenaires:
   - Region Centre Val de Loire
 visible: true
 ---
-## C'est la ré-ouverture du Funlab, nous vous invitons à nous rejoindre pour cette soirée spéciale Matrimoine !
+## C'est la ré-ouverture du Funlab
+
+Nous vous invitons à nous rejoindre pour cette soirée spéciale Matrimoine !
 
 Chaque année en septembre, le Mouvement HF accompagne dans plusieurs régions des initiatives portées par des collectivités publiques, des institutions culturelles, des équipes artistiques ou des acteur·rice.s de la société civile pour organiser les Journées du Matrimoine.
 
