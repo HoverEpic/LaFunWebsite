@@ -29,4 +29,3 @@ Imprimante Riso : Pour réaliser votre projet, une initiation est prévue lors d
 * papier : de 0,08€ à 0,12€ la feuille selon le grammage (papiers Munken de 90 à 150g)
 
 Demandez-nous un devis pour estimer le coût de votre publication.
-
