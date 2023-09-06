@@ -30,6 +30,3 @@ Imprimante Riso : Pour réaliser votre projet, une initiation est prévue lors d
 
 Demandez-nous un devis pour estimer le coût de votre publication.
 
-
-###### Pour réserver des créneaux machines : créez votre compte sur fabmanager via le bouton [connexion(https://fabmanager.lafun.fr/#!/)
-
