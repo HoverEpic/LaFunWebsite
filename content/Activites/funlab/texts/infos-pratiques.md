@@ -11,7 +11,7 @@ visible: true
 
 #### Et aussi
 * Accès au PrintLab en semaine, sur rdv : asso@lafun.fr
-* Créneaux "Hack(ton)Lab", les jeudis de 14h à 17h : un créneau ouvert aux propositions des adhérent.es (projet à nous adresser, les conditions d'accès seront bientôt en ligne)
+* Créneaux "Hack(ton)Lab" : un créneau ouvert aux propositions des adhérent.es (projet à nous adresser, les conditions d'accès seront bientôt en ligne)
 * Le café Manufacture, un rdv mensuel tout public pour présenter le projet de la Manufacture tourangelle co-développé avec [Make ICI](https://makeici.org/) et [Precious Plastic Touraine](https://preciousplastictouraine.fr/) 
 
 #### Bon à savoir
