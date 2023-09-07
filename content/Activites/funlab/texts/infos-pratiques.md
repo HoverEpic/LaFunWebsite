@@ -6,7 +6,7 @@ visible: true
 ### Infos pratiques
 #### Horaires d'ouverture :
 
-* Mercredi 16h-20h : open atelier
+* Mercredi 16h-20h : Open Atelier
 
 
 #### Et aussi
