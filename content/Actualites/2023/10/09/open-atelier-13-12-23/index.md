@@ -5,7 +5,7 @@ file_name: Open Atelier - 13.12.23
 tags:
   - funlab
 author: Fab'Manager
-eventDate: 2023-10-09T08:30:45.999Z
+eventDate: 2023-12-13T16:00:45.999Z
 publishDate: 2023-10-09T08:30:46.015Z
 duration: 16h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
