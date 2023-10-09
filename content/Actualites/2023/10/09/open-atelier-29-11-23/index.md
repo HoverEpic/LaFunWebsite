@@ -1,11 +1,11 @@
 ---
 layout: blog
 title: Open Atelier
-file_name: Open Atelier - 29.11.23
+file_name: Open Atelier - 06.12.23
 tags:
   - funlab
 author: Fab'Manager
-eventDate: 2023-11-29T16:00:56.472Z
+eventDate: 2023-12-06T16:00:56.472Z
 publishDate: 2023-10-09T08:28:56.495Z
 duration: 16h-20h
 _lieu: Funlab @Mame, 49 Bd Preuilly, 37000 TOURS
@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/open-atelier-3.png
+thumbnail: images/open-atelier-1.png
 visible: true
 ---
 ## L'Open Atelier, c'est quoi  ?
