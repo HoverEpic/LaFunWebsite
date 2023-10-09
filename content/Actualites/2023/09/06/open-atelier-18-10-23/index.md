@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/p1010259.jpg
+thumbnail: images/open-atelier-2.png
 visible: true
 ---
 ## L'Open Atelier, c'est quoi  ?
