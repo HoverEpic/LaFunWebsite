@@ -9,7 +9,7 @@ author: Julie
 eventDate: 2023-11-25T14:03:27.628Z
 publishDate: 2023-10-12T07:59:27.660Z
 duration: samedi 25 et dimanche 26 novembre
-_lieu: Le Temps Machine, Parvis Mils Davis, 37300 Joué-lès-Tours
+_lieu: Le Temps Machine, Parvis Miles Davis, 37300 Joué-lès-Tours
 _tarif: gratuit
 presenceAgenda: true
 motherLink: ""
