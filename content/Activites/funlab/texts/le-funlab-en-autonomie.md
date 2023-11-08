@@ -20,13 +20,7 @@ Accédez au parc machines une fois que vous êtes initié.e.
 * Outillage - établi : gratuit
 * Electronique : gratuit
 
-
-Imprimante Riso : 
-* masters : le 1er master à 10€, puis masters supplémentaires à 7€
-* forfait 5-10 masters : 7€ le master
-* forfait à partir de 10 masters : 5€ le master
-* passages : 0,12€ l'unité
-* papier : de 0,08€ à 0,12€ la feuille selon le grammage (papiers Munken de 90g à 150g)
+**Imprimante Riso :**
 
 Demandez-nous un devis pour estimer le coût de votre publication.
 Pour réaliser votre projet, une initiation est prévue lors de la 1ère impression.
