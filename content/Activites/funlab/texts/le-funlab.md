@@ -11,6 +11,18 @@ Le Funlab est un atelier partagé de fabrication de 170m2 situé au cœur de Mam
 
 Le Funlab en images : [ICI](https://tube.futuretic.fr/w/gBL3q3hJ5Zb4r8wAYeGReM)
 
-##### Les Open Ateliers - Mercredis de 16h à 20h 
+#### Les Open Ateliers
 Les open ateliers sont des temps d’ouverture aux adhérent.e.s pour utiliser les machines et rencontrer la communauté.
 Il est possible de réserver les créneaux machines sur [Fabmanager](https://fabmanager.lafun.fr/#!/).
+
+#### 2024 : déménagement du Funlab à Saint-Sauveur (Tours, rives du Cher)
+En route vers 2024 ! Une nouvelle page s'ouvre maintenant pour La FUN, avec un nouvel atelier à concevoir et à aménager du côté de Saint-Sauveur (Tours, rives du Cher) dans le cadre de "La Manufacture Tourangelle".
+
+Afin de préparer cela au mieux, nous allons fonctionner différemment dès le mois de janvier.
+De janvier à juin 2024, l'activité des Open Ateliers sera en stand-bye mais le Funlab ne sera pas fermé pour autant !
+
+**Nous continuerons d'accompagner les projets engagés avec des partenaires et nous accueillerons le public de la manière suivante :**
+
+* PrintLab sur rendez-vous : vous pourrez continuer de venir imprimer vos publications avec la Riso du Funlab (mail à asso@lafun.fr).
+* Les "Cafés manufacture" : rdvs ouverts à tous pour suivre les avancées du projet et des travaux, appréhender les coups de mains possibles et manières de s'impliquer.
+* Des évènements de restitution : en résonance avec les projets menés en partenariats, nous organiserons des moments de rencontres et de découverte tous publics. 
