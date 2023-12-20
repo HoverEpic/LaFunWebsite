@@ -1,24 +1,22 @@
 ---
-title: Accès aux parc machines
+title: Le parc machines
 order: 2
 visible: true
 ---
-### Les tarifs utilisation machines
+### Le parc machines
 
-Accédez au parc machines une fois que vous êtes initié.e.
-
-* Imprimante 3D filament : 1€/h PLA - 2€/h autres matériaux
-* Imprimante 3D résine : 3€/
-* Imprimante 3D raise : 1€/h PLA - 2€/h autres matériaux
-* Imprimante 3D WASP : nous consulter
-* Découpe Laser : 10€/20 minutes
-* Brodeuse numérique : 4€/h
-* Découpe vinyle : 2€/h
-* Imprimante Riso : nous consulter
-* Découpe fil chaud : gratuit
-* Thermoformeuse : gratuit
-* Outillage - établi : gratuit
-* Electronique : gratuit
+* Imprimantes 3D filament
+* Imprimantes 3D résine
+* Imprimante 3D raise 
+* Imprimantes 3D WASP
+* Découpe Laser
+* Brodeuses numériques
+* Découpeuses vinyles
+* Imprimante Riso
+* Découpe fil chaud
+* Thermoformeuse
+* Outillage - établi
+* Electronique
 
 **Imprimante Riso :**
 
