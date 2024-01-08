@@ -15,7 +15,7 @@ motherLink: ""
 presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
-thumbnail: images/flyer-cafe-manufacture-260124-page1-.png
+thumbnail: images/flyer-cafe-manufacture-260124-p1-.png
 visible: true
 ---
 La FUN – La Fabrique d’Usages Numériques, propose un temps de rencontre une fois par mois pour présenter "La Manufacture Tourangelle", projet commun avec Make ICI et Precious Plastic Touraine.
