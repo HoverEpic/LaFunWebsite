@@ -12,7 +12,7 @@ visible: true
 * Des évènements de restitution en résonance avec les projets menés en partenariat.
 
 #### Accueil de projets engagés avec des partenaires :
-Accompagnement à la fabrication de porteur.euse.s de projets à travers des résidence arts-artisanat-design notamment, accueil ou animation de journées de formation, organisation d'évènements publics ou rencontres professionnelles, ou encore visites de groupes. 
+Accompagnement à la fabrication de porteur.euse.s de projets à travers des résidence arts-artisanat-design notamment, accueil ou animation de journées de formation, organisation d'évènements publics ou rencontres professionnelles. 
 
 #### Adhérer :
 Rendez-vous sur [fabmanager.lafun.fr](https://fabmanager.lafun.fr/#!/)
