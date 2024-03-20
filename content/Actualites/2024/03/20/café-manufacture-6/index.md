@@ -12,7 +12,7 @@ _lieu: Métamorf, site Atouts et Perspectives, 33 rue des Bourgetteries, 37390 M
 _tarif: Gratuit
 presenceAgenda: true
 motherLink: ""
-presenceActualites: true
+presenceActualites: false
 bandeauInfo: true
 youngFriendly: false
 thumbnail: images/flyers-cafes-manufacture_2024_6_avril.png
