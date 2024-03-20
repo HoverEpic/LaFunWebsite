@@ -6,7 +6,7 @@ tags:
   - la fun
 author: Julie
 eventDate: 2024-04-04T10:33:03.911Z
-publishDate: 2024-03-20T10:33:03.947Z
+publishDate: 2024-03-19T10:33:03.947Z
 duration: 9h-11h
 _lieu: Métamorf, site Atouts et Perspectives, 33 rue des Bourgetteries, 37390 METTRAY
 _tarif: Gratuit
