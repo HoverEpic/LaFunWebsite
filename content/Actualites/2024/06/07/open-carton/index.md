@@ -6,7 +6,7 @@ tags:
   - funlab
   - la fun
 author: Fab'Manager
-eventDate: 2024-06-05T13:00:24.516Z
+eventDate: 2024-06-12T13:00:24.516Z
 publishDate: 2024-06-05T15:43:24.558Z
 duration: 13h - 19h
 _lieu: Funlab @MAME 49 Boulevard Preuilly 37000 Tours
