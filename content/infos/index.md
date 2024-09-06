@@ -1,11 +1,9 @@
 ---
 title: Infos pratiques
 ---
-## Le Funlab est actuellement fermé.
+## Le Funlab est actuellement fermé car nous préparons notre déménagement à "La Manufacture Tourangelle" 
 
-### Déménagement en vue pour "La Manufacture Tourangelle" 
-
-Nous allons bientôt déménager à La Manufacture Tourangelle, un nouveau lieu dédié à la Fabrication à Tours (site de St Sauveur, rives du Cher). Nous sommes dans les cartons et mobilisés sur le chantier du nouvel atelier. 
+Nous allons bientôt déménager à La Manufacture Tourangelle, nouveau lieu dédié à la Fabrication à Tours (site de St Sauveur, rives du Cher). Nous sommes dans les cartons et mobilisés sur le chantier du nouvel atelier. 
 
 Pour ces raisons, seules certaines activités sont maintenues : 
 
