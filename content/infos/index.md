@@ -1,19 +1,21 @@
 ---
 title: Infos pratiques
 ---
-## Infos pratiques
+## Le Funlab est actuellement fermé.
 
-### Le Funlab est actuellement fermé car il va bientôt déménager à "La Manufacture Tourangelle" (site de St Sauveur à Tours)
+### Déménagement en vue pour "La Manufacture Tourangelle" 
 
-Nous préparons notre déménagement et sommes mobilisés sur le chantier de notre nouvel atelier. Pour ces raisons, seules certaines activités sont maintenues, comme indiqué ci-dessous : 
+Nous allons bientôt déménager à La Manufacture Tourangelle, un nouveau lieu dédié à la Fabrication à Tours (site de St Sauveur, rives du Cher). Nous sommes dans les cartons et mobilisés sur le chantier du nouvel atelier. 
+
+Pour ces raisons, seules certaines activités sont maintenues : 
 
 #### Accès au PrintLab sur rdv :
 
-* Pour les projets d'éditions et l'impression Riso : contactez-nous à asso@lafun.fr
+Pour les projets d'éditions et l'impression Riso : contactez-nous à asso@lafun.fr
 
 #### Rdv publics sur "La Manufacture Tourangelle" :
 
-* Les "café Manufacture" : rendez-vous pour présenter ce projet de lieu dédié à la fabrication, co-développé avec [Make ICI](https://makeici.org/) et [Precious Plastic Touraine](https://preciousplastictouraine.fr/). C'est le moment qui vous tiendra informé·es de l'avancée des travaux.
+Les "café Manufacture" sont les rendez-vous pour présenter ce projet de lieu dédié à la fabrication, co-développé avec [Make ICI](https://makeici.org/) et [Precious Plastic Touraine](https://preciousplastictouraine.fr/). C'est le moment qui vous tiendra informé·es de l'avancée des travaux.
 
 #### Accueil de projets engagés avec des partenaires :
 
