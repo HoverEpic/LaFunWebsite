@@ -21,11 +21,14 @@ Cette technique d'impression à froid utilise des encres à base de soja et des 
 #### Nos couleurs
 
 * Black 
-* Federal blue 
+* Federal blue
+* Blue
 * Bright red 
-* Green 
+* Green
+* Yellow 
 * Fluorescent orange 
-* Yellow
+* Fluorescent pink
+* Gold
 
 #### Nos papiers
 
