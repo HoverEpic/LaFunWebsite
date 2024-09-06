@@ -11,9 +11,9 @@ Pour ces raisons, seules certaines activités sont maintenues :
 
 Pour les projets d'éditions et l'impression Riso : contactez-nous à asso@lafun.fr
 
-#### Rdv publics sur "La Manufacture Tourangelle" :
+#### "Cafés Manufacture" :
 
-Les "café Manufacture" sont les rendez-vous pour présenter ce projet de lieu dédié à la fabrication, co-développé avec [Make ICI](https://makeici.org/) et [Precious Plastic Touraine](https://preciousplastictouraine.fr/). C'est le moment qui vous tiendra informé·es de l'avancée des travaux.
+Les rendez-vous pour présenter ce projet de lieu dédié à la fabrication, co-développé avec [Make ICI](https://makeici.org/) et [Precious Plastic Touraine](https://preciousplastictouraine.fr/). C'est le moment qui vous tiendra informé·es de l'avancée des travaux.
 
 #### Accueil de projets engagés avec des partenaires :
 
