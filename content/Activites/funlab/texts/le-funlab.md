@@ -15,8 +15,8 @@ Le Funlab en images : [ICI](https://tube.futuretic.fr/w/gBL3q3hJ5Zb4r8wAYeGReM)
 Les Open Ateliers sont des temps d’ouverture aux adhérent.e.s pour utiliser les machines et rencontrer la communauté.
 Les Open Ateliers sont en pause actuellement en raison de notre futur déménagement.
 
-#### 2024 : déménagement du Funlab à Saint-Sauveur (Tours, rives du Cher)
-En route vers 2024 ! Une nouvelle page s'ouvre maintenant pour La FUN, avec un nouvel atelier à concevoir et à aménager du côté de Saint-Sauveur (Tours, rives du Cher) dans le cadre de "La Manufacture Tourangelle".
+#### Déménagement du Funlab à Saint-Sauveur (Tours, rives du Cher) les 20 et 21 janvier 2025!
+Une nouvelle page s'ouvre maintenant pour La FUN, avec un nouvel atelier à concevoir et à aménager du côté de Saint-Sauveur (Tours, rives du Cher) dans le cadre de "La Manufacture Tourangelle".
 
 **Pendant cette période de chantier et de cartons, Le Funlab est fermé au public.Seules les activités suivantes sont maintenues :**
 
