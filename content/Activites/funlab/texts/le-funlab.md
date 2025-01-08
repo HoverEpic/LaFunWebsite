@@ -21,5 +21,4 @@ Une nouvelle page s'ouvre maintenant pour La FUN, avec un nouvel atelier à conc
 **Pendant cette période de chantier et de cartons, Le Funlab est fermé au public.Seules les activités suivantes sont maintenues :**
 
 * Le PrintLab sur rendez-vous : impression et accompagnement de projets d'éditions en risographie pour les acteurs locaux (mail à asso@lafun.fr).
-* Les "Cafés manufacture" : rdvs ouverts à tous pour suivre les avancées du projet et des travaux, appréhender les coups de mains possibles et manières de s'impliquer.
 * Artistes-artisans-designers en résidence. 
